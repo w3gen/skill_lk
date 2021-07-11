@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lankaho4/skill.lk/lms2
+    - /bin/cp -R . $DEPLOYPATH

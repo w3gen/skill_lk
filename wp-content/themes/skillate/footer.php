@@ -86,7 +86,7 @@ if (is_active_sidebar('bottom1') || is_active_sidebar('bottom2') || is_active_si
                                 <?php } ?>
 
                                 <?php if( get_theme_mod( 'copyright_en', true ) ) { ?>
-                                    <?php echo wp_kses_post( get_theme_mod( 'copyright_text', '2020 skillate. All Rights Reserved.')); ?>
+                                    <?php echo wp_kses_post( get_theme_mod( 'copyright_text', '2020 skill.lk. All Rights Reserved.')); ?>
                                 <?php } ?>
                             </div> <!-- col-md-6 -->
                         </div> <!-- end footer-copyright -->
