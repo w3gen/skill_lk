@@ -18,12 +18,12 @@ get_template_part('lib/menu/mobile-navwalker');
 
 
 /* -------------------------------------------- *
- * skillate Register
+ * skill.lk Register
  * -------------------------------------------- */
 get_template_part('lib/main-function/skillate-register');
 
 /* -------------------------------------------- *
- * skillate Core
+ * skill.lk Core
  * -------------------------------------------- */
 get_template_part('lib/main-function/skillate-core');
 get_template_part('woocommerce/skillate-color-variations');
@@ -161,7 +161,7 @@ if(function_exists('tutor_utils')){
 }
 
 /* -------------------------------------------
-*           License for Skillate Theme
+*           License for skill.lk Theme
 * -------------------------------------------- */
 get_template_part('lib/license/class.skillate-theme-license');
 
@@ -171,7 +171,7 @@ get_template_part('lib/license/class.skillate-theme-license');
 add_action('admin_menu', 'skillate_options_menu');
 if ( ! function_exists('skillate_options_menu')){
   function skillate_options_menu(){
-    $personalblog_option_page = add_menu_page('Skillate Options', 'Skillate Options', 'manage_options', 'skillate-options', 'skillate_option_callback');
+    $personalblog_option_page = add_menu_page('skill.lk Options', 'skill.lk Options', 'manage_options', 'skillate-options', 'skillate_option_callback');
     add_action('load-'.$personalblog_option_page, 'skillate_option_page_check');
   }
 }

@@ -5,7 +5,7 @@
 if(!function_exists('skillate_widdget_init')):
     function skillate_widdget_init() {
         register_sidebar(array(
-                'name'          => esc_html__( 'Skillate Gamipress Widget Area', 'skillate' ),
+                'name'          => esc_html__( 'skill.lk Gamipress Widget Area', 'skillate' ),
                 'id'            => 'skillate_gamipress_widget',
                 'description'   => esc_html__( 'Widgets in this area will be shown on Instructor single page.', 'skillate' ),
                 'before_title'  => '<h3 class="widget_title">',
@@ -212,7 +212,7 @@ if(!function_exists('skillate_plugins_include')):
                     'external_url'          => esc_url('https://downloads.wordpress.org/plugin/qubely.zip'),
                 ),
                 array(
-                    'name'                  => esc_html__( 'Skillate Core', 'skillate' ),
+                    'name'                  => esc_html__( 'skill.lk Core', 'skillate' ),
                     'slug'                  => 'skillate-core',
                     'source'                => get_template_directory_uri() . '/lib/plugins/skillate-core.zip',
                     'required'              => true,
@@ -221,7 +221,7 @@ if(!function_exists('skillate_plugins_include')):
                     'force_deactivation'    => false,
                 ),
                 array(
-                    'name'                  => esc_html__( 'Skillate Demo Importer', 'skillate' ),
+                    'name'                  => esc_html__( 'skill.lk Demo Importer', 'skillate' ),
                     'slug'                  => 'skillate-demo-importer',
                     'source'                => get_template_directory_uri() . '/lib/plugins/skillate-demo-importer.zip',
                     'required'              => false,

@@ -33,8 +33,8 @@ class skillate_Theme_License{
 	public function add_license_page(){
 		global $submenu;
 		add_submenu_page('skillate-options','License', 'License', 'manage_options', 'skillate-theme-license', array($this, 'license_form'));
-		$submenu['skillate-options'][] = array( 'Skillate Docs', 'manage_options' , 'https://docs.themeum.com/themes/skillate/');
-		$submenu['skillate-options'][] = array( 'Skillate Support Forum', 'manage_options' , 'https://www.themeum.com/contact-us/');
+		$submenu['skillate-options'][] = array( 'skill.lk Docs', 'manage_options' , 'https://docs.themeum.com/themes/skillate/');
+		$submenu['skillate-options'][] = array( 'skill.lk Support Forum', 'manage_options' , 'https://www.themeum.com/contact-us/');
 	}
 
 

@@ -398,8 +398,8 @@ class Skillate_Customize
 // Customizer Section
 $skillate_panel_to_section = array(
 	'id'           => 'skillate_panel_options',
-	'title'        => esc_html( 'Skillate Options', 'skillate' ),
-	'description'  => esc_html__( 'Skillate Theme Options', 'skillate' ),
+	'title'        => esc_html( 'skill.lk Options', 'skillate' ),
+	'description'  => esc_html__( 'skill.lk Theme Options', 'skillate' ),
 	'priority'     => 10,
 	
 	'sections'     => array(
