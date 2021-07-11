@@ -1,0 +1,921 @@
+/* Main Style */
+.certificate-templates-fields {
+	display: flex;
+	flex-wrap: wrap;
+}
+.certificate-template {
+	max-width: 150px;
+	padding: 5px;
+	margin: 3px;
+	transition: background-color 400ms;
+}
+.certificate-template.selected-template,
+.certificate-template:hover {
+	background: #3057d6;
+}
+.certificate-template img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.tutor-install-notice {
+	padding: 20px;
+}
+.tutor-install-notice-inner {
+	display: flex;
+	align-items: center;
+}
+.tutor-install-notice-inner .button {
+	padding: 5px 30px;
+	height: auto;
+	line-height: 20px;
+	text-transform: capitalize;
+}
+.tutor-install-notice-content {
+	flex-grow: 1;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.tutor-install-notice-icon img {
+	width: 64px;
+	border-radius: 4px;
+	display: block;
+}
+.tutor-install-notice-content h2 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.tutor-install-notice-content p {
+	margin-top: 0;
+	margin-bottom: 0px;
+	padding: 0;
+}
+/**
+GradeBook Addon css
+ */
+.gradebook-list-table td,
+.gradebook-list-table th {
+	padding: 10px;
+}
+.gradename-bg {
+	text-align: center;
+	color: #ffffff;
+	height: 32px;
+	min-width: 16px;
+	font-size: 16px;
+	line-height: 32px;
+	padding: 0 8px;
+	display: inline-block;
+	border-radius: 20px;
+}
+.gradename-outline {
+	text-align: center;
+	height: 32px;
+	min-width: 16px;
+	font-size: 16px;
+	line-height: 32px;
+	padding: 0 8px;
+	display: inline-block;
+	border-radius: 20px;
+	border: 2px solid;
+}
+.tutor-gradebook-nav-wrapper {
+	margin: 10px 0;
+}
+
+table.gradebooks-lists {
+	border-spacing: 0;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #dcdfe5;
+}
+table.gradebooks-lists caption {
+	padding: 1em 0;
+	font-weight: 600;
+}
+table.gradebooks-lists td,
+table.gradebooks-lists th {
+	padding: 1em 1.41575em;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #dcdfe5;
+}
+table.gradebooks-lists td p:last-child,
+table.gradebooks-lists th p:last-child {
+	margin-bottom: 0;
+}
+table.gradebooks-lists th {
+	font-weight: 600;
+}
+table.gradebooks-lists thead th {
+	padding: 1.41575em;
+	vertical-align: middle;
+}
+table.gradebooks-lists tbody h2 {
+	font-size: 1em;
+	letter-spacing: normal;
+	font-weight: normal;
+}
+table.gradebooks-lists tbody h2 a {
+	font-weight: normal;
+}
+table.gradebooks-lists th {
+	background-color: #fafbfc;
+}
+table.gradebooks-lists tbody td {
+	background-color: #ffffff;
+}
+table.gradebooks-lists tbody tr:nth-child(2n) td {
+	background-color: #fafbfc;
+}
+table.gradebooks-lists a {
+	text-decoration: none;
+}
+.gradebook-date {
+	color: #4b5981;
+}
+.gradebooks-user-col img {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+}
+table.gradebooks-lists p {
+	margin: 0;
+}
+.gradebooks-user-col .user-info-col {
+	margin-left: 10px;
+}
+.course-completion-status {
+	color: #4b5981;
+}
+.course-completion-status.course-inprogress i {
+	color: #f5a623;
+}
+.course-completion-status.course-completed i {
+	color: #35bc31;
+}
+
+.gradebook-overview-footer,
+.gradebook-overview-header {
+	margin: 20px 0;
+}
+.gradebook-overview-pagination-col .tutor-pagination {
+	margin: 0;
+}
+.gradebook-overview-footer .tutor-flex-row,
+.gradebook-overview-header .tutor-flex-row {
+	align-items: center;
+	justify-content: space-between;
+}
+#gradebook-search-term {
+	padding: 15px 20px;
+	border: 1px solid #dcdfe5;
+	box-shadow: none;
+	padding-right: 40px;
+	width: 300px;
+}
+button#gradebook-search-btn {
+	border: navajowhite;
+	background: none;
+	margin-left: -33px;
+}
+.gradebook-search-form-group {
+	display: flex;
+}
+.gradebook-actions-wrap a {
+	display: inline-block;
+	color: #a7a8aa;
+	font-size: 20px;
+	margin-right: 15px;
+}
+.gradebook-actions-wrap a.gradebook-edit-btn:hover {
+	color: #3057d5;
+}
+.gradebook-actions-wrap a.gradebook-delete-btn:hover {
+	color: #d71830;
+}
+/**
+*END GradeBook
+ */
+
+/**
+* Tutor Report ------> START
+*/
+
+/* Single Course - start */
+.tutor-report-content {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.71;
+	color: #737787;
+}
+.tutor-report-content .tutor-		-left-menus {
+	margin-bottom: 40px;
+}
+.tutor-report-course-list {
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+.tutor-report-content-header {
+	font-size: 20px;
+	line-height: 1.5;
+	color: #3f435b;
+}
+
+.tutor-report-course-list tr th {
+	background-color: #f7f7f9;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.75;
+	letter-spacing: 0.7px;
+	color: #737787;
+	text-transform: uppercase;
+}
+
+.tutor-report-course-list td:not(:first-child) {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.tutor-report-course-list td:last-child {
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+.tutor-report-course-list tr th:first-child,
+.tutor-report-course-list tr td:first-child {
+	width: 45%;
+	padding-left: 30px;
+}
+
+.tutor-report-content-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tutor-report-content-footer > div {
+	margin: 0;
+}
+
+.tutor-report-course-list td a:first-child {
+	color: #3f435b;
+}
+/* .tutor-report-course-list td a:first-child {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.75;
+	text-align: center;
+	color: #737787;
+	border-radius: 3px;
+	border: solid 1px #dcdce1;
+	padding: 5px 11px;
+	margin-right: 15px;
+	text-decoration: none;
+} */
+
+.tutor-report-course-list td a:hover,
+.tutor-report-course-list td a:focus {
+	color: #3e64de;
+	border-color: #3e64de;
+}
+
+.tutor-report-course-list td a {
+	font-size: 14px;
+	color: #b9bac3;
+	transition: 0.2s;
+}
+
+.tutor-report-course-list .tutor-list-table tbody td {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.tutor-report-course-list .tutor-list-table tbody td:first-child {
+	font-size: 14px;
+}
+
+.tutor-report-content .tutor-report-count {
+	font-size: 14px;
+	line-height: 1.71;
+	color: #737787;
+}
+
+.tutor-report-content .tutor-report-count strong {
+	color: #3f435b;
+}
+
+.tutor-report-content-footer .page-numbers {
+	border-radius: 4px;
+	border: solid 1px #dcdce1;
+	padding: 11px 14px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #737787;
+	background: #fff;
+	outline: none;
+	transition: 0.2s;
+}
+
+.tutor-report-content-footer .page-numbers.current {
+	border-color: #3e64de;
+	background: transparent;
+}
+.tutor-report-content-footer .page-numbers:hover,
+.tutor-report-content-footer .page-numbers:focus {
+	border-color: #3e64de;
+	background: #3e64de !important;
+	color: #fff;
+	box-shadow: none;
+}
+
+.report-main-wrap a {
+	text-decoration: none;
+}
+/* Single Course - end */
+
+/* .report-student-profile - start */
+.report-student-profile-wrap {
+	border-radius: 3px;
+	background-color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.report-student-profile .profile {
+	display: grid;
+	grid-template-columns: 90px 1fr 120px;
+	align-items: center;
+	grid-gap: 20px;
+	padding: 26px 24px;
+	border-bottom: 2px solid #dcdce1;
+}
+
+.report-student-profile .profile-table div {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.75;
+	color: #3f435b;
+	margin: 0 0 10px 0;
+}
+
+.report-student-profile .profile-table div span {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.29;
+	color: #888b90;
+}
+
+.report-student-profile .profile-table div a {
+	font-size: 12px;
+	color: #b9bac3;
+	margin-left: 5px;
+}
+
+.report-student-profile .profile > div:last-child {
+	align-self: flex-end;
+}
+
+.report-student-profile .profile-table table {
+	width: 100%;
+	text-align: left;
+}
+
+.report-student-profile .profile-table tr th {
+	padding: 20px;
+}
+
+.report-student-profile .profile .thumb img {
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+}
+
+.report-student-profile .profile .meta {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: flex-start;
+	grid-gap: 20px;
+}
+
+.report-student-profile .profile .name {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.42;
+	color: #3f435b;
+	margin-bottom: 10px;
+}
+
+.report-student-profile .profile .meta > div {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.71;
+	color: #737787;
+}
+
+.report-student-profile .profile .meta > div > span {
+	color: #34374b;
+}
+
+.tutor-report-btn {
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 500;
+	text-align: center;
+	padding: 5px 17px;
+	display: inline-block;
+	text-decoration: none;
+	color: #34374b;
+	border: solid 1px #dcdce1;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.tutor-report-btn.default {
+	background-color: transparent;
+	color: #3e64de;
+}
+.tutor-report-btn.primary {
+	color: #fff;
+	background-color: #3e64de;
+	border-color: #3e64de;
+}
+
+.tutor-report-btn:hover,
+.tutor-report-btn:focus,
+.tutor-report-btn.default:hover,
+.tutor-report-btn.default:focus {
+	color: #fff !important;
+	background-color: #3e64de;
+	border-color: #3e64de;
+}
+
+.tutor-report-btn.primary:hover,
+.tutor-report-btn.primary:focus {
+	background-color: hsla(226, 66%, 48%, 1);
+	border-color: hsla(226, 66%, 48%, 1);
+	color: #fff;
+}
+
+.tutor-report-btn:not(:last-child) {
+	margin-right: 20px;
+}
+
+.report-student-profile .profile-table {
+	background-color: #f7f7f9;
+	border-radius: 0 0 3px 3px;
+}
+
+.report-stat-box-body {
+	border-radius: 3px;
+	align-items: center;
+}
+/* /.report-student-profile - end */
+
+.report-date-filter .date-range-input {
+	max-width: 288px;
+}
+
+.report-date-filter .menu-label {
+	font-size: 14px;
+	font-weight: 400;
+	color: #737787;
+	margin-bottom: 7px;
+}
+
+.report-date-filter .date-range-input input:hover,
+.report-date-filter .date-range-input input:focus {
+	border-color: var(--tutor-primary-color) !important;
+	box-shadow: none !important;
+}
+.report-date-filter .date-range-input input {
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	border: solid 1px #dcdce1;
+	background-color: #ffffff;
+	padding: 0 14px;
+}
+
+.report-date-filter .date-range-input i {
+	position: absolute;
+	width: 42px;
+	height: 40px;
+	right: 0;
+	top: 0;
+	color: #3e64de;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+}
+
+/* .report-review - start */
+.report-review-wrap .tutor-list-table tr th:last-child,
+.report-review-wrap .tutor-list-table tr td:last-child,
+.tutor-report-reviews .tutor-list-table tr th:last-child,
+.tutor-report-reviews .tutor-list-table tr td:last-child {
+	width: 54%;
+}
+
+.report-review-wrap .tutor-list-table td,
+.tutor-report-reviews .tutor-list-table td {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.75;
+	letter-spacing: normal;
+	color: #3f435b;
+}
+
+.report-review-wrap .tutor-list-table tbody td,
+.tutor-report-reviews .tutor-list-table tbody td {
+	padding: 33px 20px 40px 20px;
+}
+
+.report-review-wrap .tutor-list-table .course-title {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+[class^="tutor-report-"] .tutor-list-table .dates span {
+	color: #737787;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+[class^="tutor-report-"] .tutor-list-table .ratings .icon {
+	color: #f8c51c;
+	margin-right: 10px;
+}
+
+[class^="tutor-report-"] .tutor-list-table .ratings span {
+	color: #888b90;
+}
+
+[class^="tutor-report-"] .tutor-list-table .dates span:first-child {
+	color: #3f435b;
+}
+
+[class^="tutor-report-"] .tutor-list-table .ratings {
+	font-size: 14px;
+	line-height: 1.3;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+[class^="tutor-report-"] .tutor-list-table .ratings .tutor-star-rating-group {
+	margin-right: 5px;
+}
+
+[class^="tutor-report-"] .tutor-list-table tr td.review {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.75;
+	color: #3f435b;
+}
+[class^="tutor-report-"] .tutor-list-table tr td.course-title {
+	font-size: 14px;
+}
+
+/* /.report-review - end */
+
+.tutor-report-students .tutor-list-table .course-progress {
+	display: flex;
+	align-items: center;
+}
+
+.tutor-report-students .tutor-list-table .course-percentage {
+	margin-right: 17px;
+}
+@media (max-width: 1600px) {
+	.tutor-report-graph-wrap .tutor-date-range-filter-wrap {
+		flex-direction: column;
+	}
+	.tutor-report-graph-wrap .tutor-date-range-wrap {
+		margin-top: 5px;
+	}
+	.tutor-report-graph .tutor-report-btn {
+		margin-bottom: 5px;
+	}
+}
+
+/* .report-grapgh-earnings - start */
+.tutor-report-graph-wrap .tutor-date-range-filter-wrap {
+	margin-top: 15px;
+}
+
+.tutor-report-graph-earnings {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 30px;
+}
+.tutor-report-graph-earnings canvas {
+	max-width: 100%;
+}
+
+.tutor-report-graph-wrap,
+.tutor-report-earnings-wrap {
+	padding: 30px;
+	padding-top: 0;
+}
+
+.tutor-report-graph-wrap img {
+	max-width: 100%;
+}
+
+.tutor-report-graph .tutor-report-btn,
+.tutor-report-chart .tutor-report-btn {
+	padding: 9px 17px;
+	margin-right: 0px;
+}
+
+.tutor-date-range-wrap .date-range-input button {
+	cursor: pointer;
+	border-radius: 0;
+	outline: none;
+}
+
+.tutor-date-range-wrap .date-range-input input {
+	height: 40px;
+}
+
+.tutor-date-range-wrap .date-range-input i.tutor-icon-calendar {
+	color: inherit;
+	font-size: 15px;
+	top: 0;
+	right: 0;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tutor-report-earnings-wrap {
+	display: grid;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-gap: 30px;
+}
+
+.tutor-report-earnings-wrap .earnings-item {
+	display: flex;
+	align-items: center;
+}
+
+.tutor-report-earnings-wrap .earnings-item:not(:last-child) {
+	/* margin-bottom: 20px; */
+}
+
+.tutor-report-earnings-wrap .earnings-item i {
+	color: #3e64de;
+	font-size: 40px;
+}
+
+.tutor-report-earnings-wrap .earnings-item .icon {
+	margin-right: 20px;
+	max-width: 40px;
+}
+
+.tutor-report-earnings-wrap .earnings-item .icon img {
+	width: 100%;
+}
+
+.tutor-report-earnings-wrap .earnings-item .text span {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #3f435b;
+}
+
+.tutor-report-earnings-wrap .earnings-item .text {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.71;
+	color: #737787;
+}
+
+.tutor-report-course-details .course-details-wrap {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 1fr;
+	background-color: #f7f7f9;
+	border-top: solid 2px #dcdce1;
+}
+
+.tutor-report-course-details .course-details-item:not(:last-child) {
+	border-right: 1px solid #dcdce1;
+}
+
+.tutor-report-course-details .course-details-item {
+	padding: 25px 20px;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1;
+	color: #888b90;
+}
+
+.tutor-report-course-details .course-details-item strong {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1;
+	color: #3f435b;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.tutor-report-course-details .course-details-item:first-child {
+	padding-left: 30px;
+}
+
+.tutor-star-rating-group i {
+	color: #f8c51c;
+	font-size: 14px;
+	margin: 0 2px;
+}
+
+.tutor-report-course-details .course-details-item:first-child {
+	padding-left: 30px;
+}
+
+.tutor-report-course-details .heading {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.42;
+	color: #3f435b;
+}
+
+.tutor-report-course-details .header-meta {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 16px;
+}
+
+.tutor-report-course-details .header-meta .date {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.71;
+	color: #737787;
+}
+
+.tutor-report-course-details .header-meta .date span {
+	margin-right: 20px;
+}
+
+.tutor-report-course-details .header-meta .date span strong {
+	color: #34374b;
+	font-weight: 400;
+}
+
+@media (max-width: 750px) {
+	.tutor-report-course-details .course-details-wrap {
+		grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+		grid-auto-flow: unset;
+		grid-gap: 0px;
+		border-top-width: 1px;
+		border-left: 1px solid #dcdce1;
+	}
+
+	.tutor-report-course-details .course-details-item {
+		padding: 25px 30px;
+		border: 1px solid #dcdce1;
+		border-top: 0;
+		border-left: 0;
+	}
+	.tutor-report-course-details .header-meta {
+		flex-direction: column;
+	}
+
+	.tutor-report-course-details .header-meta .action {
+		margin-top: 15px;
+	}
+}
+
+[class^="tutor-report-"] .tutor-list-table tbody td {
+	vertical-align: middle;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.75;
+	color: #3f435b;
+}
+
+[class^="tutor-report-"] .tutor-list-table .instructor-icon {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+[class^="tutor-report-"] .tutor-list-table .instructor-icon img {
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 50%;
+}
+
+[class^="tutor-report-"] .tutor-list-table .instructor-name {
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+[class^="tutor-report-"] .tutor-list-table .instructor-email {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #737787;
+}
+
+[class^="tutor-report-"] .tutor-list-table .instructor {
+	display: flex;
+	align-items: center;
+}
+
+[class^="tutor-report-"] .tutor-list-table .instructor-meta {
+	display: flex;
+	flex-direction: column;
+	margin-left: 18px;
+}
+
+[class^="tutor-report-"] .tutor-list-table .instructor-name a {
+	font-size: 12px;
+	color: #b9bac3;
+	margin-left: 2px;
+}
+
+.tutor-report-students .tutor-list-table td:last-child {
+	color: #737787;
+}
+
+.tutor-report-instructors .tutor-star-rating-group {
+	line-height: 1.2;
+}
+
+.tutor-report-instructors .instructor-rating {
+	font-size: 14px;
+	color: #888b90;
+	margin: 0;
+}
+.tutor-report-instructors .tutor-report-btn.default,
+.tutor-list-table .tutor-report-btn.default {
+	color: #737787;
+}
+
+.tutor-report-reviews .tutor-list-table tbody td {
+	vertical-align: top;
+}
+.tutor-report-left-menus {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+
+.tutor-report-title {
+	font-size: 14px;
+	font-weight: 400;
+	color: #505469;
+}
+
+.tutor-report-title strong {
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: normal;
+	color: #3f435b;
+	margin-right: 3px;
+}
+.tutor-report-left-menus ul li a {
+	line-height: 62px;
+}
+
+.tutor-report-graph-wrap,
+.tutor-report-student-data .tutor-report-graph-wrap {
+	padding-top: 30px;
+}
+
+.report-download-csv-icon a {
+	color: #737787;
+}
+
+.tutor-list-table tr th.review,
+.tutor-list-table tr td.review,
+.tutor-report-review table tr th:nth-child(2),
+.tutor-report-review table tr td:nth-child(2),
+.tutor-report-review table tr th:nth-child(4),
+.tutor-report-review table tr td:nth-child(4) {
+	width: 25%;
+}
+
+.tutor-report-review table tr th:nth-child(1),
+.tutor-report-review table tr td:nth-child(1) {
+	width: 15%;
+}
+
+.instructor-name {
+	display: flex;
+	align-items: center;
+}
+
+.instructor-name span {
+	margin-right: 10px;
+}
+/**
+ * Tutor Report ------> END
+*/

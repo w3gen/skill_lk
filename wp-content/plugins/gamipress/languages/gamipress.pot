@@ -1,0 +1,6530 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gamipress\n"
+"Report-Msgid-Bugs-To: https://tsunoa.com/\n"
+"POT-Creation-Date: 2021-06-28 19:54+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Tsunoa (https://tsunoa.com/)\n"
+"Language-Team: Tsunoa <contact@tsunoa.com>\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: libraries\n"
+
+#: assets/js/gamipress-blocks.js:1 assets/js/gamipress-blocks.min.js:1
+#: includes/admin.php:374 includes/admin/pages/settings.php:143
+#: includes/admin/pages/settings.php:149 includes/admin/plugins.php:30
+#: includes/admin/plugins.php:33
+#: includes/admin/tools/import-export-settings.php:24
+#: includes/admin/tools/system-info.php:382
+msgid "Settings"
+msgstr ""
+
+#: includes/admin.php:82 includes/admin/settings/email.php:326
+#: includes/admin/tools/bulk-awards.php:217
+#: includes/admin/tools/bulk-revokes.php:217
+#: includes/admin/tools/import-export-achievements.php:155
+#: includes/admin/tools/import-export-earnings.php:44
+#: includes/admin/tools/import-export-setup.php:44
+#: includes/admin/tools/reset-data.php:32
+#: includes/functions/achievement-types.php:184
+#: includes/functions/achievement-types.php:191
+#: includes/shortcodes/gamipress_earnings.php:50
+msgid "Achievements"
+msgstr ""
+
+#: includes/admin.php:90 includes/admin/settings/email.php:366
+#: includes/admin/tools/bulk-awards.php:228
+#: includes/admin/tools/bulk-revokes.php:228
+#: includes/admin/tools/import-export-earnings.php:53
+#: includes/admin/tools/import-export-setup.php:53
+#: includes/admin/tools/reset-data.php:38 includes/admin/users.php:201
+#: includes/functions/rank-types.php:186 includes/functions/rank-types.php:193
+#: includes/privacy/exporters/user-data.php:136
+#: includes/shortcodes/gamipress_earnings.php:60
+msgid "Ranks"
+msgstr ""
+
+#: includes/admin.php:94 includes/admin.php:180 includes/admin/users.php:27
+#: includes/blocks.php:21 includes/shortcodes.php:69
+#: includes/shortcodes/shortcodes-editor.php:92 includes/triggers.php:60
+#: includes/triggers.php:361 includes/triggers.php:362
+msgid "GamiPress"
+msgstr ""
+
+#: includes/admin.php:110 includes/admin.php:334
+#: includes/admin/pages/support.php:42
+msgid "Help / Support"
+msgstr ""
+
+#: includes/admin.php:111 includes/admin.php:342
+#: includes/admin/pages/settings.php:194 includes/admin/plugins.php:67
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin.php:112 includes/admin.php:350
+msgid "Assets"
+msgstr ""
+
+#: includes/admin.php:131 includes/admin.php:400
+msgid "New"
+msgstr ""
+
+#: includes/admin.php:133 includes/admin.php:405
+msgid "Try AutomatorWP!"
+msgstr ""
+
+#: includes/admin.php:190 includes/admin/tools/reset-data.php:34
+#: includes/admin/tools/system-info.php:357 includes/post-types.php:282
+#: includes/post-types.php:288 includes/post-types.php:294
+#: includes/shortcodes/gamipress_points_types.php:20
+msgid "Points Types"
+msgstr ""
+
+#: includes/admin.php:223 includes/admin/tools/reset-data.php:31
+#: includes/admin/tools/system-info.php:362 includes/post-types.php:385
+#: includes/post-types.php:391 includes/post-types.php:397
+msgid "Achievement Types"
+msgstr ""
+
+#: includes/admin.php:256 includes/admin/tools/reset-data.php:37
+#: includes/admin/tools/system-info.php:367 includes/post-types.php:454
+#: includes/post-types.php:460 includes/post-types.php:466
+msgid "Rank Types"
+msgstr ""
+
+#: includes/admin.php:301 includes/admin/users.php:465
+#: includes/custom-tables.php:35 includes/custom-tables.php:48
+#: includes/privacy/erasers/user-earnings.php:24
+#: includes/privacy/exporters/user-earnings.php:24
+#: includes/privacy/exporters/user-earnings.php:77
+#: includes/shortcodes/gamipress_earnings.php:20
+msgid "User Earnings"
+msgstr ""
+
+#: includes/admin.php:309 includes/admin/pages/settings.php:190
+#: includes/admin/settings/logs.php:25 includes/admin/tools/reset-data.php:40
+#: includes/compatibility/1.2.8.php:250 includes/compatibility/1.2.8.php:256
+#: includes/compatibility/1.2.8.php:262 includes/custom-tables.php:97
+#: includes/custom-tables.php:107 includes/shortcodes/gamipress_logs.php:20
+msgid "Logs"
+msgstr ""
+
+#: includes/admin.php:358 includes/admin/pages/licenses.php:254
+#: includes/admin/pages/licenses.php:261
+msgid "Licenses"
+msgstr ""
+
+#: includes/admin.php:366 includes/admin/pages/add-ons.php:41
+#: includes/admin/pages/tools.php:128 includes/admin/pages/tools.php:134
+msgid "Tools"
+msgstr ""
+
+#: includes/admin.php:431 includes/admin/meta-boxes/achievement-type.php:29
+#: includes/admin/meta-boxes/points-type.php:32
+#: includes/admin/meta-boxes/rank-type.php:29
+msgid "Singular Name"
+msgstr ""
+
+#: includes/admin.php:435 includes/admin/achievements.php:42
+#: includes/admin/ranks.php:67
+msgid "Image"
+msgstr ""
+
+#: includes/admin.php:448 includes/admin/meta-boxes/achievement-type.php:34
+#: includes/admin/meta-boxes/points-type.php:37
+#: includes/admin/meta-boxes/rank-type.php:34
+msgid "Plural Name"
+msgstr ""
+
+#: includes/admin.php:449 includes/admin/meta-boxes/achievement-type.php:39
+#: includes/admin/meta-boxes/points-type.php:42
+#: includes/admin/meta-boxes/rank-type.php:39
+#: includes/admin/tools/import-export-achievements.php:55
+#: includes/admin/tools/import-export-earnings.php:85
+#: includes/admin/tools/import-export-ranks.php:55
+msgid "Slug"
+msgstr ""
+
+#: includes/admin.php:479 includes/admin/achievements.php:85
+#: includes/admin/ranks.php:127
+#, php-format
+msgid "&#8220;%s&#8221; (Edit)"
+msgstr ""
+
+#: includes/admin.php:642
+#, php-format
+msgid "Thank you for using <a href=\"%1$s\" target=\"_blank\">GamiPress</a>! Please leave us a <a href=\"%2$s\" target=\"_blank\">%3$s</a> rating on WordPress.org"
+msgstr ""
+
+#: includes/admin/achievements.php:38 includes/admin/ranks.php:61
+#: includes/custom-tables/user-earnings.php:356
+#: includes/custom-tables/user-earnings.php:363
+msgid "Name"
+msgstr ""
+
+#: includes/admin/achievements.php:55
+#: includes/admin/meta-boxes/achievements.php:45
+msgid "Points Awarded"
+msgstr ""
+
+#: includes/admin/achievements.php:56
+msgid "Earned By"
+msgstr ""
+
+#: includes/admin/achievements.php:57
+msgid "Max. Earnings"
+msgstr ""
+
+#: includes/admin/achievements.php:58 includes/admin/ranks.php:81
+msgid "Unlock with Points"
+msgstr ""
+
+#: includes/admin/achievements.php:107
+#: includes/admin/meta-boxes/achievements.php:55
+msgid "Completing Steps"
+msgstr ""
+
+#: includes/admin/achievements.php:108
+#: includes/admin/meta-boxes/achievements.php:56
+msgid "Minimum Number of Points"
+msgstr ""
+
+#: includes/admin/achievements.php:109
+#: includes/admin/meta-boxes/achievements.php:57
+msgid "Reach a Rank"
+msgstr ""
+
+#: includes/admin/achievements.php:110
+#: includes/admin/meta-boxes/achievements.php:58
+msgid "Admin-awarded Only"
+msgstr ""
+
+#: includes/admin/achievements.php:144 includes/admin/achievements.php:150
+#: includes/admin/meta-boxes/requirements-ui.php:498
+#: includes/admin/meta-boxes/requirements.php:58
+msgid "Unlimited"
+msgstr ""
+
+#: includes/admin/achievements.php:146
+#, php-format
+msgid "%s time(s) per user"
+msgstr ""
+
+#: includes/admin/achievements.php:152
+#, php-format
+msgid "%s time(s) for all users"
+msgstr ""
+
+#: includes/admin/contextual-help.php:28
+msgid "For more information:"
+msgstr ""
+
+#: includes/admin/contextual-help.php:29
+#, php-format
+msgid "Visit the <a href=\"%s\">documentation</a> on the GamiPress website."
+msgstr ""
+
+#: includes/admin/contextual-help.php:37
+#: includes/admin/meta-boxes/requirements.php:66 includes/post-types.php:386
+msgid "Achievement Type"
+msgstr ""
+
+#: includes/admin/contextual-help.php:40
+#: includes/admin/meta-boxes/log-extra-data-ui.php:211
+#: includes/admin/requirements.php:39 includes/admin/requirements.php:74
+#: includes/admin/requirements.php:77 includes/admin/tools/bulk-awards.php:45
+#: includes/admin/tools/bulk-revokes.php:45
+#: includes/admin/tools/import-export-earnings.php:250
+#: includes/compatibility/1.2.8.php:1027 includes/post-types.php:283
+msgid "Points Type"
+msgstr ""
+
+#: includes/admin/contextual-help.php:43 includes/post-types.php:455
+#: includes/shortcodes/gamipress_user_rank.php:52
+msgid "Rank Type"
+msgstr ""
+
+#: includes/admin/contextual-help.php:49
+#, php-format
+msgid "%s Data"
+msgstr ""
+
+#: includes/admin/contextual-help.php:51
+#, php-format
+msgid "<strong>Singular Name</strong> - The singular name for this %s."
+msgstr ""
+
+#: includes/admin/contextual-help.php:52
+#, php-format
+msgid "<strong>Plural Name</strong> - The plural name for this %s."
+msgstr ""
+
+#: includes/admin/contextual-help.php:53
+#, php-format
+msgid "<strong>Slug</strong> - Slug is used for internal references, as some shortcode attributes, to completely differentiate this %s from any other (leave blank to automatically generate one)."
+msgstr ""
+
+#: includes/admin/contextual-help.php:54
+msgid "After adding a new achievement type a new menu will appear in your admin area named <strong>Achievements</strong>. Inside the achievements menu will appear new sub menus with each achievement type registered to let you manage the achievements similar to WordPress default posts or pages."
+msgstr ""
+
+#: includes/admin/contextual-help.php:61 includes/admin/settings/email.php:346
+#: includes/admin/tools/import-export-earnings.php:35
+#: includes/admin/tools/import-export-setup.php:35
+#: includes/admin/tools/reset-data.php:35
+#: includes/custom-tables/user-earnings.php:423 includes/post-types.php:319
+#: includes/post-types.php:325 includes/post-types.php:331
+msgid "Points Awards"
+msgstr ""
+
+#: includes/admin/contextual-help.php:63
+msgid "Points awards are automatic ways a user could retrieve an amount of a points type."
+msgstr ""
+
+#: includes/admin/contextual-help.php:64 includes/admin/contextual-help.php:72
+#, php-format
+msgid "For more information, see <a href=\"%s\">Points Awards and Deducts</a> documentation page on the GamiPress website."
+msgstr ""
+
+#: includes/admin/contextual-help.php:69 includes/admin/settings/email.php:356
+#: includes/admin/tools/import-export-earnings.php:36
+#: includes/admin/tools/import-export-setup.php:36
+#: includes/admin/tools/reset-data.php:36
+#: includes/custom-tables/user-earnings.php:424 includes/post-types.php:353
+#: includes/post-types.php:359 includes/post-types.php:365
+msgid "Points Deducts"
+msgstr ""
+
+#: includes/admin/contextual-help.php:71
+msgid "Points deduct are automatic ways a user could lose an amount of a points type."
+msgstr ""
+
+#: includes/admin/contextual-help.php:84
+#: includes/admin/meta-boxes/achievements.php:41
+msgid "Achievement Data"
+msgstr ""
+
+#: includes/admin/contextual-help.php:86
+msgid "<strong>Points Awarded</strong> - The amount of points to award to the user for earn the achievement (Optional)."
+msgstr ""
+
+#: includes/admin/contextual-help.php:87
+msgid "<strong>Points Type</strong> - The points type of the amount of points to award (Optional)."
+msgstr ""
+
+#: includes/admin/contextual-help.php:88
+msgid "<strong>Earned by</strong> - To define how this achievement can be earned. Choosing \"Completing steps\" will add a new box to configure the steps required."
+msgstr ""
+
+#: includes/admin/contextual-help.php:89
+msgid "<strong>Sequential Steps</strong> <small>(Only if achievement is set up to earned by completing steps)</small> - Checking this option will force users to complete the steps in order."
+msgstr ""
+
+#: includes/admin/contextual-help.php:90
+msgid "<strong>Minimum Points Required</strong> <small>(Only if achievement is set up to earned by a minimum number of points)</small> - The fewest amount of points required to earn the achievement."
+msgstr ""
+
+#: includes/admin/contextual-help.php:91
+msgid "<strong>Points Type Required</strong> <small>(Only if achievement is set up to earned by a minimum number of points)</small> - The points type of the amount of points required to earn the achievement (Optional)."
+msgstr ""
+
+#: includes/admin/contextual-help.php:92
+msgid "<strong>Rank Type Required</strong> <small>(Only if achievement is set up to earned by reaching a rank)</small> - The rank type of rank required to earn the achievement (Used to quickly filter the rank required options)."
+msgstr ""
+
+#: includes/admin/contextual-help.php:93
+msgid "<strong>Rank Required</strong> <small>(Only if achievement is set up to earned by reaching a rank)</small> - The rank required to earn the achievement ."
+msgstr ""
+
+#: includes/admin/contextual-help.php:94
+msgid "<strong>Show Earners</strong> - Checking this option will add a list of users who have earned this achievement on the achievement single view."
+msgstr ""
+
+#: includes/admin/contextual-help.php:95
+msgid "<strong>Congratulations Text</strong> - The text displayed after achievement is earned."
+msgstr ""
+
+#: includes/admin/contextual-help.php:96
+msgid "<strong>Maximum Earnings</strong> - Maximum number of times a user can earn the achievement. You can leave it empty for no maximum."
+msgstr ""
+
+#: includes/admin/contextual-help.php:97
+msgid "<strong>Hidden</strong> - Checking this option will hide the achievement on frontend."
+msgstr ""
+
+#: includes/admin/contextual-help.php:103 includes/admin/settings/email.php:336
+#: includes/admin/tools/import-export-earnings.php:45
+#: includes/admin/tools/import-export-setup.php:45
+#: includes/admin/tools/reset-data.php:33
+#: includes/custom-tables/user-earnings.php:417 includes/post-types.php:422
+#: includes/post-types.php:428 includes/post-types.php:434
+msgid "Steps"
+msgstr ""
+
+#: includes/admin/contextual-help.php:105
+msgid "Steps are the conditionals of an achievement to be considered complete. They are present just on achievements that are configured to be earned by completing steps."
+msgstr ""
+
+#: includes/admin/contextual-help.php:106
+#, php-format
+msgid "For more information, see <a href=\"%s\">Steps</a> documentation page on the GamiPress website."
+msgstr ""
+
+#: includes/admin/contextual-help.php:115
+#: includes/admin/meta-boxes/ranks.php:34
+msgid "Rank Data"
+msgstr ""
+
+#: includes/admin/contextual-help.php:117
+msgid "<strong>Sequential Requirements</strong> - Checking this option will force users to complete the requirements in order."
+msgstr ""
+
+#: includes/admin/contextual-help.php:118
+msgid "<strong>Show Earners</strong> - Checking this option will add a list of users who have reached this rank on the rank single view."
+msgstr ""
+
+#: includes/admin/contextual-help.php:119
+msgid "<strong>Congratulations Text</strong> - The text displayed after rank is earned."
+msgstr ""
+
+#: includes/admin/contextual-help.php:124
+#: includes/admin/meta-boxes/ranks.php:111
+msgid "Rank Details"
+msgstr ""
+
+#: includes/admin/contextual-help.php:126
+msgid "<strong>Priority</strong> - The priority order of the rank."
+msgstr ""
+
+#: includes/admin/contextual-help.php:127
+msgid "<strong>Previous Rank</strong> - Link to the previous rank that user needs to reach to start completing the requirements of the this one."
+msgstr ""
+
+#: includes/admin/contextual-help.php:128
+msgid "<strong>Next Rank</strong> - Link to the next rank user can reach on complete this one."
+msgstr ""
+
+#: includes/admin/contextual-help.php:134
+#: includes/admin/meta-boxes/requirements-ui.php:34
+#: includes/admin/settings/email.php:376 includes/admin/tools/reset-data.php:39
+#: includes/custom-tables/user-earnings.php:430 includes/post-types.php:491
+#: includes/post-types.php:497 includes/post-types.php:503
+msgid "Rank Requirements"
+msgstr ""
+
+#: includes/admin/contextual-help.php:136
+msgid "Rank Requirements are the conditionals of a rank to be considered that user can reach it."
+msgstr ""
+
+#: includes/admin/contextual-help.php:137
+#, php-format
+msgid "For more information, see <a href=\"%s\">Rank Requirements</a> documentation page on the GamiPress website."
+msgstr ""
+
+#: includes/admin/dashboard.php:51
+#, php-format
+msgid "%d Achievement Type"
+msgid_plural "%d Achievement Types"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/dashboard.php:61 includes/admin/dashboard.php:100
+#, php-format
+msgid "%d "
+msgid_plural "%d "
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/dashboard.php:71
+#, php-format
+msgid "%d Points Type"
+msgid_plural "%d Points Types"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/dashboard.php:90
+#, php-format
+msgid "%d Rank Type"
+msgid_plural "%d Rank Types"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/dashboard.php:107
+msgid "Latest Logs"
+msgstr ""
+
+#: includes/admin/dashboard.php:143 includes/compatibility/1.2.8.php:353
+#: includes/functions.php:617
+msgid "Today"
+msgstr ""
+
+#: includes/admin/dashboard.php:145 includes/compatibility/1.2.8.php:355
+#: includes/functions.php:618
+msgid "Yesterday"
+msgstr ""
+
+#: includes/admin/dashboard.php:148 includes/compatibility/1.2.8.php:358
+msgid "M jS Y"
+msgstr ""
+
+#: includes/admin/dashboard.php:151 includes/compatibility/1.2.8.php:361
+msgid "M jS"
+msgstr ""
+
+#: includes/admin/dashboard.php:160 includes/compatibility/1.2.8.php:372
+#, php-format
+msgctxt "dashboard"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/admin/dashboard.php:168 includes/compatibility/1.2.8.php:380
+msgid "Nothing to show :)"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:349
+#: includes/admin/meta-boxes/requirements-ui.php:445
+#: includes/admin/users.php:511
+msgid "Choose an achievement type"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:367 includes/admin/tools/bulk-awards.php:25
+#: includes/admin/tools/bulk-revokes.php:25
+msgid "Choose a points type"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:385
+msgid "Choose a rank type"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:403
+msgid "Choose a log type"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:420
+#, php-format
+msgid "After (10 %s)"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:421
+#, php-format
+msgid "Before (%s 10)"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:436
+msgid "Choose an option"
+msgstr ""
+
+#: includes/admin/meta-boxes.php:441
+#: includes/custom-tables/user-earnings.php:467
+msgid "All"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievement-type.php:25
+msgid "Achievement Type Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievement-type.php:30
+msgid "The singular name for this achievement type."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievement-type.php:35
+msgid "The plural name for this achievement type."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievement-type.php:40
+msgid "Slug is used for internal references, as some shortcode attributes, to completely differentiate this achievement type from any other (leave blank to automatically generate one)."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:46
+msgid "Points awarded for earning this achievement (optional). Leave empty if no points are awarded."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:51
+msgid "Earned By:"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:52
+msgid "How this achievement can be earned."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:62
+msgid "Minimum Points Required"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:63
+msgid "Fewest number of points required for earning this achievement."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:69
+msgid "Rank Type Required"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:70
+msgid "Rank Type of the required rank for earning this achievement."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:75
+msgid "Rank Required"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:76
+msgid "Rank required for earning this achievement."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:81
+#: includes/admin/meta-boxes/ranks.php:38
+msgid "Congratulations Text"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:82
+msgid "Displayed after achievement is earned."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:89
+msgid "Maximum Earnings Per User"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:90
+msgid "Number of times a user can earn this achievement (set it to 0 for no maximum)."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:98
+msgid "Global Maximum Earnings"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:99
+msgid "Number of times this achievement can be earned globally (set it to 0 for no maximum)."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:108
+msgid "Hidden?"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:111
+msgid "Show to User"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:112
+msgid "Hidden to User"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:116
+msgid "Allow unlock with points"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:117
+msgid "Check this option to allow users to unlock this achievement by expend an amount of points."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:122
+#: includes/admin/meta-boxes/ranks.php:49
+msgid "Points to Unlock"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:123
+msgid "Amount of points needed to optionally unlock this achievement by expending them."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:138
+msgid "Achievement Template"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:142
+#: includes/shortcodes/gamipress_achievement.php:75
+msgid "Show Times Earned"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:143
+msgid "Check this option to display the times the user has earned this achievement (only if the achievement can be earned more that 1 time)."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:148
+#: includes/shortcodes/gamipress_achievement.php:82
+msgid "Show Times Earned By All Users"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:149
+msgid "Check this option to display the times that all users have earned this achievement."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:154
+#: includes/admin/meta-boxes/ranks.php:69
+#: includes/shortcodes/gamipress_achievement.php:108
+#: includes/shortcodes/gamipress_rank.php:88
+msgid "Show Earners"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:155
+msgid "Check this option to display a list of users who have earned this achievement."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:160
+#: includes/admin/meta-boxes/ranks.php:75
+#: includes/shortcodes/gamipress_achievement.php:114
+#: includes/shortcodes/gamipress_rank.php:94
+msgid "Maximum Earners"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:161
+#: includes/admin/meta-boxes/ranks.php:76
+#: includes/shortcodes/gamipress_achievement.php:115
+#: includes/shortcodes/gamipress_rank.php:95
+msgid "Set the maximum number of earners to show (0 for no maximum)."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:170
+#: includes/admin/meta-boxes/ranks.php:85
+#: includes/shortcodes/gamipress_achievement.php:124
+#: includes/shortcodes/gamipress_points.php:105
+#: includes/shortcodes/gamipress_points_types.php:82
+#: includes/shortcodes/gamipress_rank.php:104
+#: includes/shortcodes/gamipress_site_points.php:92
+#: includes/shortcodes/gamipress_user_points.php:106
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:171
+#: includes/shortcodes/gamipress_achievement.php:125
+msgid "Layout to show the achievement."
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:179
+#: includes/admin/meta-boxes/ranks.php:94
+#: includes/shortcodes/gamipress_achievement.php:133
+#: includes/shortcodes/gamipress_points.php:114
+#: includes/shortcodes/gamipress_points_types.php:91
+#: includes/shortcodes/gamipress_rank.php:113
+#: includes/shortcodes/gamipress_site_points.php:101
+#: includes/shortcodes/gamipress_user_points.php:115
+msgid "Alignment"
+msgstr ""
+
+#: includes/admin/meta-boxes/achievements.php:180
+#: includes/shortcodes/gamipress_achievement.php:134
+msgid "Alignment to show the achievement."
+msgstr ""
+
+#: includes/admin/meta-boxes/earners.php:23
+#: includes/admin/meta-boxes/earners.php:28
+msgid "Earners"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:20
+msgid "Log Details"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:21
+#: includes/compatibility/1.2.8.php:924
+msgid "Extra Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:66
+msgid "Type:"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:70
+msgid "Visibility:"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:70
+#: includes/custom-tables/logs.php:318
+#: includes/shortcodes/gamipress_logs.php:58
+msgid "Public"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:70
+#: includes/custom-tables/logs.php:318
+#: includes/shortcodes/gamipress_logs.php:59
+msgid "Private"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:74
+msgid "Date:"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:89
+msgid "Are you sure you want to delete this item?\\n\\nClick \\'Cancel\\' to go back, \\'OK\\' to confirm the delete."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:91
+msgid "Delete permanently"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:92
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:99
+#: includes/admin/pages/licenses.php:264
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:143
+#: includes/compatibility/1.2.8.php:964
+msgid "Trigger"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:144
+#: includes/compatibility/1.2.8.php:965
+msgid "The event user has triggered."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:150
+#: includes/admin/meta-boxes/requirements.php:44
+#: includes/compatibility/1.2.8.php:971
+msgid "Count"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:151
+#: includes/compatibility/1.2.8.php:972
+msgid "Number of times user triggered this event until this log."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:170
+#: includes/compatibility/1.2.8.php:986 includes/privacy/exporters/logs.php:158
+msgid "Assigned Post"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:171
+#: includes/compatibility/1.2.8.php:987
+msgid "Attached post to this log."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:184
+#: includes/admin/requirements.php:41 includes/admin/requirements.php:80
+#: includes/ajax-functions.php:483 includes/compatibility/1.2.8.php:1000
+#: includes/functions/achievement-types.php:155
+#: includes/functions/achievement-types.php:162
+#: includes/shortcodes/gamipress_achievement.php:27
+#: includes/shortcodes/gamipress_achievements.php:45
+#: includes/shortcodes/gamipress_achievements.php:141
+msgid "Achievement"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:185
+#: includes/compatibility/1.2.8.php:1001 includes/functions/logs.php:52
+msgid "Achievement user has earned."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:205
+#: includes/admin/meta-boxes/requirements.php:76
+#: includes/admin/tools/bulk-awards.php:203
+#: includes/admin/tools/bulk-revokes.php:203
+#: includes/admin/tools/import-export-earnings.php:249
+#: includes/admin/tools/import-export-points.php:142
+#: includes/ajax-functions.php:683 includes/ajax-functions.php:803
+#: includes/compatibility/1.2.8.php:1021
+#: includes/custom-tables/user-earnings.php:358
+#: includes/custom-tables/user-earnings.php:364
+#: includes/functions/points-types.php:184
+#: includes/functions/points-types.php:191
+#: includes/shortcodes/gamipress_earnings.php:40
+#: includes/shortcodes/gamipress_earnings.php:326 templates/points.php:18
+msgid "Points"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:206
+#: includes/compatibility/1.2.8.php:1022 includes/functions/logs.php:57
+msgid "Points user has earned."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:206
+msgid "Points deducted to user."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:212
+#: includes/compatibility/1.2.8.php:1028
+msgid "Points type user has earned."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:212
+msgid "Points type deducted to user."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:218
+#: includes/compatibility/1.2.8.php:1034
+msgid "Total Points"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:219
+#: includes/compatibility/1.2.8.php:1035
+msgid "Total points user has earned until this log."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:230
+#: includes/admin/requirements.php:43 includes/admin/requirements.php:83
+#: includes/admin/tools/import-export-ranks.php:155
+#: includes/ajax-functions.php:531 includes/functions/rank-types.php:156
+#: includes/functions/rank-types.php:163
+#: includes/shortcodes/gamipress_rank.php:27
+#: includes/shortcodes/gamipress_ranks.php:41
+#: includes/shortcodes/gamipress_user_rank.php:46
+msgid "Rank"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:231
+msgid "Rank user has earned."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:246
+#: includes/admin/settings/general.php:31 includes/compatibility/1.2.8.php:1046
+#: includes/custom-tables/logs.php:270
+msgid "Administrator"
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:247
+msgid "User has made the revoke."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:247
+#: includes/compatibility/1.2.8.php:1047
+msgid "User has made the award."
+msgstr ""
+
+#: includes/admin/meta-boxes/log-extra-data-ui.php:291
+#: includes/compatibility/1.2.8.php:1076
+msgid "No extra data registered"
+msgstr ""
+
+#: includes/admin/meta-boxes/logs.php:25 includes/compatibility/1.2.8.php:298
+msgid "Log Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/logs.php:29
+#: includes/admin/tools/import-export-achievements.php:154
+#: includes/admin/tools/import-export-earnings.php:246
+#: includes/admin/tools/import-export-points.php:141
+#: includes/admin/tools/import-export-ranks.php:154
+#: includes/compatibility/1.2.8.php:302 includes/custom-tables/logs.php:268
+#: includes/custom-tables/user-earnings.php:350
+#: includes/custom-tables/user-earnings.php:357
+#: includes/shortcodes/gamipress_achievements.php:166
+#: includes/shortcodes/gamipress_earnings.php:77
+#: includes/shortcodes/gamipress_earnings.php:320
+#: includes/shortcodes/gamipress_logs.php:46
+#: includes/shortcodes/gamipress_points.php:60
+#: includes/shortcodes/gamipress_points_types.php:107
+#: includes/shortcodes/gamipress_ranks.php:115
+#: includes/shortcodes/gamipress_user_points.php:61
+#: includes/shortcodes/gamipress_user_rank.php:88
+msgid "User"
+msgstr ""
+
+#: includes/admin/meta-boxes/logs.php:30 includes/compatibility/1.2.8.php:303
+msgid "User assigned to this log."
+msgstr ""
+
+#: includes/admin/meta-boxes/logs.php:35
+#: includes/admin/tools/logs-clean-up.php:59
+#: includes/compatibility/1.2.8.php:308 includes/custom-tables/logs.php:267
+#: includes/privacy/exporters/logs.php:134
+#: includes/privacy/exporters/user-earnings.php:143
+#: includes/privacy/exporters/user-earnings.php:161
+#: includes/privacy/exporters/user-earnings.php:172
+#: includes/privacy/exporters/user-earnings.php:191
+#: includes/privacy/exporters/user-earnings.php:209
+msgid "Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/logs.php:36 includes/compatibility/1.2.8.php:309
+msgid "The log type."
+msgstr ""
+
+#: includes/admin/meta-boxes/logs.php:41 includes/compatibility/1.2.8.php:314
+msgid "Pattern"
+msgstr ""
+
+#: includes/admin/meta-boxes/logs.php:42 includes/compatibility/1.2.8.php:315
+msgid "The log output pattern. Available tags:"
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:28
+msgid "Points Type Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:33
+msgid "The singular name for this points type."
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:38
+msgid "The plural name for this points type."
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:43
+msgid "Slug is used for internal references, as some shortcode attributes, to completely differentiate this points type from any other (leave blank to automatically generate one)."
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:56
+msgid "Points Display Options"
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:60
+msgid "Label position"
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:61
+msgid "Location of the points type label."
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:67
+msgid "Thousands separator"
+msgstr ""
+
+#: includes/admin/meta-boxes/points-type.php:68
+msgid "The symbol (usually , or .) to separate thousands."
+msgstr ""
+
+#: includes/admin/meta-boxes/rank-type.php:25
+msgid "Rank Type Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/rank-type.php:30
+msgid "The singular name for this rank type."
+msgstr ""
+
+#: includes/admin/meta-boxes/rank-type.php:35
+msgid "The plural name for this rank type."
+msgstr ""
+
+#: includes/admin/meta-boxes/rank-type.php:40
+msgid "Slug is used for internal references, as some shortcode attributes, to completely differentiate this rank type from any other (leave blank to automatically generate one)."
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:39
+msgid "Displayed after rank is reached."
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:43
+msgid "Allow reach with points"
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:44
+msgid "Check this option to allow users to reach this rank by expend an amount of points."
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:50
+msgid "Amount of points needed to optionally reach this rank by expending them."
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:65
+msgid "Rank Template"
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:70
+msgid "Check this option to display a list of users who have reached this rank."
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:86
+#: includes/shortcodes/gamipress_rank.php:105
+msgid "Layout to show the rank."
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:95
+#: includes/shortcodes/gamipress_rank.php:114
+msgid "Alignment to show the rank."
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:115 includes/admin/ranks.php:80
+#: includes/shortcodes/gamipress_ranks.php:91
+msgid "Priority"
+msgstr ""
+
+#: includes/admin/meta-boxes/ranks.php:116
+msgid "The rank priority defines the order a user can achieve ranks. User will need to get lower priority ranks before get this one."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:22
+msgid "Automatic Points Awards"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:25
+msgid "Automatic Points Deducts"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:29
+msgid "Required Steps"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:63
+msgid "The rank with the lowest priority is set as default rank for all users so this rank should be created without requirements."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:65
+msgid "You will be able to set requirements on next ranks. After save this rank, if it is not configured as the lowest priority you will be able to edit the requirements again."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:89
+msgid "Define the automatic ways a user could retrieve an amount of this points type. Use the \"Label\" field to optionally customize the titles of each one."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:94
+msgid "Define the automatic ways a user could lose an amount of this points type. Use the \"Label\" field to optionally customize the titles of each one."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:99
+msgid "Define the required \"steps\" for this achievement to be considered complete. Use the \"Label\" field to optionally customize the titles of each step."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:104
+msgid "Define the required requirements for this rank to be considered that user is ranked on it. Use the \"Label\" field to optionally customize the titles of each requirement."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:106
+msgid "<strong>Important!</strong> User will not earn this requirements until be ranked on the previous rank."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:116
+msgid "Sequential Steps"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:117
+msgid "Sequential Requirements"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:124
+msgid "Check this option to force users to complete steps in order."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:125
+msgid "Check this option to force users to complete requirements in order."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:141
+#: includes/post-types.php:542 includes/post-types.php:617
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:142
+#, php-format
+msgid "Save All %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:225
+#: includes/admin/meta-boxes/requirements-ui.php:229
+#, php-format
+msgid "Disable %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:225
+#: includes/admin/meta-boxes/requirements-ui.php:230
+#, php-format
+msgid "Enable %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:243
+msgid "Duplicate"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:247
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:273
+msgid "When"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:313
+#: includes/admin/meta-boxes/requirements-ui.php:1051
+msgid "equal to"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:314
+#: includes/admin/meta-boxes/requirements-ui.php:1052
+msgid "not equal to"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:315
+#: includes/admin/meta-boxes/requirements-ui.php:1053
+msgid "less than"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:316
+#: includes/admin/meta-boxes/requirements-ui.php:1054
+msgid "greater than"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:317
+#: includes/admin/meta-boxes/requirements-ui.php:1055
+msgid "less or equal to"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:318
+#: includes/admin/meta-boxes/requirements-ui.php:1056
+msgid "greater or equal to"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:352
+msgid "Default points"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:391
+msgid "Choose a rank"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:408
+msgid "Choose a post type"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:465
+msgid "Choose an achievement"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:490
+msgid "time(s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:494
+msgid "limited to"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:499
+msgid "Per minute"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:500
+msgid "Per hour"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:501
+msgid "Per day"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:502
+msgid "Per week"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:503
+msgid "Per month"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:504
+msgid "Per year"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:551
+msgid "point(s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:557
+msgid "Earn"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:557 includes/filters.php:342
+#: includes/filters.php:344
+msgid "Deduct"
+msgid_plural "Deducts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:563
+msgid "with a maximum number of times to earn it of"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:563
+msgid "with a maximum number of times to deduct it of"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:565
+msgid "(0 for no maximum)"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:581
+msgid "Label"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:703
+#: includes/admin/meta-boxes/requirements-ui.php:743
+#: includes/admin/meta-boxes/requirements-ui.php:789
+#: includes/admin/meta-boxes/requirements-ui.php:815
+#: includes/admin/meta-boxes/requirements-ui.php:890
+#: includes/admin/tools/bulk-awards.php:258
+#: includes/admin/tools/bulk-awards.php:263
+#: includes/admin/tools/bulk-revokes.php:258
+#: includes/admin/tools/bulk-revokes.php:262
+#: includes/admin/tools/import-export-achievements.php:138
+#: includes/admin/tools/import-export-achievements.php:279
+#: includes/admin/tools/import-export-earnings.php:129
+#: includes/admin/tools/import-export-points.php:126
+#: includes/admin/tools/import-export-points.php:239
+#: includes/admin/tools/import-export-ranks.php:138
+#: includes/admin/tools/import-export-ranks.php:267
+#: includes/admin/tools/import-export-settings.php:115
+#: includes/admin/tools/import-export-setup.php:137
+#: includes/admin/tools/import-export-setup.php:354
+#: includes/admin/tools/logs-clean-up.php:111
+#: includes/admin/tools/recount-activity.php:95
+#: includes/admin/tools/reset-data.php:100 includes/ajax-functions.php:660
+#: includes/ajax-functions.php:779
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:710
+#: includes/admin/meta-boxes/requirements-ui.php:751
+msgid "Invalid post."
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1034
+msgid "post"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1047
+#, php-format
+msgid "Earn %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1059
+#, php-format
+msgid "Reach a balance %s %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1062
+#, php-format
+msgid "Expend %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1068
+#, php-format
+msgid "Reach %s %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1072
+#, php-format
+msgid "Unlock any %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1075
+#, php-format
+msgid "Unlock all %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1078
+#, php-format
+msgid "Unlock \"%s\""
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1082
+#, php-format
+msgid "Comment on a %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1085
+#, php-format
+msgid "Get a comment on a %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1088
+#, php-format
+msgid "Get a comment on a %s marked as spam"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1091
+#, php-format
+msgid "Publish a new %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1094
+#, php-format
+msgid "Delete a %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1097
+#, php-format
+msgid "Daily visit a %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1100
+#, php-format
+msgid "Get visits on a %s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1104
+#, php-format
+msgid "Get added to %s role"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1107
+#, php-format
+msgid "Get assigned to %s role"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1110
+#, php-format
+msgid "Get removed from %s role"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1149
+#, php-format
+msgid "%s for"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1151
+#, php-format
+msgid "-%s for"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1155
+#: includes/admin/meta-boxes/requirements-ui.php:1164
+#: includes/admin/meta-boxes/requirements-ui.php:1193
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1164
+#, php-format
+msgid "%d time"
+msgid_plural "%d times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1174
+msgid "minute"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1177
+msgid "hour"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1180
+msgid "day"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1183
+msgid "week"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1186
+msgid "month"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1189
+msgid "year"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements-ui.php:1193
+#, php-format
+msgid "(limited to %d per %s)"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:34
+msgid "Requirement Data"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:38
+msgid "Trigger Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:49
+#: includes/shortcodes/gamipress_achievements.php:130
+#: includes/shortcodes/gamipress_earnings.php:84
+#: includes/shortcodes/gamipress_logs.php:64
+msgid "Limit"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:54
+msgid "Limit Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:59
+msgid "Per Day"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:60
+msgid "Per Week"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:61
+msgid "Per Month"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:62
+msgid "Per Year"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:71
+msgid "Achievement Post"
+msgstr ""
+
+#: includes/admin/meta-boxes/requirements.php:81
+msgid "Maximum Earnings"
+msgstr ""
+
+#: includes/admin/notices.php:52
+msgid "Awesome! You've been using <strong>GamiPress</strong> for a while."
+msgstr ""
+
+#: includes/admin/notices.php:53
+msgid "May I ask you to give it a <strong>5-star rating</strong> on WordPress?"
+msgstr ""
+
+#: includes/admin/notices.php:54
+msgid "This will help to spread its popularity and to make this plugin a better one."
+msgstr ""
+
+#: includes/admin/notices.php:56
+msgid "Your help is much appreciated. Thank you very much,"
+msgstr ""
+
+#: includes/admin/notices.php:60
+msgid "Yes, I want to rate it!"
+msgstr ""
+
+#: includes/admin/notices.php:61
+msgid "I already did"
+msgstr ""
+
+#: includes/admin/notices.php:62
+msgid "No, I don't want to rate it"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:32
+msgid "GamiPress Add-ons"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:37
+msgid "Premium"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:38
+msgid "Free"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:39
+msgid "Integrations"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:40
+msgid "3rd Party"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:45
+msgid "Add-ons to extend and expand the functionality of GamiPress."
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:145
+#, php-format
+msgid "Install %s now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:145
+msgid "Install Now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:151
+#, php-format
+msgid "Update %s now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:151
+msgid "Update Now"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:158
+msgctxt "plugin"
+msgid "Active"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:160 includes/admin/pages/add-ons.php:237
+msgid "Activate"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:161 includes/admin/pages/add-ons.php:238
+#, php-format
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:169 includes/admin/pages/add-ons.php:246
+msgid "Network Activate"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:170 includes/admin/pages/add-ons.php:247
+#, php-format
+msgctxt "plugin"
+msgid "Network Activate %s"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:181
+msgctxt "plugin"
+msgid "Installed"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:193
+msgid "More Information"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:222
+msgid "Activate License"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:225
+msgid "Active and License Registered"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:231
+msgid "Active"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:262
+msgid "Get this pass"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:267
+msgid "Get this asset"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:272
+msgid "Get this add-on"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:279
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:279
+msgid "More Details"
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:348 includes/admin/pages/add-ons.php:360
+#, php-format
+msgid "An unexpected error occurred. Something may be wrong with gamipress.com or this server&#8217;s configuration. If you continue to have problems, please try to <a href=\"%s\">contact us</a>."
+msgstr ""
+
+#: includes/admin/pages/add-ons.php:350
+msgid "(WordPress could not establish a secure connection to gamipress.com. Please contact your server administrator.)"
+msgstr ""
+
+#: includes/admin/pages/assets.php:32
+msgid "GamiPress Assets"
+msgstr ""
+
+#: includes/admin/pages/assets.php:35
+msgid "Resources to decorate your gamification elements and take their design to the next level!."
+msgstr ""
+
+#: includes/admin/pages/licenses.php:382
+msgid "Enter valid license key for automatic updates."
+msgstr ""
+
+#: includes/admin/pages/licenses.php:426
+#, php-format
+msgid "Looking to install a pro add-on? Check the <a href=\"%s\" target=\"_blank\">installation instructions</a>."
+msgstr ""
+
+#: includes/admin/pages/settings.php:153
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/pages/settings.php:154
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/admin/pages/settings.php:174 includes/admin/pages/tools.php:159
+#: includes/shortcodes/gamipress_achievements.php:32
+#: includes/shortcodes/gamipress_earnings.php:27
+#: includes/shortcodes/gamipress_ranks.php:33
+#: includes/shortcodes/gamipress_user_rank.php:33
+msgid "General"
+msgstr ""
+
+#: includes/admin/pages/settings.php:178
+msgid "Social"
+msgstr ""
+
+#: includes/admin/pages/settings.php:182
+msgid "Style"
+msgstr ""
+
+#: includes/admin/pages/settings.php:186
+msgid "Emails"
+msgstr ""
+
+#: includes/admin/pages/settings.php:201
+msgid "Network"
+msgstr ""
+
+#: includes/admin/pages/support.php:24
+msgid "GamiPress Help and Support"
+msgstr ""
+
+#: includes/admin/pages/support.php:26
+msgid "About GamiPress"
+msgstr ""
+
+#: includes/admin/pages/support.php:27
+msgid "GamiPress is plugin to WordPress that allows your site's users to complete tasks, demonstrate achievements, and earn points. You define the points and achievement types, organize your requirements any way you like, and choose from a range of options to determine whether each task or requirement has been achieved."
+msgstr ""
+
+#: includes/admin/pages/support.php:31
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/pages/support.php:33
+#, php-format
+msgid "For information about all features and configurations of GamiPress, visit the official %1$s."
+msgstr ""
+
+#: includes/admin/pages/support.php:36
+msgid "documentation"
+msgstr ""
+
+#: includes/admin/pages/support.php:44
+#, php-format
+msgid "For support on using GamiPress or to suggest feature enhancements, visit the official %1$s. %2$s with inquiries."
+msgstr ""
+
+#: includes/admin/pages/support.php:47
+msgid "GamiPress support forums"
+msgstr ""
+
+#: includes/admin/pages/support.php:51
+msgid "Contact us"
+msgstr ""
+
+#: includes/admin/pages/support.php:57
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/admin/pages/support.php:58
+msgid "With GamiPress activated, the following shortcodes can be placed on any page or post within WordPress to expose a variety of GamiPress functions."
+msgstr ""
+
+#: includes/admin/pages/tools.php:163
+msgid "Import/Export"
+msgstr ""
+
+#: includes/admin/pages/tools.php:167
+msgid "System"
+msgstr ""
+
+#: includes/admin/ranks.php:41
+msgid "Rank name"
+msgstr ""
+
+#: includes/admin/ranks.php:207
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: includes/admin/ranks.php:211 includes/admin/ranks.php:234
+#: includes/admin/users.php:257 includes/admin/users.php:353
+#: includes/admin/users.php:393
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/ranks.php:230
+#, php-format
+msgid "Previous %s"
+msgstr ""
+
+#: includes/admin/requirements.php:90
+#, php-format
+msgid "Missed %s"
+msgstr ""
+
+#: includes/admin/settings/email.php:24
+msgid "Emails Settings"
+msgstr ""
+
+#: includes/admin/settings/email.php:27
+msgid "Template"
+msgstr ""
+
+#: includes/admin/settings/email.php:28
+msgid "The email template to be used."
+msgstr ""
+
+#: includes/admin/settings/email.php:33
+msgid "Email Logo"
+msgstr ""
+
+#: includes/admin/settings/email.php:34
+msgid "Upload, choose or paste the URL of the logo to be displayed at the top of the emails (not displayed in plain text template)."
+msgstr ""
+
+#: includes/admin/settings/email.php:38
+msgid "From Name"
+msgstr ""
+
+#: includes/admin/settings/email.php:39
+msgid "Name to display as sender."
+msgstr ""
+
+#: includes/admin/settings/email.php:44
+msgid "From Address"
+msgstr ""
+
+#: includes/admin/settings/email.php:45
+msgid "This email address will be used as the \"from\" and \"reply-to\" address."
+msgstr ""
+
+#: includes/admin/settings/email.php:50
+msgid "Footer Text"
+msgstr ""
+
+#: includes/admin/settings/email.php:51
+msgid "Text to be shown at email footer."
+msgstr ""
+
+#: includes/admin/settings/email.php:53 templates/emails/footer-default.php:45
+#, php-format
+msgid "%s - Powered by GamiPress"
+msgstr ""
+
+#: includes/admin/settings/email.php:59
+msgid "Emails Templates"
+msgstr ""
+
+#: includes/admin/settings/email.php:68 includes/admin/settings/email.php:111
+#: includes/admin/settings/email.php:155 includes/admin/settings/email.php:198
+#: includes/admin/settings/email.php:241 includes/admin/settings/email.php:284
+msgid "Preview Email"
+msgstr ""
+
+#: includes/admin/settings/email.php:74 includes/admin/settings/email.php:117
+#: includes/admin/settings/email.php:161 includes/admin/settings/email.php:204
+#: includes/admin/settings/email.php:247 includes/admin/settings/email.php:290
+msgid "Send Test Email"
+msgstr ""
+
+#: includes/admin/settings/email.php:82
+msgid "Disable achievement earned email sending"
+msgstr ""
+
+#: includes/admin/settings/email.php:83
+msgid "Check this option to stop sending emails to users for the new achievements earned."
+msgstr ""
+
+#: includes/admin/settings/email.php:88 includes/admin/settings/email.php:131
+#: includes/admin/settings/email.php:175 includes/admin/settings/email.php:218
+#: includes/admin/settings/email.php:261 includes/admin/settings/email.php:304
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/settings/email.php:89
+msgid "Enter the subject line for the achievement earned email."
+msgstr ""
+
+#: includes/admin/settings/email.php:91 includes/admin/upgrades/1.3.0.php:42
+msgid "[{site_title}] {user_first}, you unlocked the {achievement_type} {achievement_title}"
+msgstr ""
+
+#: includes/admin/settings/email.php:94 includes/admin/settings/email.php:137
+#: includes/admin/settings/email.php:181 includes/admin/settings/email.php:224
+#: includes/admin/settings/email.php:267 includes/admin/settings/email.php:310
+msgid "Content"
+msgstr ""
+
+#: includes/admin/settings/email.php:95 includes/admin/settings/email.php:138
+#: includes/admin/settings/email.php:182 includes/admin/settings/email.php:225
+#: includes/admin/settings/email.php:268 includes/admin/settings/email.php:311
+#: includes/admin/settings/social.php:68 includes/admin/settings/social.php:77
+msgid "Available tags:"
+msgstr ""
+
+#: includes/admin/settings/email.php:98 includes/admin/settings/email.php:141
+#: includes/admin/settings/email.php:185 includes/admin/settings/email.php:271
+#: includes/admin/settings/email.php:314 includes/admin/upgrades/1.3.0.php:43
+#: includes/admin/upgrades/1.3.0.php:55 includes/admin/upgrades/1.3.0.php:68
+#: includes/admin/upgrades/1.3.1.php:43 includes/admin/upgrades/1.3.1.php:55
+msgid "Congratulations {user_first}!"
+msgstr ""
+
+#: includes/admin/settings/email.php:100 includes/admin/upgrades/1.3.0.php:45
+msgid "You unlocked the {achievement_type} {achievement_title} by completing the following steps:"
+msgstr ""
+
+#: includes/admin/settings/email.php:102 includes/admin/settings/email.php:146
+#: includes/admin/settings/email.php:189 includes/admin/settings/email.php:232
+#: includes/admin/settings/email.php:275 includes/admin/settings/email.php:319
+#: includes/admin/upgrades/1.3.0.php:47 includes/admin/upgrades/1.3.0.php:60
+#: includes/admin/upgrades/1.3.0.php:72 includes/admin/upgrades/1.3.1.php:47
+#: includes/admin/upgrades/1.3.1.php:60 includes/admin/upgrades/1.3.7.php:47
+msgid "Best regards"
+msgstr ""
+
+#: includes/admin/settings/email.php:125
+msgid "Disable step completed email sending"
+msgstr ""
+
+#: includes/admin/settings/email.php:126
+msgid "Check this option to stop sending emails to users for the new steps completed."
+msgstr ""
+
+#: includes/admin/settings/email.php:132
+msgid "Enter the subject line for the step completed email."
+msgstr ""
+
+#: includes/admin/settings/email.php:134 includes/admin/upgrades/1.3.0.php:54
+msgid "[{site_title}] {user_first}, you complete a step of the {achievement_type} {achievement_title}"
+msgstr ""
+
+#: includes/admin/settings/email.php:143 includes/admin/upgrades/1.3.0.php:57
+msgid "You completed the step \"{label}\" of the {achievement_type} {achievement_title}!"
+msgstr ""
+
+#: includes/admin/settings/email.php:144 includes/admin/upgrades/1.3.0.php:58
+msgid "You need to complete the following steps to completely unlock this {achievement_type}:"
+msgstr ""
+
+#: includes/admin/settings/email.php:169
+msgid "Disable points award email sending"
+msgstr ""
+
+#: includes/admin/settings/email.php:170
+msgid "Check this option to stop sending emails to users for the new points award completed."
+msgstr ""
+
+#: includes/admin/settings/email.php:176
+msgid "Enter the subject line for the points award email."
+msgstr ""
+
+#: includes/admin/settings/email.php:178 includes/admin/upgrades/1.3.0.php:67
+msgid "[{site_title}] {user_first}, you got {points} {points_type}"
+msgstr ""
+
+#: includes/admin/settings/email.php:186 includes/admin/upgrades/1.3.0.php:69
+msgid "You got {points} {points_type} for completing \"{label}\"."
+msgstr ""
+
+#: includes/admin/settings/email.php:187 includes/admin/settings/email.php:230
+#: includes/admin/upgrades/1.3.0.php:70 includes/admin/upgrades/1.3.7.php:45
+msgid "Your new {points_type} balance is:"
+msgstr ""
+
+#: includes/admin/settings/email.php:212
+msgid "Disable points deduct email sending"
+msgstr ""
+
+#: includes/admin/settings/email.php:213
+msgid "Check this option to stop sending emails to users for the new points deduct."
+msgstr ""
+
+#: includes/admin/settings/email.php:219
+msgid "Enter the subject line for the points deduct email."
+msgstr ""
+
+#: includes/admin/settings/email.php:221 includes/admin/upgrades/1.3.7.php:42
+msgid "[{site_title}] {user_first}, you lost {points} {points_type}"
+msgstr ""
+
+#: includes/admin/settings/email.php:228 includes/admin/upgrades/1.3.7.php:43
+msgid "Ops {user_first}!"
+msgstr ""
+
+#: includes/admin/settings/email.php:229 includes/admin/upgrades/1.3.7.php:44
+msgid "You lost {points} {points_type} for \"{label}\"."
+msgstr ""
+
+#: includes/admin/settings/email.php:255
+msgid "Disable rank earned email sending"
+msgstr ""
+
+#: includes/admin/settings/email.php:256
+msgid "Check this option to stop sending emails to users for the new ranks reached."
+msgstr ""
+
+#: includes/admin/settings/email.php:262
+msgid "Enter the subject line for the rank earned email."
+msgstr ""
+
+#: includes/admin/settings/email.php:264 includes/admin/upgrades/1.3.1.php:42
+msgid "[{site_title}] {user_first}, you reached the {rank_type} {rank_title}"
+msgstr ""
+
+#: includes/admin/settings/email.php:273 includes/admin/upgrades/1.3.1.php:45
+msgid "You reached the {rank_type} {rank_title} by completing the following requirements:"
+msgstr ""
+
+#: includes/admin/settings/email.php:298
+msgid "Disable rank requirement completed email sending"
+msgstr ""
+
+#: includes/admin/settings/email.php:299
+msgid "Check this option to stop sending emails to users for the new rank requirements completed."
+msgstr ""
+
+#: includes/admin/settings/email.php:305
+msgid "Enter the subject line for the rank requirement completed email."
+msgstr ""
+
+#: includes/admin/settings/email.php:307 includes/admin/upgrades/1.3.1.php:54
+msgid "[{site_title}] {user_first}, you complete a requirement of the {rank_type} {rank_title}"
+msgstr ""
+
+#: includes/admin/settings/email.php:316 includes/admin/upgrades/1.3.1.php:57
+msgid "You completed the requirement \"{label}\" of the {rank_type} {rank_title}!"
+msgstr ""
+
+#: includes/admin/settings/email.php:317 includes/admin/upgrades/1.3.1.php:58
+msgid "You need to complete the following requirements to completely reach this {rank_type}:"
+msgstr ""
+
+#: includes/admin/settings/general.php:24
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings/general.php:27
+msgid "Minimum role to administer GamiPress"
+msgstr ""
+
+#: includes/admin/settings/general.php:28
+msgid "Minimum role a user needs to access to GamiPress management areas."
+msgstr ""
+
+#: includes/admin/settings/general.php:32
+msgid "Editor"
+msgstr ""
+
+#: includes/admin/settings/general.php:33
+#: includes/shortcodes/gamipress_achievements.php:145
+msgid "Author"
+msgstr ""
+
+#: includes/admin/settings/general.php:37
+msgid "Points Image Size"
+msgstr ""
+
+#: includes/admin/settings/general.php:38
+msgid "Maximum dimensions for the points featured image."
+msgstr ""
+
+#: includes/admin/settings/general.php:46
+msgid "Achievement Image Size"
+msgstr ""
+
+#: includes/admin/settings/general.php:47
+msgid "Maximum dimensions for the achievements featured image."
+msgstr ""
+
+#: includes/admin/settings/general.php:51
+msgid "Rank Image Size"
+msgstr ""
+
+#: includes/admin/settings/general.php:52
+msgid "Maximum dimensions for ranks featured image."
+msgstr ""
+
+#: includes/admin/settings/general.php:56
+msgid "Disable Top Bar Menu"
+msgstr ""
+
+#: includes/admin/settings/general.php:57
+msgid "Check this option to disable the GamiPress top bar menu."
+msgstr ""
+
+#: includes/admin/settings/general.php:62
+msgid "Disable Shortcodes Editor"
+msgstr ""
+
+#: includes/admin/settings/general.php:63
+msgid "Check this option to disable the shortcodes editor."
+msgstr ""
+
+#: includes/admin/settings/general.php:64
+msgid "Check this option if you are experiencing black screens in your theme settings or in your page builder forms."
+msgstr ""
+
+#: includes/admin/settings/general.php:69
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/admin/settings/general.php:70
+msgid "Check this option to enable the debug mode."
+msgstr ""
+
+#: includes/admin/settings/general.php:89
+#: includes/admin/settings/general.php:92
+msgid "Automatic Updates"
+msgstr ""
+
+#: includes/admin/settings/general.php:93
+msgid "Check this option to automatically get the latest features, bugfixes and security updates as they are released."
+msgstr ""
+
+#: includes/admin/settings/general.php:98
+msgid "Plugins"
+msgstr ""
+
+#: includes/admin/settings/general.php:99
+msgid "Check GamiPress add-ons you want to automatically update."
+msgstr ""
+
+#: includes/admin/settings/logs.php:28
+msgid "Log all activities"
+msgstr ""
+
+#: includes/admin/settings/logs.php:29
+msgid "Check this option to log all activities triggered."
+msgstr ""
+
+#: includes/admin/settings/logs.php:30
+msgid "By default, GamiPress just logs activities that has a requirement (points awards, steps, etc) looking for it."
+msgstr ""
+
+#: includes/admin/settings/logs.php:35
+msgid "Logs Patterns"
+msgstr ""
+
+#: includes/admin/settings/logs.php:36
+msgid "From this settings you can modify the default pattern for upcoming log entries of each category."
+msgstr ""
+
+#: includes/admin/settings/logs.php:40
+msgid "Activity trigger"
+msgstr ""
+
+#: includes/admin/settings/logs.php:41
+msgid "Used to register user activity triggered. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:43 includes/triggers.php:531
+msgid "{user} triggered {trigger_type} (x{count})"
+msgstr ""
+
+#: includes/admin/settings/logs.php:46
+msgid "Points earned"
+msgstr ""
+
+#: includes/admin/settings/logs.php:47
+msgid "Used when user earns points. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:49 includes/functions/points.php:822
+msgid "{user} earned {points} {points_type} for a new total of {total_points} {points_type}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:52
+msgid "Points deducted"
+msgstr ""
+
+#: includes/admin/settings/logs.php:53
+msgid "Used when user gets a deduction of points. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:55 includes/functions/points.php:826
+msgid "{user} deducted {points} {points_type} for a new total of {total_points} {points_type}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:58
+msgid "Points expended"
+msgstr ""
+
+#: includes/admin/settings/logs.php:59
+msgid "Used when user expend an amount of points. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:61 includes/ajax-functions.php:716
+#: includes/ajax-functions.php:836
+msgid "{user} expended {points} {points_type} for a new total of {total_points} {points_type}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:64
+msgid "Points award/step complete"
+msgstr ""
+
+#: includes/admin/settings/logs.php:65
+msgid "Used when user completes a points award or step. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:67 includes/functions/achievements.php:1353
+msgid "{user} completed the {achievement_type} {achievement}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:70
+msgid "Achievement earned"
+msgstr ""
+
+#: includes/admin/settings/logs.php:71
+msgid "Used when user earns an achievement. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:73 includes/functions/achievements.php:1355
+msgid "{user} unlocked the {achievement} {achievement_type}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:76
+msgid "Rank earned"
+msgstr ""
+
+#: includes/admin/settings/logs.php:77
+msgid "Used when user ranks to a new rank. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:79 includes/functions/ranks.php:753
+msgid "{user} ranked to {rank_type} {rank}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:82
+#: includes/shortcodes/gamipress_achievements.php:147
+msgid "Points awarded"
+msgstr ""
+
+#: includes/admin/settings/logs.php:83
+msgid "Used when an admin awards a user with points. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:85 includes/functions/points.php:810
+msgid "{admin} awarded {user} {points} {points_type} for a new total of {total_points} {points_type}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:88
+msgid "Points revoked"
+msgstr ""
+
+#: includes/admin/settings/logs.php:89
+msgid "Used when an admin revokes points of a user. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:91 includes/functions/points.php:814
+msgid "{admin} revoked {user} {points} {points_type} for a new total of {total_points} {points_type}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:94
+msgid "Achievement awarded"
+msgstr ""
+
+#: includes/admin/settings/logs.php:95
+msgid "Used when an admin awards a user with an achievement. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:97 includes/functions/achievements.php:1343
+msgid "{admin} awarded {user} with the the {achievement} {achievement_type}"
+msgstr ""
+
+#: includes/admin/settings/logs.php:100
+msgid "Rank awarded"
+msgstr ""
+
+#: includes/admin/settings/logs.php:101
+msgid "Used when an admin ranks a user to a new rank. Available tags:"
+msgstr ""
+
+#: includes/admin/settings/logs.php:103 includes/functions/ranks.php:748
+msgid "{admin} ranked {user} to {rank_type} {rank}"
+msgstr ""
+
+#: includes/admin/settings/network.php:24
+msgid "Network Settings"
+msgstr ""
+
+#: includes/admin/settings/network.php:27
+msgid "Show achievements earned across all sites on the network"
+msgstr ""
+
+#: includes/admin/settings/social.php:24
+msgid "Social Settings"
+msgstr ""
+
+#: includes/admin/settings/social.php:27
+msgid "Enable social sharing"
+msgstr ""
+
+#: includes/admin/settings/social.php:28
+msgid "Check this option to allow users share the achievements and ranks they have earned."
+msgstr ""
+
+#: includes/admin/settings/social.php:33
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/settings/social.php:36 includes/filters.php:1243
+#: includes/filters.php:1387
+msgid "Share:"
+msgstr ""
+
+#: includes/admin/settings/social.php:37 includes/filters.php:1217
+#: includes/filters.php:1361
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/admin/settings/social.php:38 includes/filters.php:1218
+#: includes/filters.php:1362
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/admin/settings/social.php:39 includes/filters.php:1219
+#: includes/filters.php:1363
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: includes/admin/settings/social.php:40 includes/filters.php:1220
+#: includes/filters.php:1364
+msgid "Share on Pinterest"
+msgstr ""
+
+#: includes/admin/settings/social.php:43
+msgid "Social Networks"
+msgstr ""
+
+#: includes/admin/settings/social.php:48 includes/filters.php:1224
+#: includes/filters.php:1368
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/settings/social.php:49 includes/filters.php:1225
+#: includes/filters.php:1369
+msgid "Twitter"
+msgstr ""
+
+#: includes/admin/settings/social.php:50 includes/filters.php:1226
+#: includes/filters.php:1370
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/admin/settings/social.php:51 includes/filters.php:1227
+#: includes/filters.php:1371
+msgid "Pinterest"
+msgstr ""
+
+#: includes/admin/settings/social.php:56
+msgid "Button style"
+msgstr ""
+
+#: includes/admin/settings/social.php:59
+msgid "Square"
+msgstr ""
+
+#: includes/admin/settings/social.php:60
+msgid "Rounded"
+msgstr ""
+
+#: includes/admin/settings/social.php:61
+msgid "Circle"
+msgstr ""
+
+#: includes/admin/settings/social.php:66
+msgid "Twitter achievement text"
+msgstr ""
+
+#: includes/admin/settings/social.php:67
+msgid "Default text when sharing an earned achievement on Twitter. Maximum 280 characters (leave at least 24 characters empty for the achievement URL)."
+msgstr ""
+
+#: includes/admin/settings/social.php:72 includes/filters.php:1236
+msgid "I earned the {achievement_type} {achievement_title} on {site_title}"
+msgstr ""
+
+#: includes/admin/settings/social.php:75
+msgid "Twitter rank text"
+msgstr ""
+
+#: includes/admin/settings/social.php:76
+msgid "Default text when sharing an earned rank on Twitter. Maximum 280 characters (leave at least 24 characters empty for the rank URL)."
+msgstr ""
+
+#: includes/admin/settings/social.php:81 includes/filters.php:1380
+msgid "I reached the {rank_type} {rank_title} on {site_title}"
+msgstr ""
+
+#: includes/admin/settings/social.php:84
+msgid "Open Graph meta tags"
+msgstr ""
+
+#: includes/admin/settings/social.php:85
+msgid "Open Graph meta tags are human-invisible information required to format the look of your website URLs when shared on social networks. There are plugins that already place them like Yoast SEO, if you don't have one, check this option to let GamiPress insert those tags on the achievements and ranks pages."
+msgstr ""
+
+#: includes/admin/settings/style.php:24
+msgid "Style Settings"
+msgstr ""
+
+#: includes/admin/settings/style.php:27
+msgid "Disable frontend CSS"
+msgstr ""
+
+#: includes/admin/settings/style.php:28
+msgid "Check this option to stop enqueue frontend CSS resources."
+msgstr ""
+
+#: includes/admin/settings/style.php:33
+msgid "Disable frontend Javascript"
+msgstr ""
+
+#: includes/admin/settings/style.php:34
+msgid "Check this option to stop enqueue frontend Javascript resources."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:33
+msgid "Bulk Awards"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:39
+msgid "Points to Award"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:40
+msgid "Points amount to award (the amount will be added to the current user balance)."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:46
+msgid "Points type of points amount to award."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:51
+#: includes/admin/tools/bulk-revokes.php:51
+msgid "Register on user earnings"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:52
+#: includes/admin/tools/bulk-revokes.php:52 includes/admin/users.php:406
+msgid "Check this option to register this balance movement on user earnings."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:57
+#: includes/admin/tools/bulk-revokes.php:57
+msgid "Earning entry text"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:58
+#: includes/admin/tools/bulk-revokes.php:58 includes/admin/users.php:412
+msgid "Enter the line text to be displayed on user earnings."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:60
+#: includes/admin/tools/bulk-revokes.php:60 includes/admin/users.php:411
+msgid "Manual balance adjustment"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:63
+#: includes/admin/tools/bulk-awards.php:114
+#: includes/admin/tools/bulk-awards.php:164
+msgid "Award to all users"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:64
+msgid "Check this option to award the points amount to all users."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:69
+#: includes/admin/tools/bulk-awards.php:120
+#: includes/admin/tools/bulk-awards.php:170
+msgid "Users to award"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:70
+msgid "Choose users to award this points amount."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:75
+#: includes/admin/tools/bulk-awards.php:126
+#: includes/admin/tools/bulk-awards.php:176
+#: includes/admin/tools/bulk-revokes.php:75
+#: includes/admin/tools/bulk-revokes.php:126
+#: includes/admin/tools/bulk-revokes.php:176
+msgid "Choose users(s)"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:81
+#: includes/admin/tools/bulk-awards.php:132
+#: includes/admin/tools/bulk-awards.php:182
+msgid "Roles to award"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:82
+msgid "Choose roles to award this points amount."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:87
+#: includes/admin/tools/bulk-awards.php:138
+#: includes/admin/tools/bulk-awards.php:188
+#: includes/admin/tools/bulk-revokes.php:87
+#: includes/admin/tools/bulk-revokes.php:138
+#: includes/admin/tools/bulk-revokes.php:188
+msgid "Choose role(s)"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:93
+msgid "Award Points"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:101
+msgid "Achievements to Award"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:102
+msgid "Choose the achievements to award."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:108
+#: includes/admin/tools/bulk-revokes.php:108
+msgid "Choose achievement(s)"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:115
+msgid "Check this option to award the achievements to all users."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:121
+msgid "Choose users to award this achievements."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:133
+msgid "Choose roles to award this achievements."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:144
+msgid "Award Achievements"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:152
+msgid "Rank to Award"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:153
+msgid "Choose the rank to award."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:154
+#: includes/admin/tools/bulk-revokes.php:154
+msgid "<strong>Important!</strong> Users on higher rank will be downgrade to this rank."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:159
+#: includes/admin/tools/bulk-revokes.php:159
+msgid "Choose rank"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:165
+msgid "Check this option to award the rank to all users."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:171
+msgid "Choose users to award this rank."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:183
+msgid "Choose roles to award this rank."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:194
+msgid "Award Rank"
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:292
+msgid "Choose a valid points amount to award."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:298
+#: includes/admin/tools/bulk-revokes.php:295
+msgid "Choose a valid points type."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:314
+msgid "Choose at least one achievement to be awarded."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:332
+msgid "Choose a valid rank to be awarded."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:360
+msgid "Choose at least one user to award."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:369
+#: includes/admin/tools/bulk-awards.php:414
+#: includes/admin/tools/bulk-awards.php:494
+msgid "Bulk award process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:421
+msgid "Could not find users to award."
+msgstr ""
+
+#: includes/admin/tools/bulk-awards.php:489
+#: includes/admin/tools/bulk-revokes.php:491
+#: includes/admin/tools/import-export-achievements.php:251
+#: includes/admin/tools/import-export-points.php:213
+#: includes/admin/tools/import-export-ranks.php:239
+#, php-format
+msgid "%d remaining users"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:33
+msgid "Bulk Revokes"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:39
+msgid "Points to Deduct"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:40
+msgid "Points amount to deduct (the amount will be deducted to the current user balance)."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:46
+msgid "Points type of points amount to deduct."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:63
+msgid "Deduct to all users"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:64
+msgid "Check this option to deduct the points amount to all users."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:69
+msgid "Users to deduct"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:70
+msgid "Choose users to deduct this points amount."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:81
+msgid "Roles to deduct"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:82
+msgid "Choose roles to deduct this points amount."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:93
+msgid "Deduct Points"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:101
+msgid "Achievements to Revoke"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:102
+msgid "Choose the achievements to revoke."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:114
+#: includes/admin/tools/bulk-revokes.php:164
+msgid "Revoke to all users"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:115
+msgid "Check this option to revoke the achievements to all users."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:120
+#: includes/admin/tools/bulk-revokes.php:170
+msgid "Users to revoke"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:121
+msgid "Choose users to revoke this achievements."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:132
+#: includes/admin/tools/bulk-revokes.php:182
+msgid "Roles to revoke"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:133
+msgid "Choose roles to revoke this achievements."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:144
+msgid "Revoke Achievements"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:152
+msgid "Rank to Revoke"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:153
+msgid "Choose the rank to revoke."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:165
+msgid "Check this option to revoke the rank to all users."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:171
+msgid "Choose users to revoke this rank."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:183
+msgid "Choose roles to revoke this rank."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:194
+msgid "Revoke Rank"
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:289
+msgid "Choose a valid points amount to deduct."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:311
+msgid "Choose at least one achievement to be revoked."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:329
+msgid "Choose a valid rank to be revoked."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:357
+msgid "Choose at least one user to revoke."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:366
+#: includes/admin/tools/bulk-revokes.php:411
+#: includes/admin/tools/bulk-revokes.php:496
+msgid "Bulk revoke process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/bulk-revokes.php:418
+msgid "Could not find users to revoke."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:24
+msgid "User Achievements"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:30
+msgid "Achievement Types To Export"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:31
+msgid "Choose the achievement types to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:38
+#: includes/admin/tools/import-export-earnings.php:68
+#: includes/admin/tools/import-export-points.php:38
+#: includes/admin/tools/import-export-ranks.php:38
+msgid "User Field"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:39
+#: includes/admin/tools/import-export-earnings.php:69
+#: includes/admin/tools/import-export-points.php:39
+#: includes/admin/tools/import-export-ranks.php:39
+msgid "Choose the field to display on user column."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:42
+#: includes/admin/tools/import-export-achievements.php:53
+#: includes/admin/tools/import-export-earnings.php:72
+#: includes/admin/tools/import-export-earnings.php:83
+#: includes/admin/tools/import-export-points.php:42
+#: includes/admin/tools/import-export-ranks.php:42
+#: includes/admin/tools/import-export-ranks.php:53
+msgid "ID"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:43
+#: includes/admin/tools/import-export-earnings.php:73
+#: includes/admin/tools/import-export-points.php:43
+#: includes/admin/tools/import-export-ranks.php:43
+msgid "Username"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:44
+#: includes/admin/tools/import-export-earnings.php:74
+#: includes/admin/tools/import-export-points.php:44
+#: includes/admin/tools/import-export-ranks.php:44
+msgid "Email"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:49
+msgid "Achievement Field"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:50
+msgid "Choose the field to display on achievements column."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:54
+#: includes/admin/tools/import-export-earnings.php:84
+#: includes/admin/tools/import-export-ranks.php:54
+#: includes/custom-tables/logs.php:266
+#: includes/privacy/exporters/user-earnings.php:131
+#: includes/shortcodes/gamipress_achievements.php:142
+#: includes/shortcodes/gamipress_ranks.php:93
+msgid "Title"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:60
+msgid "Export User Achievements"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:71
+#: includes/admin/tools/import-export-points.php:60
+#: includes/admin/tools/import-export-ranks.php:71
+msgid "CSV File"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:82
+msgid "Import User Achievements"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:89
+#: includes/admin/tools/import-export-points.php:78
+#: includes/admin/tools/import-export-ranks.php:89
+msgid "Download CSV Template"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:101
+#: includes/admin/tools/import-export-points.php:90
+#: includes/admin/tools/import-export-ranks.php:101
+#: includes/admin/tools/import-export-settings.php:49
+#: includes/admin/tools/import-export-setup.php:90
+msgid "Export"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:111
+#: includes/admin/tools/import-export-points.php:99
+#: includes/admin/tools/import-export-ranks.php:111
+#: includes/admin/tools/import-export-settings.php:56
+#: includes/admin/tools/import-export-setup.php:98
+msgid "Import"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:156
+msgid "Achievements Type (slug)"
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:162
+msgid "You need to choose at least 1 achievement type to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:176
+#: includes/admin/tools/import-export-achievements.php:258
+msgid "User's achievements export process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:284
+#: includes/admin/tools/import-export-points.php:244
+#: includes/admin/tools/import-export-ranks.php:272
+msgid "No file to import."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:290
+#: includes/admin/tools/import-export-points.php:250
+#: includes/admin/tools/import-export-ranks.php:278
+msgid "Can't retrieve the file to import, check server file permissions."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:303
+#: includes/admin/tools/import-export-points.php:263
+#: includes/admin/tools/import-export-ranks.php:291
+msgid "Empty file, so nothing to import."
+msgstr ""
+
+#: includes/admin/tools/import-export-achievements.php:405
+msgid "Achievements has been awarded successfully to all users."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:31
+#: includes/admin/tools/import-export-setup.php:31
+msgid "All Points Types"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:40
+#: includes/admin/tools/import-export-setup.php:40
+msgid "All Achievement Types"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:49
+#: includes/admin/tools/import-export-setup.php:49
+msgid "All Rank Types"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:54
+#: includes/admin/tools/import-export-setup.php:54
+msgid "Requirements"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:58
+#: includes/admin/tools/import-export-earnings.php:102
+msgid "Export User Earnings"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:61
+msgid "Earnings Types To Export"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:62
+msgid "Choose the earnings types to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:79
+msgid "Element Field"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:80
+msgid "Choose the field to display for the element (achievement, step, rank, etc) assigned to the earning."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:90
+#: includes/admin/tools/logs-clean-up.php:66
+msgid "From (Optional)"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:91
+msgid "Choose the date from you want to export. User earnings registered <strong>after</strong> this date will be exported."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:92
+#: includes/admin/tools/import-export-earnings.php:98
+#: includes/admin/tools/logs-clean-up.php:68
+#: includes/admin/tools/logs-clean-up.php:74
+msgid "Leave blank to no filter by this date."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:96
+#: includes/admin/tools/logs-clean-up.php:72
+msgid "To (Optional)"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:97
+msgid "Choose the date until you want to export. User earnings registered <strong>before</strong> this date will be exported."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:228
+msgid "You need to choose at least 1 type to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:245
+#: includes/shortcodes/gamipress_earnings.php:324
+msgid "Description"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:247
+msgid "Element"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:248
+msgid "Element Type"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:251
+#: includes/custom-tables/logs.php:271
+#: includes/custom-tables/user-earnings.php:351
+#: includes/custom-tables/user-earnings.php:359
+#: includes/custom-tables/user-earnings.php:365
+#: includes/privacy/exporters/logs.php:181
+#: includes/privacy/exporters/user-earnings.php:251
+#: includes/shortcodes/gamipress_earnings.php:325
+#: includes/shortcodes/gamipress_logs.php:81
+msgid "Date"
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:274
+#: includes/admin/tools/import-export-earnings.php:339
+msgid "User's earnings export process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/import-export-earnings.php:332
+#, php-format
+msgid "%d remaining earnings"
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:24
+#: includes/shortcodes/gamipress_user_points.php:20
+msgid "User Points"
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:30
+msgid "Points Types To Export"
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:31
+msgid "Choose the points types to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:49
+msgid "Export User Points"
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:71
+msgid "Import User Points"
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:143
+msgid "Points Type (slug)"
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:149
+#: includes/admin/tools/import-export-points.php:153
+msgid "You need to choose at least 1 points type to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:167
+#: includes/admin/tools/import-export-points.php:220
+msgid "User's points balances export process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/import-export-points.php:358
+msgid "User's points balances has been updated successfully."
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:24
+msgid "User Ranks"
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:30
+msgid "Rank Types To Export"
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:31
+msgid "Choose the rank types to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:49
+msgid "Rank Field"
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:50
+msgid "Choose the field to display on rank column."
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:60
+msgid "Export User Ranks"
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:82
+msgid "Import User Ranks"
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:156
+msgid "Rank Type (slug)"
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:162
+msgid "You need to choose at least 1 rank type to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:176
+#: includes/admin/tools/import-export-ranks.php:246
+msgid "User's ranks export process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/import-export-ranks.php:389
+msgid "Ranks has been awarded successfully to all users."
+msgstr ""
+
+#: includes/admin/tools/import-export-settings.php:27
+msgid "Export Settings"
+msgstr ""
+
+#: includes/admin/tools/import-export-settings.php:28
+msgid "Export settings from this site as a file to easily import this configuration to another site."
+msgstr ""
+
+#: includes/admin/tools/import-export-settings.php:39
+msgid "Import Settings"
+msgstr ""
+
+#: includes/admin/tools/import-export-settings.php:106
+msgid "No settings to import."
+msgstr ""
+
+#: includes/admin/tools/import-export-settings.php:111
+#: includes/admin/tools/import-export-setup.php:349
+msgid "Can not retrieve the file to import, check server file permissions."
+msgstr ""
+
+#: includes/admin/tools/import-export-settings.php:122
+msgid "Empty settings, so nothing to import."
+msgstr ""
+
+#: includes/admin/tools/import-export-settings.php:128
+msgid "Settings has been imported successfully."
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:58
+msgid "Setup"
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:61
+#: includes/admin/tools/import-export-setup.php:68
+msgid "Export Setup"
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:62
+msgid "Choose the stored setup you want to export."
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:69
+msgid "Export elements setup on this site as a file to easily import those elements to another site."
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:80
+msgid "Import Setup"
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:127
+#: includes/admin/tools/import-export-setup.php:132
+#: includes/admin/tools/reset-data.php:105
+msgid "No items selected."
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:328
+msgid "Setup export process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:343
+msgid "No setup to import."
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:361
+msgid "Empty setup, so nothing to import."
+msgstr ""
+
+#: includes/admin/tools/import-export-setup.php:485
+msgid "Setup has been imported successfully."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:25
+msgid "This log has been registered by a plugin so contact his author for more details."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:26
+msgid "Used to log users events perform. GamiPress uses these logs to determine the times a user did a specific action (for example, to award an achievement that requires commenting 3 times). Is safe to delete the old ones."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:27
+msgid "Used to log users achievement unlocks. Is not recommended to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:28
+msgid "Used to log achievement awards perform by administrators. Is safe to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:29
+msgid "Used to log users points gains. Is not recommended to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:30
+msgid "Used to log users points loss. Is not recommended to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:31
+msgid "Used to log users points expended (mainly, for unlocking achievements and ranks through expending points). Is not recommended to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:32
+msgid "Used to log positive points movements perform by administrators. Is safe to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:33
+msgid "Used to log negative points movements perform by administrators. Is safe to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:34
+msgid "Used to log users rank unlocks. Is not recommended to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:35
+msgid "Used to log rank awards perform by administrators. Is safe to delete them."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:56
+msgid "Logs Clean Up"
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:60
+msgid "Choose the log's type you want to clean up."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:67
+msgid "Choose the date from you want to clean up. Logs registered <strong>after</strong> this date will be deleted."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:73
+msgid "Choose the date until you want to clean up. Logs registered <strong>before</strong> this date will be deleted."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:78
+msgid "You can click on the \"Count Logs\" button to preview how many logs will be affected."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:82
+msgid "Count Logs"
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:86
+msgid "Clean Logs"
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:116
+msgid "Please, choose at least 1 log type."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:179
+#, php-format
+msgid "%d logs will be deleted."
+msgstr ""
+
+#: includes/admin/tools/logs-clean-up.php:207
+msgid "Logs clean up process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:34
+msgid "Choose the activity to recount"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:36 includes/triggers.php:24
+msgid "WordPress"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:37
+msgid "Recount comments"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:38
+msgid "Recount content publishing"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:44
+#: includes/admin/tools/recount-activity.php:71
+msgid "Recount Activity"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:47
+msgid "This tool will try to sync old activity with your already configured GamiPress install. GamiPress logs will be updated with all the activity stored in the database and the already configured points awards and deducts and achievements will be awarded or deducted too."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:48
+msgid "<strong>Note:</strong> Some activity may not be possible to recount (like user log ins or daily visits) because there are not registries stored in the database."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:49
+msgid "<strong>Important:</strong> If emails to notify users about new earnings are enabled is possible that users will receive a lot of emails so is recommendable to deactivate them temporally."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:53
+msgid "Activity to recount"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:54
+msgid "Choose the activity to recount."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:59
+msgid "Entries per loop"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:60
+msgid "To prevent block your site, this tool performs the recount in small groups of entries. Set the number of entries to recount in each loop (by default, 100)."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:61
+msgid "<strong>Note:</strong> If the recount process fails, try to reduce this setting to a lower number to 50, 20 or 10 entries per loop."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:100
+msgid "You need to choose an activity to recount."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:115
+msgid "Activity recount process has been done successfully."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:187
+#: includes/admin/tools/recount-activity.php:188
+#, php-format
+msgid "%d comments found, recounting..."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:213
+#, php-format
+msgid "[Comment on a post] Comment: %s User: %s Post: %s"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:227
+#, php-format
+msgid "[Get a comment on a post] Comment: %s User: %s Post: %s"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:240
+#, php-format
+msgid "%d remaining comments to finish recount"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:278
+#: includes/admin/tools/recount-activity.php:279
+#, php-format
+msgid "%d posts found, recounting..."
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:297
+#, php-format
+msgid "[Publish a post] Post: %s User: %s Post Type: %s"
+msgstr ""
+
+#: includes/admin/tools/recount-activity.php:309
+#, php-format
+msgid "%d remaining posts to finish recount"
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:24
+#: includes/admin/tools/reset-data.php:48
+msgid "Reset Data"
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:27
+msgid "Choose the stored data you want to reset."
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:41
+msgid "Users Earnings"
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:42
+msgid "Users Earned Points"
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:43
+msgid "Users Earned Achievements"
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:44
+msgid "Users Earned Ranks"
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:49
+msgid "<strong>Important!</strong> Just use this tool on a test environment or if really you know what are you doing."
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:76
+msgid "This action will delete all of the entries you selected. It will be completely <strong>irrecoverable</strong>."
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:78
+msgid "Please, confirm the data that will be removed:"
+msgstr ""
+
+#: includes/admin/tools/reset-data.php:282
+msgid "Data has been reset successfully."
+msgstr ""
+
+#: includes/admin/tools/system-info.php:33
+msgid "Server Info"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:37
+msgid "Hosting Provider"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:42
+msgid "Operating System"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:47
+msgid "PHP Version"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:53
+msgid "Webserver Info"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:58
+msgid "PHP Configuration"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:62
+#: includes/admin/tools/system-info.php:253
+msgid "Memory Limit"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:67
+msgid "Time Limit"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:72
+msgid "Upload Max Size"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:77
+msgid "Post Max Size"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:82
+msgid "Max Input Vars"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:87
+msgid "Display Errors"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:107
+msgid "Database Info"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:111
+msgid "Database Host"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:116
+msgid "MySQL Version"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:122
+msgid "Last Upgrade"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:128
+msgid "Logs Database"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:134
+msgid "Logs Meta Database"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:140
+msgid "User Earnings Database"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:146
+msgid "User Earnings Meta Database"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:194
+msgid "WordPress Info"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:198
+msgid "Site URL"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:203
+msgid "Home URL"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:208
+msgid "Multisite"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:213
+msgid "Version"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:218
+msgid "Language"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:223
+msgid "Timezone"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:228
+msgid "Site Date"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:233
+msgid "Universal Date"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:238
+msgid "Permalink Structure"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:243
+msgid "Absolute Path"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:248
+msgid "Debug"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:258
+msgid "Table Prefix:"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:263
+msgid "Active Theme"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:268
+msgid "Parent Theme"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:273
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:316
+msgid "(Event's plugin not installed)"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:353
+msgid "GamiPress Info"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:372
+msgid "Events Listeners"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:377
+msgid "Installation Date"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:406
+msgid "Download System Info"
+msgstr ""
+
+#: includes/admin/tools/system-info.php:409
+msgid "Download System Info File"
+msgstr ""
+
+#: includes/admin/upgrades/1.2.8.php:101 includes/admin/upgrades/1.4.3.php:96
+#: includes/admin/upgrades/1.4.7.php:96 includes/admin/upgrades/1.5.1.php:93
+msgid "Upgrading GamiPress database..."
+msgstr ""
+
+#: includes/admin/upgrades/1.2.8.php:110 includes/admin/upgrades/1.4.3.php:105
+#: includes/admin/upgrades/1.4.7.php:105 includes/admin/upgrades/1.5.1.php:102
+msgid "GamiPress needs to upgrade the database. <strong>Please backup your database before starting this upgrade.</strong> This upgrade routine will be making changes to the database that are not reversible."
+msgstr ""
+
+#: includes/admin/upgrades/1.2.8.php:113 includes/admin/upgrades/1.4.3.php:108
+#: includes/admin/upgrades/1.4.7.php:108 includes/admin/upgrades/1.5.1.php:105
+msgid "Learn more about this upgrade"
+msgstr ""
+
+#: includes/admin/upgrades/1.2.8.php:114 includes/admin/upgrades/1.4.3.php:109
+#: includes/admin/upgrades/1.4.7.php:109 includes/admin/upgrades/1.5.1.php:106
+msgid "Start the upgrade"
+msgstr ""
+
+#: includes/admin/upgrades/1.2.8.php:117
+msgid "<strong>About this upgrade:</strong><br />This is a <strong><em>mandatory</em></strong> update that will migrate all user earnings and logs with their meta data to a new custom database table. This upgrade provides better performance and scalability."
+msgstr ""
+
+#: includes/admin/upgrades/1.4.3.php:112
+msgid "<strong>About this upgrade:</strong><br />This is a <strong><em>mandatory</em></strong> update that will update all user earnings with new database table fields. This upgrade provides better performance and scalability."
+msgstr ""
+
+#: includes/admin/upgrades/1.4.3.php:208
+msgid "(no title)"
+msgstr ""
+
+#: includes/admin/upgrades/1.4.7.php:112
+msgid "<strong>About this upgrade:</strong><br />This is a <strong><em>mandatory</em></strong> update that will update all logs with new database table fields. This upgrade provides better performance and scalability."
+msgstr ""
+
+#: includes/admin/upgrades/1.4.7.php:213 includes/admin/upgrades/1.4.7.php:241
+#: includes/functions/points.php:864
+msgid "(no trigger)"
+msgstr ""
+
+#: includes/admin/upgrades/1.5.1.php:109
+msgid "<strong>About this upgrade:</strong><br />This is a <strong><em>mandatory</em></strong> update that will update all requirements relationships (achievements and their steps, points types and their automatic awards and deducts, ranks and their requirements)."
+msgstr ""
+
+#: includes/admin/upgrades/1.5.1.php:111
+msgid "On GamiPress 1.5.1, an internal library to handle relationships has been removed to make relationships <strong>WordPress based</strong> instead."
+msgstr ""
+
+#: includes/admin/upgrades/1.5.1.php:113
+msgid "Removing this library will improve the <strong>compatibility</strong> of GamiPress with other plugins and themes as well as will <strong>speed up</strong> all relationship related queries making GamiPress much faster!"
+msgstr ""
+
+#: includes/admin/users.php:64 includes/admin/users.php:112
+#: includes/admin/users.php:547 includes/admin/users.php:555
+#: includes/admin/users.php:732 includes/admin/users.php:740
+msgid "You can perform this action."
+msgstr ""
+
+#: includes/admin/users.php:68 includes/admin/users.php:117
+#: includes/api/logs.php:209 includes/api/user-earnings.php:219
+msgid "Invalid user ID."
+msgstr ""
+
+#: includes/admin/users.php:74 includes/api/user-earnings.php:228
+msgid "Invalid post ID."
+msgstr ""
+
+#: includes/admin/users.php:77
+msgid "Invalid rank ID."
+msgstr ""
+
+#: includes/admin/users.php:83
+msgid "Rank updated successfully."
+msgstr ""
+
+#: includes/admin/users.php:122
+msgid "Invalid points amount."
+msgstr ""
+
+#: includes/admin/users.php:127 includes/api/user-earnings.php:235
+msgid "Invalid points type."
+msgstr ""
+
+#: includes/admin/users.php:169
+msgid "Points updated successfully."
+msgstr ""
+
+#: includes/admin/users.php:201
+msgid "Your Ranks"
+msgstr ""
+
+#: includes/admin/users.php:209
+#, php-format
+msgid "No rank types configured, visit %s to configure some rank types."
+msgstr ""
+
+#: includes/admin/users.php:209 includes/admin/users.php:251
+#: includes/admin/users.php:329
+msgid "this page"
+msgstr ""
+
+#: includes/admin/users.php:249
+#, php-format
+msgid "No %1$s configured, visit %2$s to configure some %1$s."
+msgstr ""
+
+#: includes/admin/users.php:267
+#, php-format
+msgid "%s listed are ordered by priority."
+msgstr ""
+
+#: includes/admin/users.php:270 includes/admin/users.php:362
+#: includes/admin/users.php:416
+msgid "Save"
+msgstr ""
+
+#: includes/admin/users.php:271 includes/admin/users.php:363
+#: includes/admin/users.php:417 includes/shortcodes/shortcodes-editor.php:119
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/users.php:322 includes/privacy/exporters/user-data.php:101
+msgid "Points Balances"
+msgstr ""
+
+#: includes/admin/users.php:322
+msgid "Your Balances"
+msgstr ""
+
+#: includes/admin/users.php:329
+#, php-format
+msgid "No points types configured, visit %s to configure some points types."
+msgstr ""
+
+#: includes/admin/users.php:344
+msgid "Default Points"
+msgstr ""
+
+#: includes/admin/users.php:359 includes/admin/users.php:400
+msgid "Enter a new total will automatically log the change and difference between totals."
+msgstr ""
+
+#: includes/admin/users.php:398
+msgid "New balance:"
+msgstr ""
+
+#: includes/admin/users.php:403
+msgid "Register on user earnings:"
+msgstr ""
+
+#: includes/admin/users.php:410
+msgid "Earning entry text:"
+msgstr ""
+
+#: includes/admin/users.php:465
+msgid "Your Achievements"
+msgstr ""
+
+#: includes/admin/users.php:503
+msgid "Award Achievement"
+msgstr ""
+
+#: includes/admin/users.php:508
+msgid "Select an achievement type to award:"
+msgstr ""
+
+#: includes/admin/users.php:587 includes/admin/users.php:774
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/users.php:621 includes/admin/users.php:850
+#, php-format
+msgid "Award %s"
+msgstr ""
+
+#: includes/admin/users.php:630 includes/admin/users.php:859
+#: includes/custom-tables/user-earnings.php:693
+msgid "Revoke Award"
+msgstr ""
+
+#: includes/admin/users.php:639 includes/admin/users.php:868
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: includes/admin/users.php:658 includes/admin/users.php:887
+msgid "Couldn't load this content."
+msgstr ""
+
+#: includes/admin/users.php:688
+msgid "Award Requirement"
+msgstr ""
+
+#: includes/admin/users.php:693
+msgid "Select a requirement type to award:"
+msgstr ""
+
+#: includes/admin/users.php:696
+msgid "Choose a requirement type"
+msgstr ""
+
+#: includes/ajax-functions.php:496 includes/ajax-functions.php:564
+#, php-format
+msgid "Choose the %s"
+msgstr ""
+
+#: includes/ajax-functions.php:646
+msgid "Achievement not found."
+msgstr ""
+
+#: includes/ajax-functions.php:652
+msgid "Invalid achievement."
+msgstr ""
+
+#: includes/ajax-functions.php:664 includes/ajax-functions.php:670
+#: includes/ajax-functions.php:783 includes/ajax-functions.php:790
+#, php-format
+msgid "You are not allowed to unlock this %s."
+msgstr ""
+
+#: includes/ajax-functions.php:676
+#, php-format
+msgid "You already unlocked this %s."
+msgstr ""
+
+#: includes/ajax-functions.php:695 includes/ajax-functions.php:815
+#, php-format
+msgid "Insufficient %s."
+msgstr ""
+
+#: includes/ajax-functions.php:725
+#, php-format
+msgid "Congratulations! You unlocked the %s %s."
+msgstr ""
+
+#: includes/ajax-functions.php:765
+msgid "Rank not found."
+msgstr ""
+
+#: includes/ajax-functions.php:771
+msgid "Invalid rank."
+msgstr ""
+
+#: includes/ajax-functions.php:796
+#, php-format
+msgid "You are already in a higher %s."
+msgstr ""
+
+#: includes/ajax-functions.php:845
+#, php-format
+msgid "Congratulations! You reached to the %s %s."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:335
+msgid "Limit response to resources published after a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:342
+msgid "Limit result set to posts assigned to specific authors."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:349
+msgid "Ensure result set excludes posts assigned to specific authors."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:357
+msgid "Limit response to resources published before a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:363
+msgid "Ensure result set excludes specific ids."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:369
+msgid "Limit result set to specific ids."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:376
+msgid "Limit result set to resources with a specific menu_order value."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:383
+msgid "Offset the result set by a specific number of items."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:389
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:396
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:412
+msgid "Limit result set to those of particular parent ids."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:418
+msgid "Limit result set to all items except those of a particular parent id."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:425
+msgid "Limit result set to posts with a specific slug."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:431
+msgid "Limit result set to posts assigned a specific status."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:437
+msgid "Use WP Query arguments to modify the response; private query vars require appropriate authorization."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:445
+#, php-format
+msgid "Limit result set to all items that have the specified term assigned in the %s taxonomy."
+msgstr ""
+
+#: includes/api/class-wp-rest-gamipress-posts-controller.php:473
+msgid "Status is forbidden"
+msgstr ""
+
+#: includes/api/logs.php:26 includes/api/user-earnings.php:26
+msgid "The title for the object."
+msgstr ""
+
+#: includes/api/logs.php:31
+msgid "Type of log for the object."
+msgstr ""
+
+#: includes/api/logs.php:36
+msgid "Trigger of log for the object."
+msgstr ""
+
+#: includes/api/logs.php:41
+msgid "Access of log for the object."
+msgstr ""
+
+#: includes/api/logs.php:46 includes/api/user-earnings.php:31
+msgid "The ID for the user of the object."
+msgstr ""
+
+#: includes/api/logs.php:51 includes/api/user-earnings.php:56
+msgid "The date the object was created, in the site's timezone."
+msgstr ""
+
+#: includes/api/logs.php:81
+msgid "Limit result set to logs with a specific type."
+msgstr ""
+
+#: includes/api/logs.php:89
+msgid "Limit result set  to logs with a specific trigger."
+msgstr ""
+
+#: includes/api/logs.php:99
+msgid "Limit result set to logs with a specific access."
+msgstr ""
+
+#: includes/api/logs.php:111
+msgid "Limit result set to logs assigned to specific users."
+msgstr ""
+
+#: includes/api/logs.php:121 includes/api/user-earnings.php:129
+msgid "Ensure result set excludes specific IDs."
+msgstr ""
+
+#: includes/api/logs.php:131 includes/api/user-earnings.php:139
+msgid "Limit result set to specific IDs."
+msgstr ""
+
+#: includes/api/logs.php:141
+msgid "Limit response to logs after a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/logs.php:148
+msgid "Limit response to logs before a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/logs.php:220 includes/api/user-earnings.php:247
+msgid "Invalid date."
+msgstr ""
+
+#: includes/api/user-earnings.php:36
+msgid "The ID for the post of the object."
+msgstr ""
+
+#: includes/api/user-earnings.php:41
+msgid "The type for the post of the object."
+msgstr ""
+
+#: includes/api/user-earnings.php:46
+msgid "The points amount of the object."
+msgstr ""
+
+#: includes/api/user-earnings.php:51
+msgid "The type for the points amount of the object."
+msgstr ""
+
+#: includes/api/user-earnings.php:82
+msgid "Limit result set to earnings assigned to specific users."
+msgstr ""
+
+#: includes/api/user-earnings.php:92
+msgid "Limit result set to earnings assigned to specific posts."
+msgstr ""
+
+#: includes/api/user-earnings.php:102
+msgid "Limit result set to earnings assigned to specific post types."
+msgstr ""
+
+#: includes/api/user-earnings.php:112
+msgid "Limit result set to earnings assigned to specific points types."
+msgstr ""
+
+#: includes/api/user-earnings.php:122
+msgid "Setting it to true will force to limit results of the same post_type and points_type."
+msgstr ""
+
+#: includes/api/user-earnings.php:149
+msgid "Limit response to user earnings after a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/user-earnings.php:156
+msgid "Limit response to user earnings before a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:251 includes/custom-tables.php:96
+#: includes/privacy/exporters/logs.php:125
+msgid "Log"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:252 includes/post-types.php:284
+#: includes/post-types.php:321 includes/post-types.php:355
+#: includes/post-types.php:387 includes/post-types.php:424
+#: includes/post-types.php:456 includes/post-types.php:493
+#: includes/post-types.php:541 includes/post-types.php:616
+msgid "Add New"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:253
+msgid "Add New Log Entry"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:254
+msgid "Edit Log Entry"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:255
+msgid "New Log Entry"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:257
+msgid "View Logs"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:258
+msgid "Search Logs"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:259
+msgid "No Log Entries found"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:260
+msgid "No Log Entries found in Trash"
+msgstr ""
+
+#: includes/compatibility/1.2.8.php:591 includes/functions/logs.php:728
+msgid "points"
+msgstr ""
+
+#: includes/custom-tables.php:34
+msgid "User Earning"
+msgstr ""
+
+#: includes/custom-tables.php:37
+msgid "This user has not earned anything"
+msgstr ""
+
+#: includes/custom-tables/logs.php:269
+msgid "Post"
+msgstr ""
+
+#: includes/custom-tables/logs.php:334
+msgid "Achievement Step Earn"
+msgstr ""
+
+#: includes/custom-tables/logs.php:336
+msgid "Achievement Step Award"
+msgstr ""
+
+#: includes/custom-tables/logs.php:341
+msgid "Rank Requirement Earn"
+msgstr ""
+
+#: includes/custom-tables/logs.php:343
+msgid "Rank Requirement Award"
+msgstr ""
+
+#: includes/custom-tables/user-earnings.php:370
+msgid "Action"
+msgstr ""
+
+#: includes/custom-tables/user-earnings.php:626
+msgid "Show more details"
+msgstr ""
+
+#: includes/emails.php:22
+msgid "Default Template"
+msgstr ""
+
+#: includes/emails.php:23
+msgid "Plain Text"
+msgstr ""
+
+#: includes/emails.php:80
+#, php-format
+msgid "[GamiPress] Email failed to send to %s with subject: %s"
+msgstr ""
+
+#: includes/emails.php:346
+msgid "Sample Achievement"
+msgstr ""
+
+#: includes/emails.php:349
+msgid "Sample Achievement Excerpt"
+msgstr ""
+
+#: includes/emails.php:352
+msgid "Not earned achievement step."
+msgstr ""
+
+#: includes/emails.php:353
+msgid "Earned achievement step."
+msgstr ""
+
+#: includes/emails.php:355
+msgid "Sample Achievement Type"
+msgstr ""
+
+#: includes/emails.php:356
+msgid "Sample Achievement Congratulations Text"
+msgstr ""
+
+#: includes/emails.php:360
+msgid "Sample Step Label"
+msgstr ""
+
+#: includes/emails.php:372
+msgid "Sample Points Award Label"
+msgstr ""
+
+#: includes/emails.php:375 includes/emails.php:382
+msgid "Sample Points Type"
+msgstr ""
+
+#: includes/emails.php:379
+msgid "Sample Points Deduct Label"
+msgstr ""
+
+#: includes/emails.php:387
+msgid "Sample Rank"
+msgstr ""
+
+#: includes/emails.php:390
+msgid "Sample Rank Excerpt"
+msgstr ""
+
+#: includes/emails.php:393
+msgid "Not completed rank requirement."
+msgstr ""
+
+#: includes/emails.php:394
+msgid "Completed rank requirement."
+msgstr ""
+
+#: includes/emails.php:396
+msgid "Sample Rank Type"
+msgstr ""
+
+#: includes/emails.php:397
+msgid "Sample Rank Congratulations Text"
+msgstr ""
+
+#: includes/emails.php:401
+msgid "Sample Rank Requirement Label"
+msgstr ""
+
+#: includes/emails.php:646
+msgid "Email sent successfully!"
+msgstr ""
+
+#: includes/emails.php:650
+msgid "There was a problem sending the email. Check your WordPress email configuration."
+msgstr ""
+
+#: includes/filters.php:226 includes/filters.php:228 includes/filters.php:2143
+#: includes/filters.php:2189 includes/privacy/exporters/user-earnings.php:164
+msgid "Award"
+msgid_plural "Awards"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/filters.php:490
+#, php-format
+msgid "%1$d Required %2$s"
+msgstr ""
+
+#: includes/filters.php:490 includes/filters.php:2133
+#: includes/post-types.php:423
+msgid "Step"
+msgid_plural "Steps"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/filters.php:681
+#, php-format
+msgid "%d times earned"
+msgstr ""
+
+#: includes/filters.php:685
+#, php-format
+msgid "%d of %d times earned"
+msgstr ""
+
+#: includes/filters.php:768
+#, php-format
+msgid "%d users have earned this %s"
+msgstr ""
+
+#: includes/filters.php:772
+#, php-format
+msgid "%d of %d users have earned this %s"
+msgstr ""
+
+#: includes/filters.php:919 includes/filters.php:1054
+#, php-format
+msgid "Unlock using %s"
+msgstr ""
+
+#: includes/filters.php:942 includes/filters.php:1077
+#, php-format
+msgid "Do you want to unlock %s using %s?"
+msgstr ""
+
+#: includes/filters.php:943 includes/filters.php:1078
+msgid "Yes"
+msgstr ""
+
+#: includes/filters.php:944 includes/filters.php:1079
+msgid "No"
+msgstr ""
+
+#: includes/filters.php:1503
+#, php-format
+msgid "You have earned this %s!"
+msgstr ""
+
+#: includes/filters.php:1698
+msgid "Next Post"
+msgstr ""
+
+#: includes/filters.php:1700
+msgid "Previous Post"
+msgstr ""
+
+#: includes/filters.php:1807 includes/filters.php:2152
+msgid "Requirement"
+msgid_plural "Requirements"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/filters.php:1926
+#, php-format
+msgid "You have reached this %s!"
+msgstr ""
+
+#: includes/filters.php:2143 includes/filters.php:2189
+#: includes/privacy/exporters/user-earnings.php:164
+msgid "Deduction"
+msgstr ""
+
+#: includes/functions.php:616 includes/functions.php:754
+#: includes/functions.php:778
+msgid "None"
+msgstr ""
+
+#: includes/functions.php:619
+msgid "Current Week"
+msgstr ""
+
+#: includes/functions.php:620
+msgid "Past Week"
+msgstr ""
+
+#: includes/functions.php:621
+msgid "Current Month"
+msgstr ""
+
+#: includes/functions.php:622
+msgid "Past Month"
+msgstr ""
+
+#: includes/functions.php:623
+msgid "Current Year"
+msgstr ""
+
+#: includes/functions.php:624
+msgid "Past Year"
+msgstr ""
+
+#: includes/functions.php:625
+msgid "Custom"
+msgstr ""
+
+#: includes/functions.php:750 includes/functions.php:779
+msgid "Left"
+msgstr ""
+
+#: includes/functions.php:751
+msgid "Top"
+msgstr ""
+
+#: includes/functions.php:752 includes/functions.php:781
+msgid "Right"
+msgstr ""
+
+#: includes/functions.php:753
+msgid "Bottom"
+msgstr ""
+
+#: includes/functions.php:780
+msgid "Center"
+msgstr ""
+
+#: includes/functions.php:782
+msgid "Justify"
+msgstr ""
+
+#: includes/functions/achievements.php:932
+msgid "People who have earned this:"
+msgstr ""
+
+#: includes/functions/achievements.php:1309
+msgid "Achievement Type saved successfully."
+msgstr ""
+
+#: includes/functions/achievements.php:1310
+#, php-format
+msgid "Achievement Type renamed successfully. <p>All achievements of this type, and all active and earned user achievements, have been updated <strong>automatically</strong>.</p> All shortcodes, %s, and URIs that reference the old achievement type slug must be updated <strong>manually</strong>."
+msgstr ""
+
+#: includes/functions/achievements.php:1310 includes/functions/points.php:1319
+#: includes/functions/ranks.php:1409
+msgid "widgets"
+msgstr ""
+
+#: includes/functions/attachments.php:41
+msgid "Attachment not found"
+msgstr ""
+
+#: includes/functions/attachments.php:86
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/functions/attachments.php:112
+msgid "Invalid URL"
+msgstr ""
+
+#: includes/functions/attachments.php:135
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/functions/attachments.php:143
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/functions/attachments.php:150
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/functions/attachments.php:155
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/functions/logs.php:22
+msgid "Event Trigger"
+msgstr ""
+
+#: includes/functions/logs.php:23
+msgid "Achievement Earn"
+msgstr ""
+
+#: includes/functions/logs.php:24
+msgid "Achievement Award"
+msgstr ""
+
+#: includes/functions/logs.php:25
+msgid "Points Earn"
+msgstr ""
+
+#: includes/functions/logs.php:26 includes/post-types.php:354
+msgid "Points Deduct"
+msgstr ""
+
+#: includes/functions/logs.php:27
+msgid "Points Expend"
+msgstr ""
+
+#: includes/functions/logs.php:28 includes/post-types.php:320
+msgid "Points Award"
+msgstr ""
+
+#: includes/functions/logs.php:29
+msgid "Points Revoke"
+msgstr ""
+
+#: includes/functions/logs.php:30
+msgid "Rank Earn"
+msgstr ""
+
+#: includes/functions/logs.php:31
+msgid "Rank Award"
+msgstr ""
+
+#: includes/functions/logs.php:50
+msgid "User assigned."
+msgstr ""
+
+#: includes/functions/logs.php:51
+msgid "Admin that awards."
+msgstr ""
+
+#: includes/functions/logs.php:53
+msgid "Type of the achievement earned."
+msgstr ""
+
+#: includes/functions/logs.php:54
+msgid "Event triggered label."
+msgstr ""
+
+#: includes/functions/logs.php:55
+msgid "Event triggered internal key."
+msgstr ""
+
+#: includes/functions/logs.php:56
+msgid "Times user triggered this event."
+msgstr ""
+
+#: includes/functions/logs.php:58
+msgid "Type of the points earned."
+msgstr ""
+
+#: includes/functions/logs.php:59
+msgid "Points user has earned until this log."
+msgstr ""
+
+#: includes/functions/logs.php:60
+msgid "Rank user has ranked."
+msgstr ""
+
+#: includes/functions/logs.php:61
+msgid "Rank type user has ranked."
+msgstr ""
+
+#: includes/functions/logs.php:62 includes/tags.php:27
+msgid "Site name."
+msgstr ""
+
+#: includes/functions/logs.php:81
+msgid "Points user has lost."
+msgstr ""
+
+#: includes/functions/logs.php:82
+msgid "Type of the points lost."
+msgstr ""
+
+#: includes/functions/logs.php:85
+msgid "Points user has expended."
+msgstr ""
+
+#: includes/functions/logs.php:86
+msgid "Type of the points expended."
+msgstr ""
+
+#: includes/functions/points-types.php:155
+#: includes/functions/points-types.php:162 templates/points.php:17
+msgid "Point"
+msgstr ""
+
+#: includes/functions/points.php:1318
+msgid "Points Type saved successfully."
+msgstr ""
+
+#: includes/functions/points.php:1319
+#, php-format
+msgid "Points Type renamed successfully. <p>All user points of this type have been updated <strong>automatically</strong>.</p> All shortcodes, %s, and URIs that reference the old points type slug must be updated <strong>manually</strong>."
+msgstr ""
+
+#: includes/functions/ranks.php:1077
+msgid "People who have reached this rank:"
+msgstr ""
+
+#: includes/functions/ranks.php:1408
+msgid "Rank Type saved successfully."
+msgstr ""
+
+#: includes/functions/ranks.php:1409
+#, php-format
+msgid "Rank Type renamed successfully. <p>All ranks of this type, and all active and earned user ranks, have been updated <strong>automatically</strong>.</p> All shortcodes, %s, and URIs that reference the old rank type slug must be updated <strong>manually</strong>."
+msgstr ""
+
+#: includes/post-types.php:285
+msgid "Add New Points Type"
+msgstr ""
+
+#: includes/post-types.php:286
+msgid "Edit Points Type"
+msgstr ""
+
+#: includes/post-types.php:287
+msgid "New Points Type"
+msgstr ""
+
+#: includes/post-types.php:289
+msgid "View Points Type"
+msgstr ""
+
+#: includes/post-types.php:290
+msgid "Search Points Types"
+msgstr ""
+
+#: includes/post-types.php:291
+msgid "No points types found"
+msgstr ""
+
+#: includes/post-types.php:292
+msgid "No points types found in Trash"
+msgstr ""
+
+#: includes/post-types.php:295
+msgid "Points Type Image"
+msgstr ""
+
+#: includes/post-types.php:296
+msgid "Set points type image"
+msgstr ""
+
+#: includes/post-types.php:297
+msgid "Remove points type image"
+msgstr ""
+
+#: includes/post-types.php:298
+msgid "Use points type image"
+msgstr ""
+
+#: includes/post-types.php:322
+msgid "Add New Points Award"
+msgstr ""
+
+#: includes/post-types.php:323
+msgid "Edit Points Award"
+msgstr ""
+
+#: includes/post-types.php:324
+msgid "New Points Award"
+msgstr ""
+
+#: includes/post-types.php:326
+msgid "View Points Award"
+msgstr ""
+
+#: includes/post-types.php:327
+msgid "Search Points Awards"
+msgstr ""
+
+#: includes/post-types.php:328
+msgid "No points awards found"
+msgstr ""
+
+#: includes/post-types.php:329
+msgid "No points awards found in Trash"
+msgstr ""
+
+#: includes/post-types.php:356
+msgid "Add New Points Deduct"
+msgstr ""
+
+#: includes/post-types.php:357
+msgid "Edit Points Deduct"
+msgstr ""
+
+#: includes/post-types.php:358
+msgid "New Points Deduct"
+msgstr ""
+
+#: includes/post-types.php:360
+msgid "View Points Deduct"
+msgstr ""
+
+#: includes/post-types.php:361
+msgid "Search Points Deducts"
+msgstr ""
+
+#: includes/post-types.php:362
+msgid "No points deducts found"
+msgstr ""
+
+#: includes/post-types.php:363
+msgid "No points deducts found in Trash"
+msgstr ""
+
+#: includes/post-types.php:388
+msgid "Add New Achievement Type"
+msgstr ""
+
+#: includes/post-types.php:389
+msgid "Edit Achievement Type"
+msgstr ""
+
+#: includes/post-types.php:390
+msgid "New Achievement Type"
+msgstr ""
+
+#: includes/post-types.php:392
+msgid "View Achievement Type"
+msgstr ""
+
+#: includes/post-types.php:393
+msgid "Search Achievement Types"
+msgstr ""
+
+#: includes/post-types.php:394
+msgid "No achievement types found"
+msgstr ""
+
+#: includes/post-types.php:395
+msgid "No achievement types found in Trash"
+msgstr ""
+
+#: includes/post-types.php:398
+msgid "Default Achievement Image"
+msgstr ""
+
+#: includes/post-types.php:399
+msgid "Set default achievement image"
+msgstr ""
+
+#: includes/post-types.php:400
+msgid "Remove default achievement image"
+msgstr ""
+
+#: includes/post-types.php:401
+msgid "Use default achievement image"
+msgstr ""
+
+#: includes/post-types.php:425
+msgid "Add New Step"
+msgstr ""
+
+#: includes/post-types.php:426
+msgid "Edit Step"
+msgstr ""
+
+#: includes/post-types.php:427
+msgid "New Step"
+msgstr ""
+
+#: includes/post-types.php:429
+msgid "View Step"
+msgstr ""
+
+#: includes/post-types.php:430
+msgid "Search Steps"
+msgstr ""
+
+#: includes/post-types.php:431
+msgid "No steps found"
+msgstr ""
+
+#: includes/post-types.php:432
+msgid "No steps found in Trash"
+msgstr ""
+
+#: includes/post-types.php:457
+msgid "Add New Rank Type"
+msgstr ""
+
+#: includes/post-types.php:458
+msgid "Edit Rank Type"
+msgstr ""
+
+#: includes/post-types.php:459
+msgid "New Rank Type"
+msgstr ""
+
+#: includes/post-types.php:461
+msgid "View Rank Type"
+msgstr ""
+
+#: includes/post-types.php:462
+msgid "Search Rank Types"
+msgstr ""
+
+#: includes/post-types.php:463
+msgid "No rank types found"
+msgstr ""
+
+#: includes/post-types.php:464
+msgid "No rank types found in Trash"
+msgstr ""
+
+#: includes/post-types.php:467
+msgid "Default Rank Image"
+msgstr ""
+
+#: includes/post-types.php:468
+msgid "Set default rank image"
+msgstr ""
+
+#: includes/post-types.php:469
+msgid "Remove default rank image"
+msgstr ""
+
+#: includes/post-types.php:470
+msgid "Use default rank image"
+msgstr ""
+
+#: includes/post-types.php:492
+msgid "Rank Requirement"
+msgstr ""
+
+#: includes/post-types.php:494
+msgid "Add New Rank Requirement"
+msgstr ""
+
+#: includes/post-types.php:495
+msgid "Edit Rank Requirement"
+msgstr ""
+
+#: includes/post-types.php:496
+msgid "New Rank Requirement"
+msgstr ""
+
+#: includes/post-types.php:498
+msgid "View Rank Requirement"
+msgstr ""
+
+#: includes/post-types.php:499
+msgid "Search Rank Requirements"
+msgstr ""
+
+#: includes/post-types.php:500
+msgid "No rank requirements found"
+msgstr ""
+
+#: includes/post-types.php:501
+msgid "No rank requirements found in Trash"
+msgstr ""
+
+#: includes/post-types.php:543 includes/post-types.php:618
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/post-types.php:544 includes/post-types.php:619
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/post-types.php:546 includes/post-types.php:621
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/post-types.php:547 includes/post-types.php:622
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/post-types.php:548 includes/post-types.php:623
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/post-types.php:549 includes/post-types.php:624
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/post-types.php:552 includes/post-types.php:627
+#, php-format
+msgid "%s Image"
+msgstr ""
+
+#: includes/post-types.php:553 includes/post-types.php:628
+#, php-format
+msgid "Set %s image"
+msgstr ""
+
+#: includes/post-types.php:554 includes/post-types.php:629
+#, php-format
+msgid "Remove %s image"
+msgstr ""
+
+#: includes/post-types.php:555 includes/post-types.php:630
+#, php-format
+msgid "Use %s image"
+msgstr ""
+
+#: includes/privacy/erasers/logs.php:24 includes/privacy/exporters/logs.php:24
+#: includes/privacy/exporters/logs.php:77
+msgid "Activity Logs"
+msgstr ""
+
+#: includes/privacy/erasers/logs.php:71
+#, php-format
+msgid "Removed %d logs."
+msgstr ""
+
+#: includes/privacy/erasers/user-data.php:24
+#: includes/privacy/exporters/user-data.php:24
+msgid "Gamification Data"
+msgstr ""
+
+#: includes/privacy/erasers/user-data.php:69
+#, php-format
+msgid "Your %s balance was unable to be removed at this time."
+msgstr ""
+
+#: includes/privacy/erasers/user-data.php:75
+#, php-format
+msgid "Your %s awarded was unable to be removed at this time."
+msgstr ""
+
+#: includes/privacy/erasers/user-data.php:81
+#, php-format
+msgid "Your %s deducted was unable to be removed at this time."
+msgstr ""
+
+#: includes/privacy/erasers/user-data.php:87
+#, php-format
+msgid "Your %s expended was unable to be removed at this time."
+msgstr ""
+
+#: includes/privacy/erasers/user-data.php:114
+#, php-format
+msgid "Your %s was unable to be removed at this time."
+msgstr ""
+
+#: includes/privacy/erasers/user-earnings.php:71
+#, php-format
+msgid "Removed %d user earnings."
+msgstr ""
+
+#: includes/privacy/exporters/logs.php:143
+msgid "Event"
+msgstr ""
+
+#: includes/privacy/exporters/logs.php:169
+msgid "Assigned Post URL"
+msgstr ""
+
+#: includes/privacy/exporters/user-data.php:72
+#: includes/privacy/exporters/user-earnings.php:238
+#, php-format
+msgid "%s Awarded"
+msgstr ""
+
+#: includes/privacy/exporters/user-data.php:78
+#: includes/privacy/exporters/user-earnings.php:236
+#, php-format
+msgid "%s Deducted"
+msgstr ""
+
+#: includes/privacy/exporters/user-data.php:84
+#, php-format
+msgid "%s Expended"
+msgstr ""
+
+#: includes/privacy/exporters/user-earnings.php:144
+#, php-format
+msgid "%s Step"
+msgstr ""
+
+#: includes/privacy/exporters/user-earnings.php:153
+#: includes/privacy/exporters/user-earnings.php:182
+#: includes/privacy/exporters/user-earnings.php:201
+#: includes/privacy/exporters/user-earnings.php:219
+#, php-format
+msgid "%s URL"
+msgstr ""
+
+#: includes/privacy/exporters/user-earnings.php:173
+#, php-format
+msgid "%s Requirement"
+msgstr ""
+
+#: includes/rules-engine.php:42
+msgid "User hasn't access to this achievement."
+msgstr ""
+
+#: includes/rules-engine.php:47
+msgid "User hasn't completed this achievement yet."
+msgstr ""
+
+#: includes/scripts.php:154 includes/scripts.php:179
+#: includes/shortcodes/shortcodes-editor.php:66
+msgid "Select a Post"
+msgstr ""
+
+#: includes/scripts.php:180 includes/shortcodes/shortcodes-editor.php:67
+msgid "Select Post(s)"
+msgstr ""
+
+#: includes/scripts.php:181 includes/shortcodes/shortcodes-editor.php:68
+msgid "Select an User"
+msgstr ""
+
+#: includes/scripts.php:182 includes/shortcodes/gamipress_achievements.php:71
+#: includes/shortcodes/gamipress_earnings.php:131
+#: includes/shortcodes/gamipress_earnings.php:168
+#: includes/shortcodes/gamipress_earnings.php:205
+#: includes/shortcodes/gamipress_logs.php:34
+#: includes/shortcodes/gamipress_points.php:34
+#: includes/shortcodes/gamipress_points_types.php:34
+#: includes/shortcodes/gamipress_ranks.php:67
+#: includes/shortcodes/gamipress_site_points.php:34
+#: includes/shortcodes/gamipress_user_points.php:34
+#: includes/shortcodes/shortcodes-editor.php:69
+msgid "Default: All"
+msgstr ""
+
+#: includes/scripts.php:183 includes/shortcodes/shortcodes-editor.php:70
+msgid "Select a Rank"
+msgstr ""
+
+#: includes/scripts.php:202
+msgid "Please be patient while this process is running. This can take a while, up to some minutes. Do not navigate away from this page until this script is done. You will be notified via this page when the recount process is completed."
+msgstr ""
+
+#: includes/scripts.php:314
+msgid "Select an option"
+msgstr ""
+
+#: includes/scripts.php:315
+msgid "Select a post"
+msgstr ""
+
+#: includes/scripts.php:316
+msgid "Select a user"
+msgstr ""
+
+#: includes/scripts.php:318
+msgid "Slug can't contain special characters. Only alphanumeric characters are allowed."
+msgstr ""
+
+#: includes/scripts.php:319
+msgid "Slug supports a maximum of 20 characters."
+msgstr ""
+
+#: includes/scripts.php:320
+#, php-format
+msgid "The %s post type already uses this slug."
+msgstr ""
+
+#: includes/scripts.php:321
+msgid "Slug can't match any <a href=\"https://codex.wordpress.org/Reserved_Terms\">WordPress reserved term</a>."
+msgstr ""
+
+#: includes/shortcodes.php:70
+msgid "Others"
+msgstr ""
+
+#: includes/shortcodes.php:109
+msgid "Attributes:"
+msgstr ""
+
+#: includes/shortcodes.php:143
+#, php-format
+msgid "Accepts: %s"
+msgstr ""
+
+#: includes/shortcodes.php:144
+#, php-format
+msgid "Default: %s"
+msgstr ""
+
+#: includes/shortcodes.php:181
+#, php-format
+msgid "Example: %s"
+msgstr ""
+
+#: includes/shortcodes.php:255
+msgid "Widget:"
+msgstr ""
+
+#: includes/shortcodes.php:259
+msgid "Block:"
+msgstr ""
+
+#: includes/shortcodes.php:264
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/shortcodes.php:279
+msgid "Message visible only to administrators."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:20
+msgid "Single Achievement"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:21
+msgid "Render a single achievement."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:28
+msgid "The achievement to render."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:29
+msgid "The ID of the achievement to render."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:34
+msgid "Select an achievement"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:40
+#: includes/shortcodes/gamipress_rank.php:40
+msgid "Show Title"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:41
+msgid "Display the achievement title."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:47
+#: includes/shortcodes/gamipress_rank.php:47
+msgid "Show Link"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:48
+msgid "Add a link on achievement title to the achievement page."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:54
+#: includes/shortcodes/gamipress_points.php:40
+#: includes/shortcodes/gamipress_points_types.php:54
+#: includes/shortcodes/gamipress_rank.php:54
+#: includes/shortcodes/gamipress_site_points.php:40
+#: includes/shortcodes/gamipress_user_points.php:40
+msgid "Show Thumbnail"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:55
+msgid "Display the achievement featured image."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:61
+msgid "Show Points Awarded"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:62
+msgid "Display the achievement points awarded (on achievements where this setting is set)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:68
+#: includes/shortcodes/gamipress_rank.php:61
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:69
+msgid "Display the achievement short description."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:76
+msgid "Display the times the user has earned this achievement (only for achievements that can be earned more that 1 time)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:83
+msgid "Display the times that all users have earned this achievement."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:88
+#: includes/shortcodes/gamipress_earnings.php:174
+msgid "Show Steps"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:89
+msgid "Display the achievement steps."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:95
+msgid "Show Steps Toggle"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:96
+msgid "Display the achievement steps toggle."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:102
+#: includes/shortcodes/gamipress_rank.php:82
+msgid "Show Unlock Button"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:103
+msgid "Display the \"Unlock using points\" (on achievements where unlock with points is allowed)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:109
+msgid "Display a list of users that has earned the achievement."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:175
+msgid "Please, provide the achievement ID."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievement.php:179
+msgid "The id provided doesn't belong to a valid achievement."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:24
+msgid "Achievement List"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:25
+msgid "Output a list of achievements."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:50
+#: includes/shortcodes/gamipress_ranks.php:46
+msgid "Query"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:65
+#: includes/shortcodes/gamipress_earnings.php:161
+msgid "Achievement Type(s)"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:66
+msgid "Achievement type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:67
+msgid "Single or comma-separated list of achievement type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:78
+#: includes/shortcodes/gamipress_points.php:91
+#: includes/shortcodes/gamipress_points_types.php:40
+#: includes/shortcodes/gamipress_ranks.php:73
+#: includes/shortcodes/gamipress_site_points.php:78
+#: includes/shortcodes/gamipress_user_points.php:92
+#: includes/shortcodes/gamipress_user_rank.php:95
+msgid "Columns"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:79
+msgid "Columns to divide achievements."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:82
+#: includes/shortcodes/gamipress_points.php:95
+#: includes/shortcodes/gamipress_points_types.php:44
+#: includes/shortcodes/gamipress_ranks.php:77
+#: includes/shortcodes/gamipress_site_points.php:82
+#: includes/shortcodes/gamipress_user_points.php:96
+#: includes/shortcodes/gamipress_user_rank.php:99
+msgid "1 Column"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:83
+#: includes/shortcodes/gamipress_points.php:96
+#: includes/shortcodes/gamipress_points_types.php:45
+#: includes/shortcodes/gamipress_ranks.php:78
+#: includes/shortcodes/gamipress_site_points.php:83
+#: includes/shortcodes/gamipress_user_points.php:97
+#: includes/shortcodes/gamipress_user_rank.php:100
+msgid "2 Columns"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:84
+#: includes/shortcodes/gamipress_points.php:97
+#: includes/shortcodes/gamipress_points_types.php:46
+#: includes/shortcodes/gamipress_ranks.php:79
+#: includes/shortcodes/gamipress_site_points.php:84
+#: includes/shortcodes/gamipress_user_points.php:98
+#: includes/shortcodes/gamipress_user_rank.php:101
+msgid "3 Columns"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:85
+#: includes/shortcodes/gamipress_points.php:98
+#: includes/shortcodes/gamipress_points_types.php:47
+#: includes/shortcodes/gamipress_ranks.php:80
+#: includes/shortcodes/gamipress_site_points.php:85
+#: includes/shortcodes/gamipress_user_points.php:99
+msgid "4 Columns"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:86
+#: includes/shortcodes/gamipress_points.php:99
+#: includes/shortcodes/gamipress_points_types.php:48
+#: includes/shortcodes/gamipress_ranks.php:81
+#: includes/shortcodes/gamipress_site_points.php:86
+#: includes/shortcodes/gamipress_user_points.php:100
+msgid "5 Columns"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:87
+#: includes/shortcodes/gamipress_points.php:100
+#: includes/shortcodes/gamipress_points_types.php:49
+#: includes/shortcodes/gamipress_ranks.php:82
+#: includes/shortcodes/gamipress_site_points.php:87
+#: includes/shortcodes/gamipress_user_points.php:101
+msgid "6 Columns"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:92
+msgid "Show Filter"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:93
+msgid "Display filter input."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:99
+msgid "Initial Filter Value"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:100
+msgid "Set filter initial value. If you hide the filter, user won't be able to change this value."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:103
+msgid "All Achievements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:104
+msgid "Completed Achievements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:105
+msgid "Not Completed Achievements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:110
+msgid "Show Search"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:111
+msgid "Display a search input."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:117
+msgid "Initial Search Value"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:118
+msgid "Set search initial value. If you hide the search, user won't be able to change this value."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:123
+msgid "Show the \"Load More\" button"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:124
+msgid "Display a load more button."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:131
+msgid "Number of achievements to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:136
+#: includes/shortcodes/gamipress_logs.php:77
+#: includes/shortcodes/gamipress_ranks.php:87
+msgid "Order By"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:137
+#: includes/shortcodes/gamipress_logs.php:78
+#: includes/shortcodes/gamipress_ranks.php:88
+msgid "Parameter to use for sorting."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:140
+msgid "Menu order"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:143
+#: includes/shortcodes/gamipress_ranks.php:94
+msgid "Published date"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:144
+#: includes/shortcodes/gamipress_ranks.php:95
+msgid "Last modified date"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:146
+#: includes/shortcodes/gamipress_logs.php:85
+#: includes/shortcodes/gamipress_ranks.php:96
+msgid "Random"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:148
+#: includes/shortcodes/gamipress_ranks.php:97
+msgid "Points to unlock"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:153
+#: includes/shortcodes/gamipress_earnings.php:97
+#: includes/shortcodes/gamipress_logs.php:90
+#: includes/shortcodes/gamipress_ranks.php:102
+msgid "Order"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:154
+#: includes/shortcodes/gamipress_earnings.php:98
+#: includes/shortcodes/gamipress_logs.php:91
+#: includes/shortcodes/gamipress_ranks.php:103
+msgid "Sort order."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:156
+#: includes/shortcodes/gamipress_logs.php:93
+#: includes/shortcodes/gamipress_ranks.php:105
+msgid "Ascending"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:156
+#: includes/shortcodes/gamipress_logs.php:93
+#: includes/shortcodes/gamipress_ranks.php:105
+msgid "Descending"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:160
+#: includes/shortcodes/gamipress_earnings.php:70
+#: includes/shortcodes/gamipress_logs.php:40
+#: includes/shortcodes/gamipress_points.php:54
+#: includes/shortcodes/gamipress_points_types.php:100
+#: includes/shortcodes/gamipress_ranks.php:109
+#: includes/shortcodes/gamipress_user_points.php:54
+#: includes/shortcodes/gamipress_user_rank.php:81
+msgid "Current User"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:161
+msgid "Show only achievements earned by the current logged in user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:167
+msgid "Show only achievements earned by a specific user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:173
+#: includes/shortcodes/gamipress_earnings.php:104
+#: includes/shortcodes/gamipress_logs.php:97
+#: includes/shortcodes/gamipress_ranks.php:122
+msgid "Include"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:174
+msgid "Achievements to include."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:175
+msgid "Comma-separated list of specific achievement IDs to include."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:181
+#: includes/shortcodes/gamipress_achievements.php:195
+msgid "Select achievements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:187
+#: includes/shortcodes/gamipress_earnings.php:109
+#: includes/shortcodes/gamipress_logs.php:102
+#: includes/shortcodes/gamipress_ranks.php:136
+msgid "Exclude"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:188
+msgid "Achievements to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:189
+msgid "Comma-separated list of specific achievement IDs to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:201
+msgid "Include Multisite Achievements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:202
+msgid "Show achievements from all network sites."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:266
+msgid "The type provided isn't a valid registered achievement type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:280
+msgid "All types provided aren't valid registered achievement types."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:316
+#: includes/shortcodes/gamipress_achievements.php:318
+#: includes/shortcodes/gamipress_achievements.php:562
+msgid "achievements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:568
+#, php-format
+msgid "No completed %s to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:570
+#, php-format
+msgid "You completed all %s."
+msgstr ""
+
+#: includes/shortcodes/gamipress_achievements.php:572
+#, php-format
+msgid "No %s to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:21
+msgid "Output a list of user earnings."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:71
+msgid "Show only earned items of the current logged in user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:78
+msgid "Show only earned items by a specific user. Leave blank to show earned items of all users."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:85
+msgid "Number of items to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:90
+#: includes/shortcodes/gamipress_logs.php:70
+msgid "Enable Pagination"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:91
+msgid "Show pagination links to navigate through all earned items."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:100
+msgid "Newest"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:100
+msgid "Older"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:105
+msgid "Comma-separated list of specific earnings IDs to include."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:110
+msgid "Comma-separated list of specific earnings IDs to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:117
+msgid "Show Points"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:118
+msgid "Show points earned and deducted."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:124
+#: includes/shortcodes/gamipress_points.php:27
+#: includes/shortcodes/gamipress_points_types.php:27
+#: includes/shortcodes/gamipress_site_points.php:27
+#: includes/shortcodes/gamipress_user_points.php:27
+msgid "Points Type(s)"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:125
+#: includes/shortcodes/gamipress_points.php:28
+#: includes/shortcodes/gamipress_points_types.php:28
+#: includes/shortcodes/gamipress_site_points.php:28
+#: includes/shortcodes/gamipress_user_points.php:28
+msgid "Points type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:126
+#: includes/shortcodes/gamipress_points.php:29
+#: includes/shortcodes/gamipress_points_types.php:29
+#: includes/shortcodes/gamipress_site_points.php:29
+#: includes/shortcodes/gamipress_user_points.php:29
+msgid "Single or comma-separated list of points type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:137
+#: includes/shortcodes/gamipress_points_types.php:61
+msgid "Show Points Awards"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:138
+msgid "Show points awarded."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:144
+msgid "Show Points Deductions"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:145
+msgid "Show points deducted."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:154
+msgid "Show Achievements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:155
+msgid "Show achievements earned."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:162
+msgid "Achievements type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:163
+msgid "Single or comma-separated list of achievements type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:175
+msgid "Show steps completed."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:181
+msgid "Show Achievements Without Points"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:182
+msgid "Show achievements that do not award points."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:191
+msgid "Show Ranks"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:192
+msgid "Show ranks reached."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:198
+#: includes/shortcodes/gamipress_ranks.php:60
+msgid "Rank Type(s)"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:199
+msgid "Ranks type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:200
+msgid "Single or comma-separated list of ranks type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:211
+msgid "Show Rank Requirements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:212
+msgid "Show rank requirements completed."
+msgstr ""
+
+#: includes/shortcodes/gamipress_earnings.php:323
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:21
+msgid "Output a list of logs."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:27
+msgid "Log Type(s)"
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:28
+msgid "Log type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:29
+msgid "Single or comma-separated list of log type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:41
+msgid "Show only logs of the current logged in user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:47
+msgid "Show only logs by a specific user. Leave blank to show logs of all users."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:53
+msgid "Log Access"
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:54
+msgid "Set the access type of logs to display. Some logs has a private access like event trigger logs."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:57
+msgid "Any"
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:65
+msgid "Number of log entries to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:71
+msgid "Show pagination links to navigate through all logs."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:82
+msgid "Log ID"
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:83
+msgid "Log Title"
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:84
+msgid "Log Author"
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:98
+msgid "Comma-separated list of specific log entries IDs to include."
+msgstr ""
+
+#: includes/shortcodes/gamipress_logs.php:103
+msgid "Comma-separated list of specific log entries IDs to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:20
+msgid "Points (Old)"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:21
+msgid "Output a user or site points balance."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:41
+#: includes/shortcodes/gamipress_points_types.php:55
+#: includes/shortcodes/gamipress_site_points.php:41
+#: includes/shortcodes/gamipress_user_points.php:41
+msgid "Display the points type featured image."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:47
+#: includes/shortcodes/gamipress_site_points.php:47
+#: includes/shortcodes/gamipress_user_points.php:47
+msgid "Show Points Type Label"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:48
+#: includes/shortcodes/gamipress_site_points.php:48
+#: includes/shortcodes/gamipress_user_points.php:48
+msgid "Display the points type label (singular or plural name, based on the amount of points)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:55
+#: includes/shortcodes/gamipress_user_points.php:55
+msgid "Show only points earned by the current logged in user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:61
+msgid "Show only points earned by a specific user. Leave blank to show the site points (points sum of all users)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:67
+#: includes/shortcodes/gamipress_site_points.php:54
+#: includes/shortcodes/gamipress_user_points.php:68
+msgid "Period"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:68
+msgid "Filter points balance based on a specific period selected. By default \"None\" that will display user or site current points balance."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:73
+#: includes/shortcodes/gamipress_site_points.php:60
+#: includes/shortcodes/gamipress_user_points.php:74
+msgid "Start Date"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:74
+#: includes/shortcodes/gamipress_site_points.php:61
+#: includes/shortcodes/gamipress_user_points.php:75
+msgid "Period start date. Leave blank to no filter by a start date (points balance will be filtered only to the end date)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:75
+#: includes/shortcodes/gamipress_points.php:81
+#: includes/shortcodes/gamipress_site_points.php:62
+#: includes/shortcodes/gamipress_site_points.php:68
+#: includes/shortcodes/gamipress_user_points.php:76
+#: includes/shortcodes/gamipress_user_points.php:82
+msgid "Accepts any valid PHP date format."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:75
+#: includes/shortcodes/gamipress_points.php:81
+#: includes/shortcodes/gamipress_site_points.php:62
+#: includes/shortcodes/gamipress_site_points.php:68
+#: includes/shortcodes/gamipress_user_points.php:76
+#: includes/shortcodes/gamipress_user_points.php:82
+msgid "More information"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:79
+#: includes/shortcodes/gamipress_site_points.php:66
+#: includes/shortcodes/gamipress_user_points.php:80
+msgid "End Date"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:80
+#: includes/shortcodes/gamipress_site_points.php:67
+#: includes/shortcodes/gamipress_user_points.php:81
+msgid "Period end date. Leave blank to no filter by an end date (points balance will be filtered from the start date to today)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:85
+#: includes/shortcodes/gamipress_site_points.php:72
+#: includes/shortcodes/gamipress_user_points.php:86
+msgid "Inline"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:86
+#: includes/shortcodes/gamipress_site_points.php:73
+#: includes/shortcodes/gamipress_user_points.php:87
+msgid "Show points balance inline (as text)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:92
+#: includes/shortcodes/gamipress_site_points.php:79
+#: includes/shortcodes/gamipress_user_points.php:93
+msgid "Columns to divide each points balance."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:106
+#: includes/shortcodes/gamipress_site_points.php:93
+#: includes/shortcodes/gamipress_user_points.php:107
+msgid "Layout to show the points."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:115
+#: includes/shortcodes/gamipress_points_types.php:92
+#: includes/shortcodes/gamipress_site_points.php:102
+#: includes/shortcodes/gamipress_user_points.php:116
+msgid "Alignment to show the points."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:123
+#: includes/shortcodes/gamipress_site_points.php:110
+#: includes/shortcodes/gamipress_user_points.php:124
+msgid "Include Multisite Points"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:124
+#: includes/shortcodes/gamipress_site_points.php:111
+msgid "Show points from all network sites."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:200
+#: includes/shortcodes/gamipress_points_types.php:183
+#: includes/shortcodes/gamipress_site_points.php:185
+#: includes/shortcodes/gamipress_user_points.php:201
+msgid "The type provided isn't a valid registered points type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points.php:216
+#: includes/shortcodes/gamipress_points_types.php:199
+#: includes/shortcodes/gamipress_site_points.php:201
+#: includes/shortcodes/gamipress_user_points.php:217
+msgid "All types provided aren't valid registered points types."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:21
+msgid "Output a list of points types with their points awards."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:41
+msgid "Columns to divide each points type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:62
+msgid "Display the points type points awards."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:68
+msgid "Show Points Deducts"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:69
+msgid "Display the points type points deducts."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:75
+msgid "Show Points Awards/Deducts Toggle"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:76
+msgid "Display the points type points awards and deducts toggle."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:83
+msgid "Layout to show the points type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:101
+msgid "Show points awards and deducts earned by the current logged in user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:108
+msgid "Show points awards and deducts earned by a specific user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:114
+msgid "Include Multisite Points Types"
+msgstr ""
+
+#: includes/shortcodes/gamipress_points_types.php:115
+msgid "Show points types from all network sites."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:20
+msgid "Single Rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:21
+msgid "Render a single rank."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:28
+msgid "Rank to render."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:29
+msgid "The ID of the rank to render."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:34
+msgid "Select a rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:41
+msgid "Display the rank title."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:48
+msgid "Add a link on rank title to the rank page."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:55
+msgid "Display the rank featured image."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:62
+msgid "Display the rank short description."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:68
+msgid "Show Requirements"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:69
+msgid "Display the rank requirements."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:75
+msgid "Show Requirements Toggle"
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:76
+msgid "Display the rank requirements toggle."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:83
+msgid "Display the \"Unlock using points\" (on ranks where unlock with points is allowed)."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:89
+msgid "Display a list of users that actually are in this rank."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:159
+msgid "Please, provide the rank ID."
+msgstr ""
+
+#: includes/shortcodes/gamipress_rank.php:163
+msgid "The id provided doesn't belong to a valid rank."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:25
+msgid "Rank List"
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:26
+msgid "Output a list of ranks."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:61
+msgid "Rank type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:62
+msgid "Single or comma-separated list of rank type(s) to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:74
+#: includes/shortcodes/gamipress_user_rank.php:96
+msgid "Columns to divide ranks."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:92
+msgid "Rank ID"
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:110
+#: includes/shortcodes/gamipress_user_rank.php:82
+msgid "Show the current logged in user ranks."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:116
+#: includes/shortcodes/gamipress_user_rank.php:89
+msgid "Show a specific user ranks."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:123
+msgid "Ranks to include."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:124
+msgid "Comma-separated list of specific rank IDs to include."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:131
+#: includes/shortcodes/gamipress_ranks.php:144
+msgid "Select ranks"
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:137
+msgid "Ranks to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:138
+msgid "Comma-separated list of specific rank IDs to exclude."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:150
+msgid "Include Multisite Ranks"
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:151
+msgid "Show ranks from all network sites."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:211
+#: includes/shortcodes/gamipress_user_rank.php:154
+msgid "The type provided isn't a valid registered rank type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_ranks.php:225
+msgid "All types provided aren't valid registered rank types."
+msgstr ""
+
+#: includes/shortcodes/gamipress_site_points.php:20
+msgid "Site Points"
+msgstr ""
+
+#: includes/shortcodes/gamipress_site_points.php:21
+msgid "Output a sum of all site points."
+msgstr ""
+
+#: includes/shortcodes/gamipress_site_points.php:55
+msgid "Filter points balance based on a specific period selected. By default \"None\" that will display site current points balance."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_points.php:21
+msgid "Output a user points balance."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_points.php:62
+msgid "Show only points earned by a specific user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_points.php:69
+msgid "Filter points balance based on a specific period selected. By default \"None\" that will display user current points balance."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_points.php:125
+msgid "Show user points from all network sites."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:25
+msgid "User Rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:26
+msgid "Output previous, current and/or next rank of a user."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:53
+msgid "Rank type to display."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:60
+msgid "Show Previous Rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:61
+msgid "Show the previous user rank."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:67
+msgid "Show Current Rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:68
+msgid "Show the current user rank."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:74
+msgid "Show Next Rank"
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:75
+msgid "Show the next user rank."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:149
+msgid "Please, provide any rank type."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:159
+msgid "None of the options to be displayed have been selected (previous, current or next). Please, select one."
+msgstr ""
+
+#: includes/shortcodes/gamipress_user_rank.php:169
+msgid "Please, provide the user ID."
+msgstr ""
+
+#: includes/shortcodes/shortcodes-editor.php:112
+msgid "GamiPress shortcode"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-editor.php:113
+#, php-format
+msgid "See the %s page for more information"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-editor.php:113
+msgid "Help/Support"
+msgstr ""
+
+#: includes/shortcodes/shortcodes-editor.php:118
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/tags.php:24
+msgid "Site Tags"
+msgstr ""
+
+#: includes/tags.php:28
+msgid "Link to the site with site name as text."
+msgstr ""
+
+#: includes/tags.php:32
+msgid "User Tags"
+msgstr ""
+
+#: includes/tags.php:35
+msgid "User ID (useful for shortcodes that user ID can be passed as attribute)."
+msgstr ""
+
+#: includes/tags.php:36
+msgid "User display name."
+msgstr ""
+
+#: includes/tags.php:37
+msgid "User first name."
+msgstr ""
+
+#: includes/tags.php:38
+msgid "User last name."
+msgstr ""
+
+#: includes/tags.php:39
+msgid "User email."
+msgstr ""
+
+#: includes/tags.php:40
+msgid "User username."
+msgstr ""
+
+#: includes/tags.php:58
+msgid "Achievement Tags"
+msgstr ""
+
+#: includes/tags.php:61
+msgid "Achievement ID (useful for shortcodes that achievement ID can be passed as attribute)."
+msgstr ""
+
+#: includes/tags.php:62
+msgid "Achievement title."
+msgstr ""
+
+#: includes/tags.php:63
+msgid "URL to the achievement."
+msgstr ""
+
+#: includes/tags.php:64
+msgid "Link to the achievement with the achievement title as text."
+msgstr ""
+
+#: includes/tags.php:65
+msgid "Achievement excerpt."
+msgstr ""
+
+#: includes/tags.php:66
+msgid "Achievement featured image."
+msgstr ""
+
+#: includes/tags.php:67
+msgid "Achievement steps."
+msgstr ""
+
+#: includes/tags.php:68
+msgid "Achievement congratulations text."
+msgstr ""
+
+#: includes/tags.php:69
+msgid "Type of the achievement."
+msgstr ""
+
+#: includes/tags.php:85
+msgid "Step Tags"
+msgstr ""
+
+#: includes/tags.php:88
+msgid "Step label."
+msgstr ""
+
+#: includes/tags.php:89
+msgid "Step achievement ID (useful for shortcodes that achievement ID can be passed as attribute)."
+msgstr ""
+
+#: includes/tags.php:90
+msgid "Step achievement title."
+msgstr ""
+
+#: includes/tags.php:91
+msgid "URL to the step achievement."
+msgstr ""
+
+#: includes/tags.php:92
+msgid "Link to the step achievement with the achievement title as text."
+msgstr ""
+
+#: includes/tags.php:93
+msgid "Step achievement excerpt."
+msgstr ""
+
+#: includes/tags.php:94
+msgid "Step achievement featured image."
+msgstr ""
+
+#: includes/tags.php:95
+msgid "Step achievement steps."
+msgstr ""
+
+#: includes/tags.php:96
+msgid "Step achievement congratulations text."
+msgstr ""
+
+#: includes/tags.php:97
+msgid "Type of the step achievement."
+msgstr ""
+
+#: includes/tags.php:113
+msgid "Points Award Tags"
+msgstr ""
+
+#: includes/tags.php:116
+msgid "Points award label."
+msgstr ""
+
+#: includes/tags.php:117
+msgid "The amount of points earned."
+msgstr ""
+
+#: includes/tags.php:118 includes/tags.php:140
+msgid "The full amount of points user has earned until this date."
+msgstr ""
+
+#: includes/tags.php:119
+msgid "The points award points type. Singular or plural is based on the amount of points earned."
+msgstr ""
+
+#: includes/tags.php:135
+msgid "Points Deduct Tags"
+msgstr ""
+
+#: includes/tags.php:138
+msgid "Points deduct label."
+msgstr ""
+
+#: includes/tags.php:139
+msgid "The amount of points deducted."
+msgstr ""
+
+#: includes/tags.php:141
+msgid "The points deduct points type. Singular or plural is based on the amount of points deducted."
+msgstr ""
+
+#: includes/tags.php:157
+msgid "Rank Tags"
+msgstr ""
+
+#: includes/tags.php:160
+msgid "Rank ID (useful for shortcodes that rank ID can be passed as attribute)."
+msgstr ""
+
+#: includes/tags.php:161
+msgid "Rank title."
+msgstr ""
+
+#: includes/tags.php:162
+msgid "URL to the rank."
+msgstr ""
+
+#: includes/tags.php:163
+msgid "Link to the rank with the rank title as text."
+msgstr ""
+
+#: includes/tags.php:164
+msgid "Rank excerpt."
+msgstr ""
+
+#: includes/tags.php:165
+msgid "Rank featured image."
+msgstr ""
+
+#: includes/tags.php:166
+msgid "Rank requirements."
+msgstr ""
+
+#: includes/tags.php:167
+msgid "Rank congratulations text."
+msgstr ""
+
+#: includes/tags.php:168 includes/tags.php:196
+msgid "Type of the rank."
+msgstr ""
+
+#: includes/tags.php:184
+msgid "Rank Requirement Tags"
+msgstr ""
+
+#: includes/tags.php:187
+msgid "Requirement label."
+msgstr ""
+
+#: includes/tags.php:188
+msgid "Requirement rank ID (useful for shortcodes that rank ID can be passed as attribute)."
+msgstr ""
+
+#: includes/tags.php:189
+msgid "Requirement rank title."
+msgstr ""
+
+#: includes/tags.php:190
+msgid "URL to the requirement rank."
+msgstr ""
+
+#: includes/tags.php:191
+msgid "Link to the requirement rank with the rank title as text."
+msgstr ""
+
+#: includes/tags.php:192
+msgid "Requirement rank excerpt."
+msgstr ""
+
+#: includes/tags.php:193
+msgid "Requirement rank featured image."
+msgstr ""
+
+#: includes/tags.php:194
+msgid "Requirement rank requirements."
+msgstr ""
+
+#: includes/tags.php:195
+msgid "Requirement rank congratulations text."
+msgstr ""
+
+#: includes/tags.php:228
+msgid "Show tags"
+msgstr ""
+
+#: includes/triggers.php:25
+msgid "Register to website"
+msgstr ""
+
+#: includes/triggers.php:26
+msgid "Log in to website"
+msgstr ""
+
+#: includes/triggers.php:27
+msgid "Comment on a post"
+msgstr ""
+
+#: includes/triggers.php:28
+msgid "Comment on a specific post"
+msgstr ""
+
+#: includes/triggers.php:29
+msgid "Comment on a post of a type"
+msgstr ""
+
+#: includes/triggers.php:30
+msgid "Get a comment on a post"
+msgstr ""
+
+#: includes/triggers.php:31
+msgid "Get a comment on a specific post"
+msgstr ""
+
+#: includes/triggers.php:32
+msgid "Get a comment on a post of a type"
+msgstr ""
+
+#: includes/triggers.php:33
+msgid "Get a comment marked as spam"
+msgstr ""
+
+#: includes/triggers.php:34
+msgid "Get a comment of a specific post marked as spam"
+msgstr ""
+
+#: includes/triggers.php:35
+msgid "Get a comment on a post of a type marked as spam"
+msgstr ""
+
+#: includes/triggers.php:36
+msgid "Publish a new post"
+msgstr ""
+
+#: includes/triggers.php:37
+msgid "Delete a post"
+msgstr ""
+
+#: includes/triggers.php:38
+msgid "Publish a new page"
+msgstr ""
+
+#: includes/triggers.php:39
+msgid "Delete a page"
+msgstr ""
+
+#: includes/triggers.php:40
+msgid "Publish a new post of a type"
+msgstr ""
+
+#: includes/triggers.php:41
+msgid "Delete a post of a type"
+msgstr ""
+
+#: includes/triggers.php:42
+msgid "Get added to any role"
+msgstr ""
+
+#: includes/triggers.php:43
+msgid "Get added to specific role"
+msgstr ""
+
+#: includes/triggers.php:44
+msgid "Get assigned to any role"
+msgstr ""
+
+#: includes/triggers.php:45
+msgid "Get assigned to specific role"
+msgstr ""
+
+#: includes/triggers.php:46
+msgid "Get removed from any role"
+msgstr ""
+
+#: includes/triggers.php:47
+msgid "Get removed from a specific role"
+msgstr ""
+
+#: includes/triggers.php:50
+msgid "Site Interactions"
+msgstr ""
+
+#: includes/triggers.php:51
+msgid "Daily visit the website"
+msgstr ""
+
+#: includes/triggers.php:52
+msgid "Daily visit any post"
+msgstr ""
+
+#: includes/triggers.php:53
+msgid "Daily visit a specific post"
+msgstr ""
+
+#: includes/triggers.php:54
+msgid "Daily visit a post of a type"
+msgstr ""
+
+#: includes/triggers.php:55
+msgid "Get visits on any post"
+msgstr ""
+
+#: includes/triggers.php:56
+msgid "Get visits on a specific post"
+msgstr ""
+
+#: includes/triggers.php:57
+msgid "Get visits on a post of a type"
+msgstr ""
+
+#: includes/triggers.php:61
+msgid "Unlock a specific achievement"
+msgstr ""
+
+#: includes/triggers.php:62
+msgid "Unlock any achievement of type"
+msgstr ""
+
+#: includes/triggers.php:63
+msgid "Unlock all Achievements of type"
+msgstr ""
+
+#: includes/triggers.php:64
+msgid "Earn an amount of points"
+msgstr ""
+
+#: includes/triggers.php:65
+msgid "Reach a points balance"
+msgstr ""
+
+#: includes/triggers.php:66
+msgid "Expend an amount of points"
+msgstr ""
+
+#: includes/triggers.php:67
+msgid "Reach a rank"
+msgstr ""
+
+#: includes/triggers.php:176 includes/triggers.php:362
+#, php-format
+msgid "Unlocked all %s"
+msgstr ""
+
+#: includes/triggers.php:178 includes/triggers.php:361
+#, php-format
+msgid "Unlocked a %s"
+msgstr ""
+
+#: includes/triggers.php:208
+#, php-format
+msgid "Comment on %s"
+msgstr ""
+
+#: includes/triggers.php:209
+#, php-format
+msgid "Get a comment on %s"
+msgstr ""
+
+#: includes/triggers.php:210
+#, php-format
+msgid "Get a comment on %s marked as spam"
+msgstr ""
+
+#: includes/triggers.php:211
+#, php-format
+msgid "Visit %s"
+msgstr ""
+
+#: includes/triggers.php:212
+#, php-format
+msgid "%s gets visited"
+msgstr ""
+
+#: includes/users.php:23
+#, php-format
+msgid "%s balance"
+msgstr ""
+
+#: includes/users.php:48
+#, php-format
+msgid "Current %s"
+msgstr ""
+
+#: includes/widgets/achievement-widget.php:25
+msgid "GamiPress: Achievement"
+msgstr ""
+
+#: includes/widgets/achievement-widget.php:26
+msgid "Display a desired achievement."
+msgstr ""
+
+#: includes/widgets/achievements-widget.php:25
+msgid "GamiPress: Achievements"
+msgstr ""
+
+#: includes/widgets/achievements-widget.php:26
+msgid "Display a list of achievements."
+msgstr ""
+
+#: includes/widgets/earnings-widget.php:24
+msgid "GamiPress: User Earnings"
+msgstr ""
+
+#: includes/widgets/earnings-widget.php:25
+msgid "Display a list of user earnings."
+msgstr ""
+
+#: includes/widgets/logs-widget.php:24
+msgid "GamiPress: Logs"
+msgstr ""
+
+#: includes/widgets/logs-widget.php:25
+msgid "Display a list of logs."
+msgstr ""
+
+#: includes/widgets/points-types-widget.php:25
+msgid "GamiPress: Points Types"
+msgstr ""
+
+#: includes/widgets/points-types-widget.php:26
+msgid "Display a list of points types with their points awards."
+msgstr ""
+
+#: includes/widgets/points-widget.php:25
+msgid "GamiPress: Points (Old)"
+msgstr ""
+
+#: includes/widgets/points-widget.php:26
+msgid "Display current or specific user or site points balance."
+msgstr ""
+
+#: includes/widgets/rank-widget.php:25
+msgid "GamiPress: Rank"
+msgstr ""
+
+#: includes/widgets/rank-widget.php:26
+msgid "Display a desired rank."
+msgstr ""
+
+#: includes/widgets/ranks-widget.php:25
+msgid "GamiPress: Ranks"
+msgstr ""
+
+#: includes/widgets/ranks-widget.php:26
+msgid "Display a list of ranks."
+msgstr ""
+
+#: includes/widgets/site-points-widget.php:24
+msgid "GamiPress: Site Points"
+msgstr ""
+
+#: includes/widgets/site-points-widget.php:25
+msgid "Display current or specific site points balance."
+msgstr ""
+
+#: includes/widgets/user-points-widget.php:24
+msgid "GamiPress: User Points"
+msgstr ""
+
+#: includes/widgets/user-points-widget.php:25
+msgid "Display current or specific user points balance."
+msgstr ""
+
+#: includes/widgets/user-rank-widget.php:25
+msgid "GamiPress: User Rank"
+msgstr ""
+
+#: includes/widgets/user-rank-widget.php:26
+msgid "Display previous, current and/or next rank of a user."
+msgstr ""
+
+#: includes/widgets/widget.php:195
+msgid "Title:"
+msgstr ""
+
+#: templates/achievement.php:190 templates/points-types.php:121
+#: templates/points-types.php:159 templates/rank.php:146
+msgid "Show Details"
+msgstr ""
+
+#: templates/achievement.php:190 templates/points-types.php:121
+#: templates/points-types.php:159 templates/rank.php:146
+msgid "Hide Details"
+msgstr ""
+
+#: templates/achievements.php:49
+msgid "Filter:"
+msgstr ""
+
+#: templates/achievements.php:53
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: templates/achievements.php:54
+#, php-format
+msgid "Completed %s"
+msgstr ""
+
+#: templates/achievements.php:55
+#, php-format
+msgid "Not Completed %s"
+msgstr ""
+
+#: templates/achievements.php:98
+msgid "Go"
+msgstr ""
+
+#: templates/achievements.php:103
+msgid "Search:"
+msgstr ""
+
+#: templates/achievements.php:147
+msgid "Load More"
+msgstr ""
+
+#: templates/earnings.php:162
+msgid "You have not earned anything yet."
+msgstr ""
+
+#: templates/logs.php:103
+msgid "You have not logs registered yet."
+msgstr ""

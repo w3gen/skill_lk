@@ -1,0 +1,209 @@
+
+/* Tutor Zoom Modal css */
+.tutor-zoom-meeting-modal-wrap .tutor-modal-content {
+    max-width: 640px;
+    border-radius: 6px;
+}
+.tutor-zoom-meeting-modal-wrap .modal-footer {
+    background: #fff;
+}
+.tutor-zoom-meeting-modal-wrap input {
+    border-radius: 6px;
+}
+.tutor-zoom-meeting-modal-wrap select {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 6px;
+}
+.tutor-quiz-builder-row .meeting-time {
+    flex: 0 0 50%;
+    margin-right: 25px;
+}
+.tutor-quiz-builder-row .meeting-time-col {
+    flex: 1 1 60%;
+}
+.tutor-quiz-builder-row .meeting-time-separator {
+    font-weight: bold;
+}
+.date-range-input i.tutor-icon-lock {
+    opacity: 0.6;
+}
+.date-range-input i.tutor-icon-clock, .date-range-input i.tutor-icon-lock {
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+.meeting-duration-row :first-child {
+    flex: 1 1 45%;
+}
+.meeting-duration-row :last-child {
+    flex: 1 1 55%;
+}
+
+
+/* Meeting create box css */
+.tutor-zoom-create-meeting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #1973AA;
+    border-radius: 5px;
+    padding: 13px;
+    margin: 20px 0;
+    align-items: center;
+}
+.tutor-zoom-create-meeting .zoom-icon {
+    display: flex;
+    align-items: center;
+}
+.tutor-zoom-create-meeting .zoom-icon img {
+    width: 40px;
+    height: 40px;
+}
+.tutor-zoom-create-meeting .zoom-icon div {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1973AA;
+    margin-left: 15px;
+}
+.tutor-zoom-create-meeting .zoom-icon-button a, .zoom-meetings-container .zoom-icon-button a{
+    padding: 5px 15px;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+}
+.tutor-zoom-create-meeting .zoom-icon-button img , .zoom-meetings-container .zoom-icon-button img{
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+/* Course edit page meeting list view */
+#tutor-zoom-metabox-wrap .tutor-zoom-meetings-metabox {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	margin: 1em 0;
+}
+.inside #tutor-zoom-metabox-wrap {
+	border: 0;
+	margin: 0;
+}
+#tutor-zoom-metabox-wrap .zoom-meetings-heading {
+	padding: 1em;
+	border-bottom: 1px solid #e5e5e5;
+}
+#tutor-zoom-metabox-wrap .zoom-meetings-heading h3 {
+	font-size: 14px;
+	margin: 0;
+	line-height: 1.4;
+}
+#tutor-zoom-metabox-wrap .zoom-meetings-container {
+    padding: 0 1em 1em;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DCDBDC;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item div {
+    flex: 1 1 25%;
+    padding: 25px 0;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-pass {
+    flex-basis: 15%;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-action {
+    display: flex;
+    flex-grow: 0.5;
+    align-items: center;
+    justify-content: flex-end;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a {
+    margin: 0;
+    padding: 8px;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a.tutor-btn {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px !important;
+    font-size: 14px;
+    color: #2D8CFF;
+    border-color: #2D8CFF;
+    margin-right: 10px;
+    text-decoration: none;
+    min-width: 120px;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a.tutor-btn:hover {
+    color: #fff;
+    background: #2D8CFF;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a.tutor-btn img {
+    width: 20px;
+    height: auto;
+    padding-right: 6px;
+}
+.tutor-course-builder-section .tutor-zoom-meeting-item .meeting-action a.tutor-btn img{
+    width: 25px;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a.edit, .zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a.delete {
+    font-size: 18px;
+    text-decoration: none;
+    color: #656565;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a.edit:hover, .zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a.delete:hover {
+    background: #F3F3F3;
+    border-radius: 50%;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item .tutor-updating-message::before {
+    margin: 0;
+}
+.tutor-course-builder-section .zoom-meetings-container .tutor-zoom-meeting-item .meeting-action {
+    flex-basis: 46%;
+}
+.tutor-course-builder-section .zoom-meetings-container .tutor-zoom-meeting-item .meeting-action a {
+    padding: 0px 8px;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item div span {
+    font-size: 13px;
+    font-weight: 300;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item div p {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item div p span {
+    font-weight: 400;
+}
+.zoom-meetings-container .zoom-icon-button {
+    margin-top: 15px;
+}
+.zoom-meetings-container .button, .tutor-zoom-create-meeting .button {
+    color: #0071a1;
+    background: #f3f5f6;
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    padding: 0 10px;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid #0071a1;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.zoom-meetings-container .button:hover {
+    background: #f8f8f8;
+}
+.zoom-meetings-container .button-primary, .tutor-zoom-create-meeting .button-primary{
+    background-color: #0274be;
+    color: #fff !important;
+}
+.zoom-meetings-container .button-primary:hover, .tutor-zoom-create-meeting .button-primary:hover {
+    background-color: #0570A1;
+}

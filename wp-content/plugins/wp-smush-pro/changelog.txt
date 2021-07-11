@@ -1,0 +1,91 @@
+Plugin Name: WP Smush Pro
+Author: WPMU DEV
+Tested up to: 5.6
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+= 3.8.4 ( 2021-03-18 ) =
+
+- Enhance: Compatibility with WordPress 5.7
+- Enhance: Lazy load compatibility with Slider Revolution
+- Enhance: Apache rules for local WebP on multisite
+- Enhance: Apache rules for local WebP on subdirectory installs
+- Enhance: Local Webp description texts
+- Fix: Backups not properly removing from S3 containers
+- Fix: Compatibility with Jetpack Site Accelerator
+- Fix: Compatibility with WordPress native lazy loading
+- Fix: UI inconsistencies in local WebP module
+- Fix: Browser console errors on upgrade page
+- Fix: Menu not working on mobile views
+- Fix: PHP warnings with images offloaded to S3 buckets
+- Fix: Image preview on WPML Media Translation screen
+- Fix: Directory Smush empty folder detection
+- Fix: Image resize detection UI
+- Fix: PHP Notice:  Trying to access array offset on value of type bool
+- Fix: Translation strings
+
+= 3.8.3 ( 2021-02-10 ) =
+
+- Enhance: Allow local WebP on WPMU DEV staging sites
+- Enhance: Display the WebP test request code and message in the status on failure
+- Enhance: Remove unused setting and methods for converting transparent PNGs to JPEG
+- Enhance: Validate the paths submitted by the user for Directory smush
+- Enhance: Compatibility with WP Offload Media
+- Fix: Bulk Smush getting stuck after 100 images on free version
+- Fix: Loading of Wistia assets on free version
+- Fix: Data usage option not being saved on the free version during the onboarding wizard
+- Fix: Do not adjust sizes attribute when automatic resizing on CDN is disabled
+- Fix: WebP rules path is wrong in Flywheel sites
+- Fix: Extra horizontal line after the last row of the WebP metabox
+- Fix: Choose Directory modal not opening when in tabs other than "Directory Smush"
+- Fix: Cached list of attachments with backups getting out of sync with backups
+- Fix: Empty images in media library after PNG to JPG conversion on servers without "fileinfo" extension
+
+= 3.8.2 ( 2020-12-09 ) =
+
+- Enhance: Compatibility with PHP 8.0
+- Enhance: Compatibility with WP 5.6
+- Enhance: Compatibility with Hub
+- Fix: API validation on new installs
+
+= 3.8.1 ( 2020-12-03 ) =
+
+- Fix: Error when querying stats from Hub
+
+= 3.8.0 ( 2020-12-03 ) =
+
+- New: Local WebP support
+- Enhance: Plugin performance
+- Enhance: Lazy load module will properly distinguish between single/double quotes
+- Enhance: srcset generation speed
+- Fix: Image resize detection flagging images that have been auto resized by CDN
+- Fix: Lazy Load conflicting with Maintenance plugin
+- Fix: PHP warning when saving lazy load settings
+- Fix: Copy URL functionality in media library
+- Fix: Whitelabel branding
+- Fix: Tools link in network admin Settings page
+- Fix: Upsell notice breaking after re-checking images
+- Fix: smush_check_for_conflicts cron running on every page load
+- Fix: Compatibility with SupportCandy plugin
+- Fix: Minor UI issues in Tutorials module
+- Fix: Minor UI issues in NextGen Smush page
+- Fix: CDN image paths on sub-directory installs
+
+= 3.7.3 ( 2020-11-23 ) =
+
+- Enhance: Minor UI/UX details
+
+= 3.7.2 ( 2020-11-10 ) =
+
+- Enhance: Plugin UI/UX
+- Enhance: Compatibility with NextGen
+- Fix: CDN parsing of background images
+- Fix: Image counter when re-checking images
+- Fix: Bulk Smush counter going over total number of images
+- Fix: Bulk Smush counter on network admin
+
+
+
+910265-1616059890-au

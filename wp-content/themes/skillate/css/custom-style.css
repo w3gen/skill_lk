@@ -1,0 +1,645 @@
+/* ********** Works -> Tab (Horizontal menu) */
+.skillate-courses-tab-wrapper.tab-horizontal .skillate-related-course {
+    padding: 39px 0 27px 0;
+}
+
+.skillate-tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: none;
+}
+
+.skillate-tab-nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 2.88;
+    letter-spacing: -0.09px;
+    text-align: center;
+    color: #1f2949;
+    transition: .4s all ease;
+}
+
+.skillate-tab-nav-link:focus {
+    outline: none;
+}
+
+.skillate-tab-nav-link.active {
+    color: #0352cc;
+    transition: .4s all ease;
+}
+
+.tab-horizontal .skillate-tab-nav-item {
+    margin: 0px 28px;
+}
+
+.skillate-tab-nav-item:first-child {
+    margin-left: 0;
+}
+
+.skillate-tab-nav-item:last-child {
+    margin-right: 0;
+}
+
+.tutor-course-overlay-element {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 12px;
+    z-index: 2;
+}
+
+.tutor-course-overlay-element .level-tag .tag {
+    padding: 2px 7px;
+    border-radius: 2px;
+    background-color: #5cc323;
+}
+
+.tutor-course-overlay-element .level-tag .tag:not(:first-child) {
+    margin-left: 5px;
+}
+
+.tutor-course-overlay-element .level-tag .tag.intermediate {
+    background: #ffab10;
+}
+
+.tutor-course-overlay-element .level-tag .tag.beginner {
+    background: #ff0000;
+}
+
+.tutor-course-overlay-element .level-tag .tag.advance {
+    background: #0000ff;
+}
+
+.tutor-course-overlay-element .level-tag {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -0.29px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tutor-course-overlay-element .bookmark {
+    margin-left: auto;
+    z-index: 99;
+}
+
+.tutor-course-overlay-element .bookmark a {
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.tutor-course-overlay-element .price {
+    background: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.09px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    border-top-right-radius: 3px;
+    padding: 5px 15px;
+}
+
+.tutor-courses-grid-sub-title {
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: -0.25px;
+    color: #1f2949;
+    margin-bottom: -10px;
+    margin-top: 19px;
+}
+
+.tutor-course-overlay-element .level-tag,
+.tutor-course-overlay-element .price {
+    transition: .4s all ease;
+}
+
+.tutor-course-grid-item .tutor-course-grid-content:hover .level-tag {
+    opacity: 0;
+    transform: translateY(-40px);
+}
+
+.tutor-course-grid-item .tutor-course-grid-content:hover .tutor-course-overlay-element .price {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.tab-vertical .view-all-course-btn {
+    margin-top: 22px;
+}
+
+.view-all-course-btn .btn-full-width {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 3px !important;
+    border: 2px solid #dadce0;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .4s all ease;
+}
+
+.view-all-course-btn .btn-full-width:hover {
+    box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.11);
+    transform: translateY(-1px);
+}
+
+/* Tab (Vertical menu) */
+.tab-vertical .container {
+    /* padding: 0; */
+}
+
+.tab-vertical .upskil-section-title {
+    padding: 0 40px 10px 0;
+}
+
+.tab-vertical .skillate-related-course {
+    padding: 0;
+}
+
+.tab-vertical .tab-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tab-vertical .tab-nav-wrapper {
+    flex-basis: 300px;
+    flex-direction: column;
+    border: 0;
+    max-width: 300px;
+}
+
+.tab-vertical .tab-content {
+    flex-basis: calc(100% - 300px);
+}
+
+.tab-vertical .tab-content-wrapper {
+    flex-basis: calc(100% - 300px);
+}
+
+.tab-vertical .nav-tabs {
+    flex-direction: column;
+}
+
+.tab-vertical .nav-tabs li a {
+    text-align: left;
+    display: block;
+}
+
+.tab-vertical .nav-tabs li:not(:first-child) {
+    margin-top: 2px;
+}
+
+.tab-vertical .tab-nav-item {
+    background: #fafafa;
+}
+
+.tab-vertical .tab-content {
+    margin-top: 0px;
+}
+
+.tab-vertical .tutor-course-grid-item {
+    margin-bottom: 40px;
+}
+
+.tab-vertical .skillate-tab-nav-link.active,
+.tab-vertical .skillate-tab-nav-link:hover {
+    padding-left: 10px;
+}
+
+.tab-vertical .skillate-tab-nav-link:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s all ease;
+    transform: scale(0);
+}
+
+.tab-vertical .skillate-tab-nav-link.active:before,
+.tab-vertical .skillate-tab-nav-link:hover:before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.tab-vertical .skillate-tab-nav-link {
+    position: relative;
+    line-height: 1.2;
+}
+
+.tab-vertical .skillate-tab-nav-item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+/* Public profile Avatar */
+.skillate-avatar-pp-circle img, .skillate-avatar-no-cp img, .skillate-avatar-pp-circle span, .skillate-avatar-no-cp span {
+    width:  300px;
+    height: 260px;
+    border-radius: 100%!important;
+}
+
+/* Home -> Testimonial */
+.skillate-custom-testimonial {
+    border-radius: 3px;
+}
+
+.skillate-custom-testimonial .qubely-testimonial-content {
+    font-style: italic;
+    color: #1f2949;
+    border-radius: 0 0 3px 3px;
+}
+
+.skillate-custom-testimonial .qubely-testimonial-avatar-layout-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillate-custom-testimonial .qubely-testimonial-author-info {
+    text-align: left !important;
+}
+
+.skillate-custom-testimonial .qubely-testimonial-avatar {
+    margin: 0 -12px 0px 0;
+}
+
+.skillate-custom-testimonial .qubely-testimonial-author {
+    background: #fff;
+    padding: 0px 30px 0px 24px;
+}
+
+.skillate-custom-testimonial .qubely-testimonial-content {
+    padding: 35px 30px 0px 30px;
+}
+
+.skillate-custom-testimonial .qubely-testimonial-avatar {
+    margin-left: 20px;
+    margin-top: -20px;
+    filter: grayscale(1);
+    transition: .5s ease;
+}
+
+.skillate-custom-testimonial:hover .qubely-testimonial-avatar {
+    filter: grayscale(0);
+}
+
+/* Homepage 3 category */
+.skillate-cat-layout-1 .skillate-course-category-list .cat-image {
+    background: transparent;
+}
+.skillate-cat-layout-1 .skillate-course-category-list .cat-image img {
+    transition: 1s ease all;
+}
+.category-type-2 .skillate-cat-layout-2 .skillate-course-category-list,
+.category-type-2 .skillate-course-category-list:hover .single-course-categories {
+    transition: .5s ease all;
+}
+.category-type-2 .skillate-course-category-list .cat-image {
+    max-width: 55px;
+    margin: 0 auto;
+}
+.skillate-cat-layout-1 .skillate-course-category-list .course-cat-link,
+.skillate-cat-layout-1 .skillate-course-category-list .course-count {
+    transition: 1s ease all;
+}
+
+
+/* ********** Responsive Media Queries */
+@media (min-width: 991px) and (max-width: 1199px) {
+    .skillate-home-countdown-cta-btn .btn-primary {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .upskil-about-team {
+        padding: 50px 0;
+    }
+
+    .upskil-about-team-content .name h4 {
+        font-size: 18px;
+    }
+
+    .tab-horizontal .skillate-tab-nav-item {
+        margin: 0px 10px;
+    }
+
+    .skillate-tab-nav-link {
+        line-height: 2;
+    }
+
+    .skillate-related-course .tutor-courses-grid-title a {
+        line-height: 1.5;
+        color: red;
+    }
+
+    .tab-vertical .tab-nav-wrapper {
+        flex-basis: 25%;
+    }
+}
+
+@media (max-width: 991px) {
+    .upskil-about-team-item {
+        margin-bottom: 30px;
+    }
+
+    .tab-vertical .tab-content {
+        margin-top: 20px;
+    }
+
+    .tab-vertical .tab-content-wrapper {
+        flex-basis: 75%;
+    }
+
+    .tab-vertical .tab-wrapper {
+        display: block;
+    }
+
+    .tab-vertical .nav-tabs {
+        flex-direction: row;
+    }
+
+    .tab-vertical .skillate-tab-nav-item {
+        margin: 0px 10px;
+    }
+
+    .tab-vertical .upskil-section-title {
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    /* Home 1 */
+    .qubely-section.skillate-mobile-app,
+    .qubely-section.skillate-mobile-app-2 {
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+
+    .qubely-section.skillate-mobile-app:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.04);
+    }
+
+    .qubely-section.skillate-mobile-app p {
+        color: #a8acaf;
+    }
+}
+
+@media (max-width: 767px) {
+    .tab-vertical .tab-wrapper {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .upskil-about-team-content .designation {
+        font-size: 12px;
+    }
+
+    .upskil-about-team-content .name h4 {
+        font-size: 16px;
+        margin: 5px 0 10px 0;
+    }
+
+    .upskil-about-team-content .social-icon a:not(:first-child) {
+        margin-left: 5px;
+    }
+}
+
+/*********************/
+.qubely-block-team {
+    overflow: hidden;
+}
+
+.qubely-team-designation-container {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    background: #fff;
+    border-top-right-radius: 3px;
+    padding: 0 20px;
+}
+
+.skillate-home-2-hero-:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    background: #f7b5b1;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+/********** WooCommerce CSS ***********/
+.woocommerce table.shop_table {
+    border-radius: 3px;
+}
+
+.woocommerce table.shop_table th {
+    padding: 20px 10px !important;
+    font-weight: 700 !important;
+    font-size: 17px;
+}
+
+
+.woocommerce table.shop_table td.product-thumbnail {
+    text-align: center;
+    max-width: 80px;
+}
+
+.woocommerce-cart table.cart img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.woocommerce table.shop_table td {
+    padding: 10px 20px;
+    color: #1f2949;
+}
+
+.woocommerce table.shop_table td a.remove {
+    font-size: 15px;
+}
+
+.woocommerce table.shop_table td a.remove:hover {
+    color: #fff !important;
+}
+
+.woocommerce table.shop_table td a {
+    color: #1f2949 !important;
+}
+
+.woocommerce .quantity .input-text.qty.text {
+    display: inline-block;
+    line-height: 32px;
+    min-height: 36px;
+    width: 50px;
+    padding: 0 0 0 10px;
+    color: #1f2949;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.woocommerce-page table.cart td.actions {
+    padding: 25px;
+}
+
+.woocommerce-page table.cart td.actions #coupon_code {
+    width: 160px !important;
+    height: 44px !important;
+    line-height: 22px;
+    min-height: 22px;
+    padding: 0 10px;
+    font-weight: 300;
+    border: 1px solid rgba(229, 229, 229, 0.82);
+    border-radius: 3px;
+    margin-right: 14px;
+    color: #1f2849;
+}
+
+.woocommerce .cart .button,
+.woocommerce .cart input.button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-page #payment #place_order {
+    border-radius: 3px !important;
+    height: 44px;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-size: 16px;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+    height: auto;
+    font-weight: 600;
+}
+
+.woocommerce .cart .button:hover,
+.woocommerce .cart input.button:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce-page #payment #place_order:hover {
+    background-color: #1f2849 !important;
+}
+
+.woocommerce .cart_totals h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table th {
+    padding: 20px !important;
+}
+
+.woocommerce .woocommerce-info .showcoupon,
+.woocommerce .woocommerce-info::before {
+    color: rgb(224, 224, 224);
+}
+
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message {
+    border-top: 0;
+    color: #1f2949;
+    font-size: 14px;
+    line-height: 40px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+.woocommerce-message::before, .woocommerce-info::before{
+    font-size: 24px;
+    top: 14px;
+    left: 20px;
+}
+.woocommerce-info::before{
+    color: #1f2949 !important;
+}
+.woocommerce-form-coupon-toggle .woocommerce-info::before{
+    content: "\f3ff" !important;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+.woocommerce-info a.showcoupon {
+    float: right;
+    border: 1px solid;
+    padding: 10px 20px;
+    line-height: 1;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.woocommerce-form-coupon-toggle .woocommerce-info, 
+.woocommerce-notices-wrapper .woocommerce-message{
+    padding-left: 55px;
+}
+.woocommerce form .form-row label,
+.woocommerce-page form .form-row label {
+    display: block;
+    width: 100%;
+}
+
+.woocommerce form .form-row span.woocommerce-input-wrapper {
+    display: block;
+    width: 100%;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: normal;
+    color: #1f2949;
+    margin-bottom: 10px;
+}
+
+.woocommerce #billing_country_field {
+    margin-bottom: 10px;
+}
+
+.woocommerce form .form-row input#billing_address_1 {
+    margin-bottom: 0;
+}
+
+.woocommerce .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    color: #1f2949;
+    outline: none;
+}
+
+.tutor-single-add-to-cart-box.cart-required-login {
+    margin-left: 10px;
+}

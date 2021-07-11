@@ -1,0 +1,369 @@
+/* Common white background container */
+#tutor_gc_dashboard{
+    margin-right: 15px;
+}
+
+#tutor_gc_dashboard .consent-screen{
+    margin: 0 auto;
+    width: 600px;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid white;
+    max-width: calc(100% - 48px);
+    background: white;
+}
+
+/* Credential file upload screen */
+#tutor_gc_dashboard .consent-screen.oauth-redirect-url{
+    border: 1px solid #BDCAF1;
+    background: #E9EDFB;
+    color: #28408E;
+    margin-bottom: 15px;
+}
+
+#tutor_gc_dashboard .tutor-upload-area{
+    border: 2px dashed #BABABA;
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px 10px;
+    margin-bottom: 15px;
+}
+
+#tutor_gc_dashboard .tutor-upload-area span.file_name{
+    display: block;
+    margin-top: 10px;
+}
+
+#tutor_gc_dashboard .tutor-upload-area button{
+    background: #3E64DE;
+    color: white;
+    display: inline-block;
+}
+
+#tutor_gc_dashboard .tutor-upload-area [type=file]{
+    display: none;
+}
+
+#tutor_gc_dashboard .tutor-upload-area.dragover{
+    border: 2px dashed #525252;
+}
+
+/* Google consent screen redirection screen */
+#tutor_gc_dashboard .consent-screen.google-consent-screen-redirect{
+    text-align: center;
+    width: 450px;
+}
+
+/* Class list  */
+#tutor_gc_dashboard [data-action]{
+    cursor: pointer;
+}
+
+#tutor_gc_dashboard .class-status-not-imported>*:not([data-action=import]),
+#tutor_gc_dashboard .class-status-draft>*:not([data-action=publish]):not([data-action=trash]):not([data-action=edit]),
+#tutor_gc_dashboard .class-status-trash>*:not([data-action=restore]):not([data-action=delete]),
+#tutor_gc_dashboard .class-status-publish>*:not([data-action=preview]):not([data-action=edit]):not([data-action=trash])
+{
+    display: none;
+}
+
+#tutor_gc_dashboard .google-classroom-class-list .tutor-status{
+    font-size: 12px;
+    padding: 2px 8px;
+    background: #BABABA;
+    color: white;
+    border-radius: 3px;
+}
+
+#tutor_gc_dashboard .google-classroom-class-list .tutor-status-publish{
+    background: #24A148;
+}
+
+#tutor_gc_dashboard .google-classroom-class-list .tutor-status-draft{
+    background: #ED9700;
+}
+
+#tutor_gc_dashboard .google-classroom-class-list .tutor-status-trash{
+    background: #ca0404;
+}
+#tutor_gc_dashboard .google-classroom-class-list [type=checkbox]{
+    margin-top: 5px !important;
+} 
+#tutor_gc_dashboard .google-classroom-class-list td, 
+#tutor_gc_dashboard .google-classroom-class-list td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Class list filter/action area */
+#tutor_gc_dashboard .tutor-gc-filter-container{
+    width: 100%;
+    overflow: auto;
+}
+
+#tutor_gc_dashboard .tutor-gc-filter-container>div{
+    float: left;
+}
+#tutor_gc_dashboard .tutor-gc-filter-container>div:first-child{
+    width: 40%;
+}
+
+#tutor_gc_dashboard .tutor-gc-filter-container>div:last-child{
+    width: 60%;
+    text-align: right;
+}
+
+#tutor_gc_dashboard .tutor-gc-filter-container>div:last-child>div{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+#tutor_gc_dashboard .tutor-gc-filter-container>div:last-child>div input,
+#tutor_gc_dashboard .tutor-gc-filter-container>div:last-child>div select{
+    max-width: 97%;
+}
+
+
+.tutor-gc-setting-container>div{
+    margin-bottom: 30px;
+}
+
+.tutor-gc-setting-container>div>div{
+    background: white;
+    border-radius: 6px;
+    height: 100%;
+}
+.tutor-gc-setting-container hr{
+    margin: 0;
+}
+.tutor-gc-setting-container .tutor-gc-setting-content{
+    padding: 10px 16px;;
+}
+.tutor-gc-setting-container .tutor-gc-setting-content>span{
+    display: inline-block;
+}
+.tutor-gc-setting-container button{
+    color: #3E64DE;
+    border: 1px solid #3E64DE;
+    border-radius: 3px;
+    background: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.tutor-gc-setting-container button:hover{
+    color: white;
+    background: #3E64DE;
+}
+
+/* Switch */
+#tutor_gc_dashboard .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  #tutor_gc_dashboard .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  #tutor_gc_dashboard .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  #tutor_gc_dashboard .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  #tutor_gc_dashboard input:checked + .slider {
+    background-color: #24A148;
+  }
+  
+  #tutor_gc_dashboard input:focus + .slider {
+    box-shadow: 0 0 1px #24A148;
+  }
+  
+  #tutor_gc_dashboard input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  #tutor_gc_dashboard .slider.round {
+    border-radius: 34px;
+  }
+  
+  #tutor_gc_dashboard .slider.round:before {
+    border-radius: 50%;
+  }
+
+.tutor-gc-pop-up-container>div>p:nth-of-type(2){
+    color:#ED9700;
+}
+
+.tutor-gc-pop-up-container>div .tutor-icon-cross{
+    cursor: pointer;
+    float: right;
+    font-size: 10px;
+}
+
+.tutor-gc-pop-up-container>div>div{
+    text-align: right;
+}
+
+/* Pop up */
+.tutor-gc-pop-up-container{
+
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999999;
+    background: rgba(0, 0, 0, 0.342);
+
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    
+    justify-content:center;
+    -webkit-justify-content:center;
+    -moz-justify-content:center;
+    -ms-justify-content:center;
+    -o-justify-content:center;
+}
+
+.tutor-gc-pop-up-container>div
+{
+    display: inline-block;
+
+    max-height: 100%;
+    width: 100%;
+    max-width: 500px;
+
+    background: white;
+    overflow: auto;
+    border-radius: 20px;
+    position: relative;
+    padding: 39px 53px;
+}
+
+.tutor-gc-pop-up-container h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: #161616;
+    line-height: 26px;
+}
+
+.tutor-gc-pop-up-container p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #525252;
+    margin-bottom: 20px;
+}
+
+.tutor-gc-pop-up-container img{
+    display: inline-block;
+}
+
+
+/* Class Actions */
+[data-class_actions] .tutor-icon-garbage{
+    font-size: 14px;
+    position: relative;
+    top: 4px;
+    color: #7A7A7A;
+    
+}
+
+[data-class_actions]>*{
+    margin: 0 8px 8px 0 !important;
+}
+
+[data-class_actions] .button-primary{
+    border: 1px solid;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: white !important;
+    color: #1973AA !important;
+}
+[data-class_actions] .button-primary:hover{
+    background: #1973AA !important;
+    color: white !important;
+}
+
+[data-class_actions] .button-secondary{
+    background: white !important;
+    border: 1px solid #DCDBDC !important;
+    border-radius: 3px !important;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #7A7A7A !important;
+}
+
+/* Common */
+.tutor-gc-copy-text{
+    cursor: pointer;
+}
+.tutor-gc-copy-text:active{
+    opacity: .7;
+}
+
+.tutor-gc-button-primary{
+    background: #3E64DE;
+    border: 1px solid #3E64DE;
+    color: white;
+}
+
+.tutor-gc-button-secondary{
+    background: white;
+    border: 1px solid rgb(235, 235, 235);
+    color: #7A7A7A;
+}
+
+.tutor-gc-button-primary, .tutor-gc-button-secondary{
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 7px 21px;
+    margin: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,197 @@
+body {
+    background-color: #e9ebee;
+}
+.tutor-certificate-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: 50px;
+    font-family: "OpenSans";
+}
+.tutor-certificate-container > div {
+    margin-left: 30px;
+}
+.tutor-certificate-img-container {
+    width: calc(74% - 30px);
+    text-align: center;
+}
+.tutor-certificate-img-container img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 32px 34px 0 rgba(219, 215, 215, 0.61);
+    background-color: #ffffff;
+}
+.tutor-certificate-sidebar {
+    width: calc(26% - 30px);
+    padding-top: 50px;
+}
+.tutor-certificate-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tutor-certificate-btn-group .tutor-copy-link{
+    width: calc(80% - 15px);
+    margin-right: 15px;
+}
+.tutor-certificate-btn-group .tutor-share-btn{
+    width: 20%;
+}
+.tutor-certificate-sidebar-btn-container > div {
+    margin-bottom: 15px;
+}
+.tutor-certificate-sidebar-btn-container button {
+    text-transform: uppercase;
+}
+.tutor-certificate-sidebar-btn-container button i {
+    font-size: 20px;
+}
+.tutor-certificate-sidebar-btn-container button i.tutor-icon-share {
+    margin-right: 0;
+}
+.tutor-certificate-sidebar-btn-container .bordered-btn {
+    background: transparent;
+}
+.tutor-certificate-sidebar-btn-container .download-btn {
+    height: 46px;
+    position: relative;
+    justify-content: left;
+}
+.tutor-certificate-sidebar-btn-container .download-btn i {
+    text-align: right;
+    width: 42px;
+    display: inline-block;
+    border-left: 1px solid #033cc5;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.tutor-certificate-sidebar-course {
+    margin-top: 75px;
+}
+.tutor-certificate-sidebar-course h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    color: #4b5981;
+}
+.tutor-certificate-sidebar-course .tutor-star-rating-group {
+    display: block;
+    margin-bottom: 5px;
+}
+.tutor-certificate-sidebar-course h1.course-name{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.tutor-sidebar-course-title {
+    font-size: 20px;
+    line-height: 1.56;
+    margin-bottom: 20px;
+    color: #4b5981;
+}
+.tutor-sidebar-course-author {
+    font-size: 14px;
+    display: flex;
+}
+.tutor-sidebar-course-author img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+.tutor-dropdown {
+    position: relative;
+}
+.tutor-dropdown-content {
+    display: none;
+    top: 58px;
+    right: 0;
+    position: absolute;
+    box-shadow: 0 22px 24px 0 rgba(219, 215, 215, 0.61);
+    z-index: 999;
+}
+.tutor-dropdown-content:before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    background: -webkit-linear-gradient(135deg, transparent 50%, white 50%);
+    background: linear-gradient(-45deg, transparent 50%, white 50%);
+    height: 10px;
+    width: 10px;
+    border-radius: 3px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -4px;
+    z-index: -1;
+}
+.tutor-dropdown-content ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.tutor-dropdown-content ul li {
+    border-right: 1px solid #e9ebee;
+}
+.tutor-dropdown-content ul li a:hover {
+    background: #fbfbfb;
+    cursor: pointer;
+}
+.tutor-dropdown-content li:last-child {
+    border-right: none;
+}
+.tutor-dropdown-content li a {
+    color: #1d1f37;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 47px;
+    text-align: center;
+    padding: 0 20px;
+    display: block;
+    background-color: #ffffff;
+}
+.tutor-dropdown-content ul li:first-child a {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.tutor-dropdown-content ul li:last-child a {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.tutor-dropdown-content .tutor-social-share-wrap button{
+    color: #81878F;
+    background: #ffffff;
+    padding: 10px 15px;
+}
+.tutor-dropdown-content .tutor-social-share-wrap button:hover {
+    color: #1b52d8;
+}
+.tutor-show {
+    display: block;
+}
+@media (max-width: 767px) {
+    .tutor-certificate-img-container {
+        width: 100%;
+    }
+    .tutor-certificate-sidebar {
+        width: 100%;
+    }
+    .tutor-certificate-sidebar-course {
+        margin-top: 45px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1024px) {
+    .tutor-certificate-img-container {
+        width: calc(70% - 30px);
+    }
+    .tutor-certificate-sidebar {
+        width: calc(30% - 30px);
+    }
+}

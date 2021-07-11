@@ -1,0 +1,2154 @@
+/* ==========================================================================
+responsive
+========================================================================== */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media(max-width:1600px){
+  .skillate-bg-none{
+    background-size: 45% !important;
+  }
+  .upskill-mobile-app.skillate-bg-none{
+    background-size: 55% !important;
+  }
+}
+@media(min-width: 1300px) and (max-width: 1550px){
+  /* .skillate-header-search .search_form_shortcode{
+    display: none;
+  } */
+  .header_search_input input{
+    min-width: auto;
+  }
+  .skillate-header-search .search-open-icon{
+    display: block;
+  }
+  .skillate-related-course-slide.slick-initialized:before, .author-slide-parent.slick-initialized:before{
+    width: 15%;
+  }
+}
+@media (min-width: 2000px) {
+  .skillate-home-2-hero {
+    padding: 380px 0 !important;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    .header-login-cart-wrap{
+      margin-left: auto;
+    }
+    .skillate-header-search{
+      display: none;
+    }
+    .primary-menu .common-menu-wrap .nav>li>a{
+      padding: 15px 6px;
+    }
+    .primary-menu .logo-wrapper a{
+      padding-right: 0;
+    }
+    .header-login-wrap{
+      padding: 2px 2px;
+    }
+    .header-cat-menu{
+      padding-left: 0;
+    }
+    .common-menu-wrap .nav>li>a, 
+    .header-cat-menu>div.header-cat-text, 
+    .header-login-wrap a{
+      font-size: 14px !important;
+    }
+    .skillate-single-course-sidebar.sidebar-sticky-fixed{
+      position: static;
+      width: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .shop-widget .woocommerce ul.product_list_widget li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .woocommerce ul.woocommerce-widget-layered-nav-list li {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .woocommerce .price_label {
+    font-size: 14px;
+  }
+  .skillate-widgets.media {
+    display: block;
+  }
+  .portfolio-grid-content {
+    position: relative !important;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul {
+    top: 70px;
+  }
+  .tutor-course-topics-header-right {
+      padding: 6px 0;
+  }
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li>a {
+    padding: 5px 12px 0px;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li {
+    line-height: 26px;
+  }
+
+  .wp-megamenu-wrap.wpmm-mobile-menu .wpmm-nav-wrap .wp-megamenu {
+    padding: 20px 10px;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li .wp-megamenu-sub-menu li {
+    line-height: 22px;
+  }
+
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu {
+    display: none;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li.wpmm-social-link {
+    float: left !important;
+    margin-left: 5px;
+    top: 4px;
+    line-height: 23px;
+  }
+
+  .site-header.sticky {
+    position: absolute !important;
+  }
+
+  .article-details.full-wrap {
+    bottom: -164px;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  .navbar-collapse.collapse {
+    display: none !important;
+    overflow: hidden !important;
+  }
+
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  .visible-sm {
+    display: block !important;
+  }
+
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0
+  }
+
+  #mobile-menu ul {
+    padding: 0;
+  }
+
+  .header-borderimage #mobile-menu,
+  .header-solid #mobile-menu {
+    top: 100%;
+  }
+
+  .overlay-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+    margin-top: 0px;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li>a {
+    color: #333 !important;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) {
+  .feature-blog {
+    margin-bottom: 50px;
+  }
+  .feature-blog .article-details,
+  .related-entries .relatedcontent {
+    padding: 20px 0;
+    text-align: left;
+    margin-top: 0 !important;
+  }
+
+  .skillate-index-post .blog-details-img {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .post-single-sidebar {
+    padding-left: 15px;
+  }
+
+  .related-entries {
+    margin: 0px !important;
+  }
+
+  .widget.widget_categories .widget_title {
+    margin-bottom: 13px !important;
+  }
+
+  .generic-padding>.container {
+    padding-top: 10px !important;
+  }
+
+  .skillate-related-course.course-archive-top-slide-wrap {
+    padding-bottom: 0px !important;
+  }
+
+  .single .course-single-price {
+    margin-bottom: 0px;
+  }
+
+  a.course-content-tab-link {
+    margin: 0 15px 5px 0;
+  }
+
+  .single-course-item-tab li:first-child {
+    flex-basis: 100%;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 15px;
+  }
+
+  .single-course-item-tab li:first-child:after {
+    display: none;
+  }
+
+  .tutor-course-topics-contents .tutor-course-topic .tutor-course-lessons {
+    padding-left: 0;
+  }
+
+  .single-course-item-tab {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .tutor-course-topics-header {
+    margin-bottom: 20px;
+  }
+
+  .tutor-course-topics-contents .tutor-course-topic {
+    margin-bottom: 10px;
+  }
+
+  .skillate-related-course {
+    padding: 30px 0;
+  }
+
+  .tutor-course-topics-contents .tutor-course-topic .tutor-course-title {
+    margin-bottom: 0px;
+  }
+}
+
+/* ********************** End (MAX 1199) */
+
+@media only screen and (max-width: 992px) {
+  .skillate-bg-line-wrap{
+    display: none;
+  }
+  .course-single-2-title, .course-single-2-section-title{
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .skillate-btn-start-learning{
+    padding: 8px 15px;
+  }
+  .skillate-course-single-2-intro{
+    padding-top: 30px;
+  }
+  .course-include-wrap-content{
+    padding: 25px 25px;
+  }
+  .what-you-learn-single h3::before{
+    top: 0;
+  }
+  .course-single-2-subscribe-wrap{
+    padding: 80px 0;
+  }
+  .course-include-wrap-content h3, 
+  .what-you-learn-single h3, 
+  .course-single-2-review-wrap .tutor-review-individual-item p{
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .course-single-2-review-wrap .instructor-avatar img{
+    width: 80px;
+    height: auto;
+  }
+  .course-single-2-review-wrap .instructor-avatar, 
+  .tutor-review-individual-item .single-2-instructor-name p.name{
+    text-align: left;
+  }
+  .course-complete-notify-panel, #mobile-menu > ul li > a p{
+    display: none;
+  }
+  .skillate-related-course-slide.slick-initialized:before,
+  .skillate-related-course-slide.slick-initialized:after, 
+  .author-slide-parent.slick-initialized:before, 
+  .author-slide-parent.slick-initialized:after {
+    display: none;
+  }
+
+  .woocommerce-account .woocommerce form.woocommerce-form-login {
+    width: 100%;
+  }
+
+  #main-menu #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.current-menu-parent>a,
+  #main-menu #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.current-menu-ancestor>a {
+    background-image: none !important;
+  }
+
+  #main-menu #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li:hover a {
+    background-image: none !important;
+  }
+
+  #main-menu .wp-megamenu-wrap .wpmm-nav-wrap>ul.wp-megamenu>li.wpmm_dropdown_menu:hover {
+    background-image: none !important;
+  }
+
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.current-menu-parent>a,
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.current-menu-ancestor>a {
+    color: #ff5248 !important;
+  }
+
+  .widget.woocommerce.widget_shopping_cart {
+    width: 100%;
+    right: 0;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+  }
+
+  #menu-main-menu .woocart .woocommerce-mini-cart__buttons.buttons a {
+    padding: 10px 20px;
+  }
+
+  .header-common-menu {
+    margin-top: 0px;
+  }
+
+  .topbar {
+    display: none;
+  }
+
+  .cart-mobile-option {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 18px;
+    z-index: 99;
+    list-style: none !important;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul.wp-megamenu>li.wpmm_dropdown_menu:hover,
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li>a:hover {
+    border-image: none;
+    border-image-slice: 0;
+    background-image: none !important;
+  }
+
+  .portfolio-grid-title {
+    font-size: 18px !important;
+  }
+
+  .portfolio-grid-content {
+    padding: 20px !important;
+  }
+
+  .productBlock-item {
+    margin-bottom: 30px !important;
+  }
+
+  .wpmm_brand_logo_wrap {
+    display: block;
+  }
+
+  .wpmm_brand_logo_wrap img {
+    max-width: 60px;
+  }
+
+  .skillate-portfolio-nav li a {
+    font-size: 14px;
+    padding: 10px 15px !important;
+  }
+
+  .qubely-tab-nav .qubely-tab-item:first-child .qubely-tab-title {
+    padding-left: 0 !important;
+  }
+
+  #wp-megamenu-primary.wp-megamenu-wrap.wpmm-mobile-menu>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+    text-transform: capitalize;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul.wp-megamenu>li.wpmm_dropdown_menu.wpmm-logo-item {
+    display: none;
+  }
+
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li.current-menu-parent>a:hover {
+    color: #ff5248 !important;
+  }
+
+  .wpmm_mobile_menu_btn {
+    background: transparent !important;
+    padding: 0 !important;
+    margin-top: 20px !important;
+  }
+
+  .wpmm_mobile_menu_btn i {
+    font-size: 20px !important;
+  }
+
+  .top-social-wrap {
+    display: none;
+  }
+
+  .top-contact-phone {
+    float: right;
+  }
+
+  .topbar-contact a {
+    margin-right: 0;
+  }
+
+  #wp-megamenu-primary .wp-megamenu li.wpmm-logo-item a {
+    display: none;
+  }
+
+  .postblock-style2 .postblock-intro-in {
+    padding-bottom: 20px;
+  }
+
+  .page-leading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  h1.error-title {
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .slider-single-wrapper {
+    height: auto !important;
+  }
+
+  .navbar-collapse.collapse.show {
+    display: block !important;
+  }
+
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .navbar-toggle {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    outline: none;
+  }
+  .skillate-mobile-search{
+    right: 0;
+  }
+
+  .admin-bar .navbar-toggle {
+    top: 0px;
+  }
+
+  .mobile-register {
+    text-align: right;
+  }
+
+  .navbar-nav {
+    float: none;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .main-menu-wrap .navbar-toggle {
+    color: #fff;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+  }
+
+  #wp-megamenu-primary.wp-megamenu-wrap.wpmm-mobile-menu>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+    letter-spacing: 0;
+    color: #151416;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .site-header {
+    top: 5px;
+  }
+
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu {
+    -webkit-box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 10px -8px rgba(0, 0, 0, 0.75);
+  }
+
+  .skillate-blog-title .entry-summary {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .skillate-post.hentry .blog-post-meta li a {
+    font-size: 12px;
+  }
+
+  .skillate-post .blog-post-meta li {
+    font-size: 14px;
+  }
+
+  #sidebar .widget.widget_categories ul li {
+    text-align: left;
+    padding: 0;
+  }
+
+  .skillate-post.hentry .content-item-title {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .skillate-pagination ul.page-numbers {
+    padding-bottom: 10px;
+  }
+
+  .skillate-index-post {
+    margin-bottom: 20px;
+  }
+
+  .single-blog-info .entry-summary {
+    padding: 30px 0;
+  }
+
+
+}
+
+@media (max-width: 991px) {
+  .what-you-get-package-wrap .tutor-course-topics-contents .tutor-course-title h4 i{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  #skillate-faq-section > .qubely-container{
+    padding-bottom: 0;
+  }
+  .skillate-line-shape-wrap > .qubely-container{
+    padding-top: 20px;
+  }
+  .course-single-2-attribute-top > .qubely-container{
+    padding-bottom: 0;
+  }
+  .footer-payment-method-widget .slick-initialized .slick-slide{
+    max-width: 70px;
+  }
+  #mobile-menu > ul > li{
+    margin-bottom: 10px;
+  }
+  .checkout-success-wrapper{
+    padding: 30px 0 0 0;
+  }
+  .woo-cart-btn{
+    background: #fff;
+    bottom: 40px;
+  }
+  .woo-cart p.woocommerce-mini-cart__empty-message{
+    left: 0;
+  }
+  .skillate-course-col .skillate-course-body h3, 
+  .skillate-course-body h3 a{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .skillate-top-search .skillate-top-search-inner img{
+    display: block;
+  }
+  .top-search-input-wrap{
+    opacity: 0;
+    visibility: hidden;
+    bottom: -100%;
+    transition: all .4s;
+    background: url(../images/search-box-bg.png);
+    background-color: #fff;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .top-search-input-wrap.search-open{
+    bottom: 60px;
+    height: calc(100% - 130px);
+    display: flex !important;
+    align-items: flex-end;
+    padding: 20px 20px 40px 20px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .site-header{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header-login-wrap a{
+    padding: 3px 5px;
+  }
+  .header-login-wrap{
+    padding: 2px 10px;
+  }
+  .header-login-wrap a:after{
+    top: 10px;
+  }
+  #masthead.site-header{
+    display: flex;
+    align-items: center;
+  }
+  .header-login-cart-wrap{
+    margin-left: auto;
+  }
+  .skillate-mobile-login-top{
+    font-size: 20px;
+  }
+  .skillate-mobile-login-top a{
+    color: #fff;
+  }
+  .course-slide-mobile-only .tutor-course-grid-item{
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  #modal-cart.modal.skillate-modal .modal-dialog, 
+  .modal-body .woo-cart-btn .widget.woocommerce.widget_shopping_cart, 
+  #modal-cart.modal.skillate-modal .modal-dialog{
+    width: 100% !important;
+  }
+  .modal-body .widget.woocommerce.widget_shopping_cart{
+    box-shadow: none !important;
+  }
+
+  .skillate-courses-tab-wrapper .tutor-course-grid-item .tutor-course-grid-content .tutor-course-overlay:after{
+    display: none;
+  }
+  #bottom-wrap .bottom-widget ul.themeum-about-info li{
+    margin-bottom: 15px;
+  }
+  .upskil-section-title h3{
+    margin-bottom: 10px;
+  }
+
+  .skillate-course-cart-btn button, .course-buy-now{
+    margin-left: 0;
+  }
+  .course-single-mobile .tutor-course-wishlist{
+    font-size: 20px;
+  }
+  .course-single-mobile .tutor-course-wishlist a{
+    color: #b0b4b8;
+  }
+  .skillate-course-cart-btn form{
+    display: block;
+  }
+  .skillate-course-cart-btn form button{
+    width: 100%;
+  }
+  .single-course-item-tab{
+    border-top: 0;
+  }
+  .skillate-content-tab-inner ul.skillate-tab-nav{
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .tab-vertical .skillate-tab-nav-link.active:before{
+    display: none;
+  }
+  .tab-vertical .skillate-tab-nav-link.active{
+    padding-left: 0;
+  }
+  .tab-vertical .skillate-tab-nav-item{
+    margin-left: 0 !important;
+    margin-right: 15px !important;
+  }
+  
+  body,
+  blockquote p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+  }
+
+  .single-post-author p {
+    font-size: 12px;
+    line-height: 1.5 !important;
+  }
+
+  blockquote {
+    padding: 25px 20px !important;
+  }
+
+  .single-blog-post-top {
+    padding: 30px;
+  }
+
+  .post-single-sidebar {
+    padding-left: 0px;
+  }
+
+  .comments-area .comments-title {
+    margin: 0;
+    padding: 10px 15px 0px 0;
+    line-height: 1.3;
+    font-size: 28px;
+  }
+
+  .related-entries h3.related-post-title {
+    margin-bottom: 30px;
+  }
+
+  .course-single-title-top .tutor-course-header-h1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .course-attribute-single h3 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .tutor-course-topics-contents .tutor-course-lesson {
+    padding: 10px;
+  }
+
+  .skillate-single-course-sidebar.sidebar-sticky {
+    position: initial;
+    width: auto;
+  }
+
+  .skillate-repeat-widget-media {
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 30px;
+  }
+
+  .footer-copyright {
+    margin-bottom: 20px;
+  }
+
+  .tutor-course-enrolled-review-wrap {
+    margin-bottom: 30px;
+  }
+
+  .tutor-course-enrolled-review-wrap {
+    margin-bottom: 30px;
+  }
+
+  .skillate-related-course-items.slick-initialized:before,
+  .skillate-related-course-items.slick-initialized:after {
+    background: transparent;
+  }
+
+  .instructor-single-top {
+    padding: 100px 0;
+  }
+
+  /* .course-single-attribute {
+    padding-bottom: 20px;
+  } */
+
+  .skillate-course-cart-btn .tutor-button.tutor-success {
+    margin-bottom: 10px;
+  }
+
+  .skillate-home-countdown-content {
+    padding: 30px 40px;
+  }
+
+  .skillate-home-countdown-content .skillate-home-countdown-header {
+    margin-bottom: 20px;
+  }
+
+  .skillate-home-countdown-content .skillate-home-countdown-item .number h4 {
+    font-size: 20px;
+  }
+
+  .skillate-home-countdown-content .skillate-home-countdown-item .text h5 {
+    line-height: 1.2;
+  }
+
+  .skillate-home-countdown-title h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .skillate-home-countdown-content .skillate-home-countdown-body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .skillate-cat-layout-1 .skillate-course-category-list {
+    padding: 10px 15px;
+    font-size: 14px !important;
+  }
+
+  .skillate-cat-layout-1 .skillate-course-category-list .cat-image img {
+    max-width: 60px;
+  }
+  footer#footer-wrap{
+    padding-bottom: 60px;
+  }
+  #bottom-wrap .bottom-widget ul.themeum-about-info li{
+    margin-right: 10px;
+  }
+
+  .top-search-input-wrap .search-wrap .search.skillate-top-search{
+    top: 57%;
+  }
+  .top-search-input-wrap .search-wrap .search.skillate-top-search.search-on-phone{
+    top: 40%;
+  }
+  .blog .skillate-pagination{
+    margin-bottom: 40px;
+  }
+
+}
+
+/* ********************** End (MAX 991) */
+@media (max-width: 992px) {
+  .skillate-signin-modal-form .title-small{
+    font-size: 14px;
+  }
+  .skillate-error-wrapper .col-md-5 {
+      padding-left: 0;
+      padding-top: 70px;
+      margin-left: 0;
+  }
+  #mobile-menu > ul li > a{
+    font-size: 16px;
+    color: #3a3e49;
+  }
+  #mobile-menu > ul > li > a{
+    padding: 15px 40px 15px 75px;
+  }
+  #mobile-menu > ul > li ul li a{
+    padding: 12px 40px;
+  }
+  #mobile-menu > ul > li.current-menu-item >a, #mobile-menu > ul li.current_page_parent >a, 
+  #mobile-menu > ul li.menu-item-home >a{
+    background: #f1f2f4;
+  }
+  #bottom-wrap .bottom-widget ul.themeum-about-info li{
+    margin-bottom: 15px;
+  }
+  .skillate-m-none .qubley-block-interaction{
+    display: none;
+  }
+  .skillate-single-course-sidebar.sidebar-sticky-fixed{
+    position: static;
+    width: auto;
+  }
+  .skillate-tab-menu-wrap.sticky-tab{
+    position: static;
+    box-shadow: none;
+  }
+  .course-content-head, .skillate-tab-content .tutor-segment-title{
+    font-size: 18px;
+  }
+  .course-related-title{
+    margin-bottom: 30px;
+  }
+  .skillate-single-course-sidebar .price .price span, 
+  .skillate-single-course-sidebar .price .price span.woocommerce-Price-amount{
+    font-size: 30px;
+  }
+  /****Blog single*****/
+  .single-blog-info.has-post-thumb{
+    margin-top: 30px;
+  }
+  .skillate-instructor-slide-wrap{
+    padding: 40px 0 20px;
+  }
+  .archive-container{
+    padding-bottom: 50px;
+  }
+  .archive .skillate-related-course .tutor-courses-grid-title a{
+    font-size: 16px !important;
+  }
+  .admin-bar .site-header {
+    top: 45px;
+  }
+  .site-header {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .skillate-header-search,
+  .skillate-header-cart {
+    display: none;
+  }
+
+  .header_search_input button {
+    left: auto !important;
+    right: 0;
+  }
+
+  .header_search_input input {
+    padding: 10px !important;
+  }
+
+  .header-solid .header_search_input input {
+    border: 1px solid #b0b4b8;
+    margin-top: 13px;
+    color: #1f2949 !important;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .11);
+  }
+
+  .header-solid .header_search_input button {
+    color: #1f2949;
+    top: 17px;
+    right: 10px;
+  }
+
+  .header-transparent .header_search_input input {
+    background: #fff !important;
+    color: #1f2949 !important;
+  }
+
+  .header-transparent .header_search_input button {
+    color: #1f2949 !important;
+    top: 4px;
+    right: 10px;
+  }
+
+  .subtitle-cover {
+    padding: 30px 0 20px !important;
+  }
+  .page-leading{
+    font-size: 24px !important;
+  }
+  .archive-course-pagination{
+    margin-top: 30px;
+  }
+  .tutor-wrap{
+    padding-top: 30px;
+  }
+  .skillate-single-course-sidebar .tutor-segment-title{
+    margin-top: 0;
+  }
+  .subtitle-cover .row.subtitle-border:after{
+    bottom: -20px;
+  }
+  .container.blog-full-container{
+    margin-top: 30px;
+  }
+
+  .single .subtitle-cover {
+    padding: 60px 0 0px !important;
+  }
+
+  #wp-megamenu-primary {
+    padding-left: 0;
+    border: 0;
+  }
+
+  .site-header.sticky {
+    position: absolute !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .primary-menu .logo-wrapper a {
+    padding: 0;
+  }
+
+  #menu-main-menu ul li a {
+    transition: all .4s;
+  }
+
+  #menu-footer-menu li a {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 34px;
+    letter-spacing: normal;
+    color: #a8a9c4;
+  }
+
+  .row.clearfix.border-wrap {
+    padding-bottom: 0;
+  }
+
+  .row.clearfix.border-wrap:before {
+    display: none;
+  }
+
+  .primary-menu {
+    border-radius: 0;
+    border: none;
+  }
+
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu {
+    display: none;
+  }
+
+  .skillate-menu {
+    display: inline;
+    top: 10px;
+    line-height: 42px;
+  }
+
+  .wpmm_brand_logo_wrap img {
+    margin-top: 8px;
+    margin-right: 0;
+    max-width: 65px;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li {
+    line-height: 24px;
+  }
+
+  /*, .site-header.sticky */
+  .space-wrap,
+  .spache-wrap {
+    display: none;
+  }
+
+  .wp-megamenu-wrap.wpmm-mobile-menu .wpmm-nav-wrap .wp-megamenu {
+    padding: 20px;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li.wpmm-social-link {
+    float: left !important;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .wp-megamenu-wrap.wpmm-mobile-menu ul.wp-megamenu {
+    position: absolute;
+    top: 56px;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li.wpmm-social-link {
+    top: 0px;
+  }
+
+  .space-wrap.social {
+    display: none;
+  }
+
+  footer#footer-wrap {
+    text-align: center;
+  }
+
+  .text-right {
+    text-align: center !important;
+  }
+
+  ul#menu-footer-menu {
+    margin-bottom: 10px;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul.wp-megamenu>li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu {
+    background: transparent;
+  }
+
+  .header-top-contact {
+    padding-top: 15px;
+  }
+
+  #wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+    color: #333;
+  }
+
+  .wp-megamenu-wrap .wpmm-nav-wrap>ul>li>a {
+    line-height: 18px;
+  }
+
+  #mobile-menu ul {
+    padding: 0;
+  }
+
+  .wp-megamenu-wrap.wpmm-mobile-menu .wpmm-nav-wrap>ul>li>a {
+    padding: 0;
+  }
+
+  .header-solid #mobile-menu {
+    top: 57px;
+  }
+
+  .skillate-post .post-featured-img {
+    width: 100%;
+  }
+  .entry-summary .wrap-btn-style a.btn-style {
+    float: none;
+  }
+  .call-to-action a.btn.btn2 {
+    margin-left: 8px;
+  }
+  a.portfolio-plus-btn {
+    display: none;
+  }
+  .tax-portfolio-cat .skillate-portfolio-wrapper {
+    margin-bottom: 0 !important;
+  }
+  .postblock-title {
+    font-size: 14px !important;
+    line-height: 1.4em;
+  }
+
+  .bottom-widget {
+    width: 100%;
+  }
+
+  .mc4wp-form-fields input[type="email"] {
+    display: block;
+    width: 100%;
+    float: none;
+  }
+
+  .mc4wp-form-fields input[type=submit] {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .top-search-input-wrap .search-wrap .search.skillate-top-search {
+    width: 94%;
+  }
+
+  .bottom-widget {
+    width: 100%;
+  }
+
+  .demo-four .mc4wp-form-fields input[type="email"] {
+    margin-right: 20px;
+  }
+
+  #tixon-comingsoon {
+    padding-left: 15px;
+    padding-top: 50px;
+  }
+
+  .comingsoon-content .comingsoon-title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .comingsoon-footer .social-share {
+    text-align: left;
+  }
+
+  .textwidget .mc4wp-form-fields .send-arrow input[type="email"] {
+    display: inline-block;
+  }
+
+  .skillate-contact {
+    padding: 80px 14px;
+  }
+
+  .skillate-contact .col-md-4 {
+    padding-bottom: 14px;
+  }
+
+  .skillate-contact textarea {
+    margin-top: 0;
+  }
+
+  .countdown-section {
+    width: 165px;
+    height: auto;
+    margin-bottom: 28px;
+  }
+
+  .comingsoon-content {
+    padding: 0;
+  }
+
+  section.comingsoonpage-footer {
+    padding: 85px 20px;
+  }
+
+  .comingsoonpage-footer .mc4wp-form-fields input[type="email"] {
+    display: inline-block;
+    width: 84%;
+    height: 40px;
+    float: none;
+  }
+
+  .comingsoonpage-footer .social-share ul {
+    text-align: center;
+  }
+
+  #sidebar.col-3 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  table.stripe-table {
+    table-layout: inherit;
+  }
+
+  .blog-content-wrapper {
+    padding: 15px;
+  }
+
+  /* Blog Homepage widgets */
+  .blog-details-img img {
+    width: 100%;
+  }
+
+  .blog-post-item-col.col-6 {
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 100%;
+    flex: 100%;
+  }
+
+  .overlay-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+    margin-top: 0px;
+  }
+
+  .portfolio-items {
+    -webkit-box-flex: 0;
+    -webkit-flex: 100%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .footer-copyright,
+  #menu-footer-menu {
+    text-align: center;
+  }
+
+
+
+  .portfolio-thumb img {
+    width: 100%;
+  }
+
+  .thm-tk-search {
+    float: left !important;
+    margin-top: 10px;
+  }
+
+  .thm-tk-search .search-icon {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    right: 15px;
+    top: -2px;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: #ababab;
+    background: transparent;
+    transform: translate(-62%, 41%);
+  }
+
+  .single-filter {
+    margin-bottom: 5px;
+  }
+
+  .subtitle-cover h2 {
+    line-height: 28px;
+  }
+
+  .skillate-blog-title blockquote {
+    padding: 40px 15px;
+  }
+
+  .social-share-wrap ul li {
+    margin-bottom: 0px;
+  }
+
+  .single-social-share span.view-count {
+    text-align: left;
+    float: left;
+    margin-top: 18px;
+  }
+
+  .comment-reply-title {
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: "Lato";
+    color: rgb(0, 0, 0);
+    line-height: 32px;
+    margin-top: 36px;
+  }
+
+  span.arrow-button-left {
+    float: inherit;
+  }
+
+  span.arrow-button-left1 {
+    float: left;
+    font-size: 24px;
+    font-family: "go";
+    color: rgb(215, 217, 219);
+    text-transform: uppercase;
+    line-height: 2.7;
+    margin-right: 22px;
+  }
+
+  .blog-post-review-pre.col-md-6 {
+    margin-bottom: 40px;
+  }
+
+  .blog-post-review-pre.col-md-6 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+  }
+
+  #comingsoon-countdown .countdown-period.span {
+    color: #ffffff !important;
+  }
+
+  .wppb-tab-addon-content.vertical-tab.horizontalleft.verticalleft {
+    display: block !important;
+  }
+
+  .vertical-tab ul.wppb-tab-nav {
+    width: 100% !important;
+  }
+
+  .wppb-tab-content img.size-medium.alignleft {
+    width: 100% !important;
+  }
+
+  .wppb-tab-content-wrap {
+    margin: 18px 0 0 !important;
+  }
+
+  .wpmm_brand_logo_wrap {
+    display: inline-block;
+  }
+
+  .title-content-wrap span {
+    margin-left: 60px;
+    position: inherit;
+    display: block;
+    left: 0;
+  }
+
+  .related-entries .relatedcontent {
+    margin-top: -32px;
+    margin-bottom: 30px;
+  }
+
+  h1.error-title {
+    margin-top: 20px;
+  }
+
+  .page-leading {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+
+  .article-details h3.article-title {
+    line-height: 22px;
+  }
+
+  .article-details h3.article-title,
+  .article-details h3.article-title a,
+  .related-entries .relatedcontent h3 a {
+    font-size: 16px;
+    line-height: 1.4 !important;
+    margin-bottom: 5px;
+  }
+
+  #sidebar .widget_categories ul li a,
+  .feature-blog .article-details .meta-category a,
+  .related-entries .relatedcontent span.meta-category a {
+    font-size: 14px !important;
+  }
+
+  .article-details .article-meta {
+    margin-bottom: 10px;
+  }
+
+  .article-details.full-wrap {
+    display: block;
+    min-height: 90px;
+    background: #fff;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    padding: 13px 0;
+    border-radius: 0;
+    margin-bottom: 20px;
+  }
+
+  .article-details h3.article-title {
+    line-height: 22px;
+  }
+
+  .section-content-second .article-details h3.article-title a {
+    font-size: 16px;
+    line-height: 0px;
+  }
+
+  .section-content-second .article-details h3.article-title {
+    padding: 12px 0;
+  }
+
+  .blog-full-container .border-bottom {
+    margin: 20px 0 42px;
+  }
+
+  .skillate .skillate-row .wrap {
+    padding: 30px 15px 20px;
+  }
+
+  .error-log .form-control {
+    width: 100%;
+  }
+
+  .container.blog-full-container {
+    padding: 0 15px;
+  }
+
+  .skillate .skillate-row .wrap {
+    border-radius: 0;
+  }
+
+  .single .skillate-post.hentry .content-item-title {
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+
+  .single-blog-style {
+    margin-top: -60px !important;
+  }
+
+  .comingsoon-warper {
+    margin-top: 80px;
+  }
+
+  .col-md-3.shop-filter-wrap {
+    margin-top: -40px;
+  }
+
+  .woocommerce .woocommerce-ordering select {
+    height: 50px !important;
+  }
+
+  .woocommerce div.product .product_title {
+    font-size: 18px;
+  }
+
+  .skillate-tab-full-section p.product-stock {
+    position: initial;
+  }
+
+  .skillate-product-cat-section {
+    padding: 20px 0 0;
+  }
+
+  .skillate-post-share-social a.prettySocial {
+    margin-right: 6px;
+  }
+
+  .variation_buttons_wrapper .variation_button {
+    margin-right: 10px !important;
+  }
+
+  .single-product .woocommerce-product-gallery {
+    margin-top: -30px;
+  }
+
+  .call-to-action .title-self {
+    font-size: 22px;
+  }
+  .col-md-12.call-to-action {
+    margin-bottom: 40px;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .course-archive-top-slide-wrap .course-related-title {
+    padding-top: 0;
+  }
+  #course-single-navigation.sticky {
+    position: relative;
+    width: auto;
+  }
+  .what-you-get-package-wrap .tutor-course-topics-contents .tutor-course-topic .tutor-course-title p,
+  .what-you-get-package-wrap .tutor-course-topics-contents .tutor-course-topic .tutor-course-lessons {
+    padding-left: 0;
+  }
+  .what-you-get-package-wrap .tutor-course-topics-contents .tutor-course-topic .tutor-course-title h4 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .what-you-get-package-wrap .tutor-course-topics-contents .tutor-course-title h4 i {
+    flex: 0 0 40px;
+    max-width: 40px;
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .ask-question-section {
+    padding: 0;
+  }
+  .what-you-learn-single {
+    margin-bottom: 0;
+  }
+  .what-you-get-wrap .course-include-wrap-content{
+    width: 100%;
+  }
+  .what-you-get-wrap .course-include-wrap-content{
+    top: 0;
+  }
+  .package-include-content h4::before{
+    display: none;
+  }
+  .single-2-subscribe-form form .mc4wp-form-fields P:first-child, 
+  .single-2-subscribe-form form .mc4wp-form-fields P:last-child{
+    width: 100%;
+  }
+  .course-single-2-section-title{
+    margin-bottom: 20px;
+  }
+  .course-single-2-title, .course-single-2-section-title{
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .course-single-attribute-2-right .tutor-course-material-includes-wrap, 
+  .what-you-will-section{
+    margin-bottom: 0;
+  }
+  .what-you-will-section{
+    padding-top: 0;
+  }
+  .skillate-course-single-2-top{
+    padding-bottom: 30px;
+  }
+  .course-single-2-attribute-top, .get-package-wrap-top, 
+  .course-single-2-review-wrap, .what-you-get-wrap .skillate-course-cart-btn button, 
+  .package-include-content h4{
+    padding: 0;
+  }
+  .course-single-2-review-wrap .tutor-course-enrolled-review-wrap{
+    float: none;
+  }
+  .course-single-2-review-wrap .tutor-write-review-form, 
+  .skillate-course-include-wrap{
+    margin-top: 30px;
+  }
+  .course-single-2-review-wrap{
+    margin-top: 0;
+  }
+  .course-single-2-intro-left{
+    margin-bottom: 30px;
+  }
+  .author-info-wrap .course-single-2-section-title{
+    margin-bottom: 5px;
+  }
+  .author-info-wrap .skillate-author-sub-title{
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .skillate-course-single-2-menu.common-menu-wrap ul li a{
+    padding: 10px 10px;
+  }
+  .what-you-get-package-wrap .tutor-course-topics-contents .tutor-course-topic .tutor-course-title h4{
+    font-size: 18px;
+  }
+  .what-you-get-wrap .course-single-price .price .price span{
+    font-size: 36px;
+  }
+  .course-2-lesson-count.text-right{
+    text-align: left !important;
+    margin-bottom: 20px;
+  }
+  .course-single-2-attribute{
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+  .what-you-learn-single, .what-you-will-section p{
+    width: 100%;
+  }
+  .what-you-learn-single p{
+    padding-right: 0;
+  }
+  .author-info-wrap{
+    padding-top: 40px;
+  }
+
+  .footer-top-section .client-logo-title{
+    display: none;
+  }
+  .footer-payment-method-widget .skillate-widget-repeat-wrap{
+    width: 170px;
+  }
+  .footer-payment-method-widget .slick-initialized .slick-slide{
+    max-width: 50px;
+    padding: 0 8px;
+  }
+  .footer-payment-method-widget .bottom-widget .widget.widget_skillate_repeat_widget h3.widget-title{
+    font-size: 14px;
+  }
+  .course-archive-single-meta span:after{
+    top: 10px;
+  }
+  footer#footer-wrap{
+    text-align: left;
+  }
+  .skillate-login-social a{
+    margin-bottom: 20px;
+  }
+  .tutor-single-course-segment.tutor-course-topics-wrap .tutor-course-topics-contents {
+      margin-bottom: 30px;
+  }
+  .tutor-course-topics-header-right {
+      padding: 6px 0;
+  }
+  .single-course-item-tab.nav-pills li.nav-item.tab.current a {
+      font-weight: 600;
+  }
+  .skillate-single-course-sidebar .skillate-course-cart-btn {
+      margin-top: 30px;
+  }
+  .tutor-course-enrolled-review-wrap {
+      margin-bottom: 0;
+      float: left;
+      margin-top: 0px;
+  }
+  .tutor-course-enrolled-review-wrap .write-course-review-link-btn {
+      margin-bottom: 0;
+  }
+  .skillate-single-course-sidebar.sidebar-sticky {
+      margin-top: 36px;
+  }
+  .skillate-related-course-items.skillate-related-course-slide.slick-initialized.slick-slider {
+      padding-left: 10px;
+      padding-right: 12px;
+  }
+  .tab-vertical .nav-tabs li:not(:first-child) {
+      margin-top: 0;
+  }
+  .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+      max-width: 100%;
+  }
+  .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+      width: 100%;
+      max-width: 100%;
+  }
+  .woocommerce-info a.showcoupon {
+      float: left;
+      border: 1px solid;
+      padding: 10px 20px;
+      line-height: 1;
+      border-radius: 3px;
+      color: #ff5248 !important;
+      text-transform: capitalize;
+      font-weight: 600;
+  }
+
+  .widget ul li a{
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .tutor-review-individual-item .review-avatar {
+      width: 50px;
+  }
+  .review-time-name p a {
+      font-size: 20px;
+  }
+  .individual-review-rating-wrap i, .course-avg-rating-html i, .tutor-review-individual-item p {
+      font-size: 16px;
+  }
+  .tutor-star-rating-group {
+    margin-top: 0;
+}
+.tutor-review-individual-item .review-content {
+    padding-left: 76px;
+}
+.tutor-review-individual-item .review-left {
+    margin-bottom: 15px;
+}
+.review-time-name p.review-meta {
+    padding-top: 3px;
+}
+.tutor-review-individual-item .tutor-review-user-info {
+    padding-left: 26px;
+}
+.tutor-review-individual-item {
+    margin-bottom: 45px;
+}
+
+  .tutor-alert-warning.tutor-instructor-alert{
+    padding-bottom: 0;
+  }
+  .single-blog-post-top .social-share-wrap{
+    text-align: left;
+  }
+  .tutor-template-segment.tutor-login-wrap{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 0;
+  }
+  .nice-select:after{
+    right: 18px;
+    top: 13%;
+  }
+  .skillate-course-filter-wrap .nice-select{
+    font-size: 14px;
+  }
+  .row .skillate-sidebar-filter-col{
+    display: none;
+  }
+  .all-category .view-all-category{
+    height: 36px;
+    line-height: 34px;
+    font-size: 14px;
+  }
+  .btn-full .is-custom{
+    width: 100%;
+  }
+  .modal-body ul.woocommerce-mini-cart{
+    max-height: 500px;
+    overflow-x: scroll;
+  }
+  .container.tutor-course-preview-thumbnail img{
+    margin-bottom: 30px;
+  }
+  .archive .skillate-related-course .tutor-courses-grid-title a{
+    font-size: 14px !important;
+  }
+  #tab-learn{
+    margin-top: 0;
+  }
+  .skillate-tab-content .tutor-segment-title, .course-content-head{
+    margin-top: 20px;
+  }
+  .tutor-col-3.tutor-dashboard-left-menu{
+    display: none;
+  }
+  .tutor-dashboard-info-cards .tutor-dashboard-info-card{
+    min-width: 50%;
+    max-width: 50%;
+  }
+  .tutor-dashboard-info-cards .tutor-dashboard-info-card p{
+    padding: 15px 15px;
+  }
+  .tutor-dashboard-content{
+    margin-bottom: 0;
+  }
+  .tutor-dashboard-content-inner h3 a{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .tutor-single-course-segment{
+    margin-bottom: 0;
+  }
+  .all-category .view-all-category{
+    margin-bottom: 0 !important;
+  }
+  .tutor-dashboard-header-avatar img{
+    width: 80px;
+    height: 80px;
+  }
+  .skillate-login-divider{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .modal.right .modal-body{
+    padding: 50px 30px;
+    background: url(../images/mobile-screen-bg.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .tutor-login-form-wrap #loginform{
+    width: 100%;
+    border: 0;
+    padding: 0px 20px 20px;
+  }
+  .modal.right .modal-dialog{
+    width: 100%;
+  }
+  .tutor-dashboard-header-display-name h4{
+    font-size: 20px;
+  }
+  .skillate-pl-pr-15 .qubely-container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .skillate-related-course-slide .slick-list, .author-slide-parent .slick-list{
+    padding: 0;
+  }
+  .skillate-related-course-slide .slick-slide, .author-slide-parent .slick-slide{
+    padding: 0 5px;
+  }
+  .bottom-widget .widget h3.widget-title, h3.social-share-title{
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .footer-copyright{
+    margin-top: 15px;
+  }
+  article .container.no-post-thumb{
+    margin-top: 80px;
+  }
+  .course-single-price .price .price span{
+    font-size: 24px;
+  }
+  .tutor-course-grid-item.col-md-6{
+    margin-bottom: 0;
+  }
+  .layout-2 .tutor-course-content{
+    padding: 25px 15px;
+  }
+  .skillate-bg-none{
+    background-image: none !important;
+  }
+  .skillate-cat-layout-1 .skillate-course-category-list{
+    display: flex;
+  }
+  .skillate-related-course .tutor-courses-grid-title a{
+    margin-top: 10px;
+    font-size: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .single .course-single-price, .tutor-single-course-rating{
+    display: inline-block;
+  }
+  .course-single-price.course-archive-price {
+    margin-right: 20px;
+  }
+  .archive .skillate-course-col p.tutor-single-rating-count{
+    display: none;
+  }
+  #bottom-wrap {
+    padding-bottom: 0px !important;
+  }
+
+  #bottom-wrap {
+    padding-top: 40px !important;
+  }
+
+  .bottom-widget .themeum-social-share {
+    margin-bottom: 30px;
+  }
+
+  .single-post-author {
+    margin-top: 0;
+  }
+
+  .skillate-sidebar-filter .single-filter {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .course-single-title-top .tutor-course-header-h1 {
+    margin-bottom: 20px;
+  }
+
+  .course-single-attribute {
+    padding-bottom: 0px;
+  }
+
+  .bottom-widget .widget.widget_skillate_repeat_widget h3.widget-title {
+    display: flex;
+    float: left;
+    margin-right: 5px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .instructor-single-content {
+    margin-top: 0;
+  }
+
+  .instructor-single-top {
+    padding: 60px 0;
+  }
+
+  .instructor-single-name h3,
+  .instructor-single-asset,
+  .instructor-single-review span {
+    color: #1f2949;
+  }
+
+  .instructor-single-asset span:after {
+    background: #1f2949;
+  }
+
+  .instructor-single-name h3 {
+    font-size: 24px;
+  }
+
+  .instructor-single-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .instructor-single-course-content {
+    padding: 30px 0;
+  }
+
+  .instructor-single-social a {
+    padding: 5px;
+  }
+  .single-filter .d-inline-block.float-right.text-right.filter-clear-btn {
+      display: none !important;
+  }
+  .instructor-single-asset span {
+    padding-right: 12px;
+    margin-right: 0px;
+    font-size: 12px;
+    line-height: 2;
+  }
+  .tutor-course-grid-item .tutor-course-grid-content .tutor-course-overlay{
+    min-height: auto;
+  }
+
+  .instructor-single-about {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .skillate-tab-menu-wrap ul.single-course-item-tab{
+    flex-wrap: nowrap !important;
+    white-space: nowrap !important;
+    overflow: auto;
+  }
+  .single-course-item-tab{
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+  .single-course-item-tab li a{
+    margin-right: 10px;
+  }
+  .course-content-head, .skillate-tab-content .tutor-segment-title{
+    margin-bottom: 10px;
+  }
+  .course-lesson-title-inner{
+    font-size: 14px;
+  }
+  .course-related-title{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .skillate-related-course{
+    padding-bottom: 0;
+  }
+  .footer-top-section .bottom-widget .widget h3.widget-title{
+    display: none;
+  }
+  .footer-top-section{
+    padding: 20px 0;
+  }
+
+  .skillate-error-wrapper .col-md-5 {
+    padding-left: 15px;
+    padding-top: 0;
+    margin-left: 0;
+    text-align: center;
+    margin-right: 0;
+  }
+  .skillate-error-wrapper .col-md-7 {
+    padding-right: 15px;
+  }
+  h1.error-title {
+      margin-top: 20px;
+      margin-bottom: 12px;
+  }
+
+  .subtitle-border ol.breadcrumb {
+      text-align: left;
+      margin-top: 7px;
+  }
+
+}
+
+/* ********************** End (MAX 767) */
+
+@media (max-width: 575px) {
+  .skillate-cat-layout-1 .skillate-course-category-list{
+    padding: 5px;
+  }
+  .skillate-cat-layout-1 .skillate-course-category-list div.cat-image{
+    padding-right: 0;
+  }
+  .skillate-cat-layout-1 .skillate-course-category-list a.course-cat-link{
+    padding-left: 0;
+    font-size: 12px;
+  }
+  .skillate-course-include-wrap.what-you-get-wrap{
+    margin-bottom: 40px;
+  }
+  .course-single-2-intro-video .plyr__video-wrapper{
+    min-height: auto !important;
+  }
+  .course-include-wrap-content{
+    position: static;
+  }
+  .skillate-course-include-inner{
+    padding: 30px 20px 30px 30px !important;
+  }
+  .skillate-course-include-wrap{
+    margin-bottom: 0;
+  }
+  .what-you-will-section{
+    padding-top: 40px;
+  }
+  .ask-question-section{
+    margin-top: 0;
+  }
+  .skillate-course-single-2-menu ul.nav{
+    padding-top: 10px;
+  }
+  .skillate-course-single-2-menu ul.nav li a{
+    padding: 5px 8px;
+  }
+  .client-logo-single-widget img{
+    max-width: 80px !important;
+  }
+  .course-attribute-single h3 {
+    font-size: 14px;
+  }
+  .bottom-widget .themeum-social-share{
+    margin-top: 0px;
+  }
+
+  .skillate-cat-layout-1 .skillate-course-category-list .cat-image img {
+    max-width: 40px;
+  }
+
+  .skillate-cat-layout-1 .skillate-course-category-list .course-count {
+    display: none;
+  }
+  .instructor-single-avatar{
+    margin-top: -50px;
+  }
+  .instructor-single-all-course .tutor-single-rating-count{
+    display: none;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .main-menu-wrap .skillate-navbar-header {
+    position: relative;
+    z-index: 999999;
+  }
+
+  .navbar-nav {
+    float: none;
+    margin: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .skillate-contact {
+    padding: 52px;
+  }
+}
+
+@media (max-width: 489px) {
+  .payment-method-widget img{
+    max-width: 50px !important;
+  }
+  .woocommerce-page table.cart td.actions #coupon_code{
+    width: 130px !important;
+  }
+
+  #sidebar.col-4 {
+    max-width: 100%;
+    flex: 100%;
+  }
+
+  .separator-wrapper {
+    padding: 0 30px;
+  }
+
+  .slider-button-2 {
+    border: 1px solid #B0BFD1;
+  }
+
+  .title-number-wrap {
+    padding-left: 0;
+  }
+
+  .social-share,
+  .copy-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .social-share,
+  .copy-wrapper {
+    padding-top: 8px;
+  }
+
+  .bottom-widget .textwidget .mc4wp-form-fields .send-arrow input[type="email"] {
+    display: inline-block;
+  }
+
+  .comingsoon .mc4wp-form-fields {
+    width: 100%;
+  }
+
+  #tab-1 .tutor-course-topics-header .tutor-segment-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .skillate-course-cart-btn button,
+  .skillate-course-cart-btn .course-buy-now {
+    padding: 5px 10px !important;
+    font-size: 14px;
+    height: 40px;
+  }
+  .skillate-mobile-menu-bottom{
+    font-size: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .header-login-wrap a{
+    font-size: 12px;
+  }
+  .logo-wrapper img{
+    max-width: 90px !important;
+  }
+
+}
+@media (max-width: 320px) {
+  .skillate-cat-layout-1 .cat-image,
+  .skillate-cat-layout-1 .course-cat-link,
+  .skillate-cat-layout-1 .course-count {
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,290 @@
+/* Class list Shortcode style */
+.tutor-gc-class-shortcode-container{
+    margin-bottom: 40px;
+}
+.tutor-gc-class-shortcode{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+}
+.tutor-gc-class-shortcode:hover{
+    opacity: .9;
+}
+.tutor-gc-class-shortcode>.class-header{
+    background-color: #DCDBDC;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.tutor-gc-class-shortcode>.class-content{
+    padding: 15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: 1px solid #DCDBDC;
+    border-bottom: 1px solid #DCDBDC;
+    border-right: 1px solid #DCDBDC;
+    background: white;
+}
+
+.tutor-gc-class-shortcode>.class-content h4{
+    margin: 13px 0;
+    clear: both;
+    font-weight: bold;
+    font-size: 16px;
+    color: #161616;
+}
+
+.tutor-gc-class-shortcode>.class-content h4>a:hover{
+    opacity: .9;
+}
+
+.tutor-gc-class-shortcode>.class-content small{
+    color: #525252;
+    font-size: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+.tutor-gc-class-shortcode>.class-content .code-in-content{
+    border: 1.8px dashed #BABABA;
+    color: #525252;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.tutor-gc-class-shortcode>.class-content .code-in-content>span:nth-child(2){
+    color: black;
+}
+
+.tutor-gc-class-shortcode>.class-content .code-in-content>span:last-child{
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;    
+    top: 3px;
+    right: 2px;
+}
+.tutor-gc-class-shortcode>.class-content .class-room-url{
+    text-align: center;
+    font-size: 15px;
+    margin: 12px 0;
+}
+.tutor-gc-class-shortcode>.class-content>div:first-child{
+    font-size: 15px;
+}
+.tutor-gc-class-shortcode>.class-content>div:first-child img{
+    width: 44px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0;
+    margin-top: -38px;
+    margin-bottom: 10px;
+}
+.tutor-gc-class-shortcode .restriction-notice{
+    background: #E9EDFB;
+    border: 1px solid #BDCAF1;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 14px;
+    overflow: auto;
+}
+.tutor-gc-class-shortcode .restriction-notice>div:first-child{
+    width: 30px;
+    text-align: center;
+    float: left;
+}
+.tutor-gc-class-shortcode .restriction-notice>div:first-child img{
+    position: relative;
+    top: -4px;
+    left: -4px;
+}
+.tutor-gc-class-shortcode .restriction-notice>div:last-child{
+
+    width: calc(100% - 30px);
+    float: right;
+}
+
+/* Password Set Screen */
+#tutor_gc_student_password_set{
+    display: block;
+    margin: 15px auto;
+    width: 500px;
+    max-width: 95%;
+    background: white;
+    border-radius: 10px;    
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.212);
+    padding: 15px;
+}
+
+#tutor_gc_student_password_set>h4{
+    margin: 15px 0;;
+}
+
+#tutor_gc_student_password_set>label{
+    display: block;
+    margin-bottom: 15px;
+}
+
+#tutor_gc_student_password_set>div:last-child{
+    text-align: right;
+}
+
+/* Common */
+.tutor-gc-blue-button{
+    background: #3E64DE;
+    color: white;
+    padding: 15px 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.tutor-gc-blue-button-full-width{
+    display: inline-block;
+    width: 100%;
+}
+
+.tutor-gc-blue-button:hover{
+    background: #2a4ab3;
+}
+
+.tutor-gc-copy-text{
+    cursor: pointer;
+}
+.tutor-gc-copy-text:active{
+    opacity: .7;
+}
+
+/* Stream */
+.tutor-gc-google-stream{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    color: inherit;
+}
+.tutor-gc-google-stream:hover{
+    opacity: .9;
+}
+.tutor-gc-google-stream>img:first-child{
+    border-radius: 50%; 
+    width: 40px;
+    height: auto;
+    margin-right: 11px;
+    display: inline-block;
+    float: left;
+}
+
+.tutor-gc-google-stream>h3{
+    margin:0;
+    font-size: 16px;
+}
+.tutor-gc-google-stream>h3>small{
+    display: block;
+    font-size: 13px;
+    margin-top: 4px;
+    color: #7A7A7A;
+}
+.tutor-gc-google-stream>p{
+    clear: both;
+    margin: 12px 0;
+    font-size: 15px;
+}
+
+.tutor-gc-google-stream>p a:hover{
+    opacity: .9;
+}
+
+
+/* Class info before stream */
+.tutor-gc-stream-classroom-info{
+    background: #6180E4;
+    padding: 33px 42px;
+    border-radius: 6px;
+}
+.tutor-gc-stream-classroom-info *{
+    color: white !important;
+}
+.tutor-gc-stream-classroom-info>h3{
+    margin: 4px 0;
+    margin-top: 0;
+    font-size: 20px;
+}
+.tutor-gc-stream-classroom-info>p{
+    font-size: 15px;
+}
+.tutor-gc-stream-classroom-info .tutor-gc-class-code{
+    background: #5a78db;
+    padding: 11px 21px;
+    border-radius: 6px;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.tutor-gc-stream-classroom-info .tutor-gc-class-code>span:not(:nth-child(1)){
+    margin-left: 10px;
+    color: white;
+}
+
+.tutor-gc-stream-classroom-info .tutor-gc-class-go-to{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.tutor-gc-stream-classroom-info .tutor-gc-class-go-to:hover{
+    text-decoration: underline;    
+}
+
+/* Materials */
+.tutor-gc-material{
+    display: inline-block;
+    border: 1px solid #DCDBDC;
+    border-radius: 6px;
+    width: 290px;
+    height: 66px;
+    color: inherit;
+    overflow: hidden;
+    margin: 0;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.tutor-gc-material>div:first-child{
+    width: 80px;
+    text-align: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.tutor-gc-material>div:last-child{
+    width: calc(100% - 105px);
+    padding: 7px;
+    padding-left: 15px;
+    position: relative;
+    top: 15px;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+}
+
+.tutor-gc-material>div:last-child>span{
+    font-weight: 500;
+    font-size: 15px;
+    width:100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tutor-gc-material>div{
+    float: left;
+}

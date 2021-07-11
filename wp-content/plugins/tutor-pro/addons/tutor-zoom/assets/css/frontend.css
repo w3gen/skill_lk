@@ -1,0 +1,324 @@
+.tutor-lessons.ui-sortable a.tutor-zoom-meeting-modal-open-btn {
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+}
+.zoom-meetings-container .tutor-zoom-meeting-item div p span {
+    display: block;
+}
+.tutor-zoom-meeting-modal-wrap .tutor-modal-content {
+    max-width: 660px !important;
+}
+.tutor-zoom-meeting-modal-wrap .modal-container {
+    background: #f1f1f1;
+    padding: 0;
+}
+.tutor-zoom-meeting-modal-wrap .modal-close-btn {
+    top: 8px;
+    right: 5px !important;
+    background: #fff !important;
+    color: #3a3d42 !important;
+    font-size: 16px !important;
+}
+.meeting-modal-form-wrap .tutor-quiz-builder-group {
+    padding: 20px 25px 0;
+    margin-bottom: 0;
+}
+.meeting-modal-form-wrap .tutor-quiz-builder-group .tutor-icon-calendar {
+    top: 12px;
+    right: 10px;
+}
+.meeting-modal-form-wrap h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.tutor-zoom-meeting-modal-wrap .modal-footer {
+    background: #fff;
+    padding: 25px 25px 0;
+    margin-top: 25px;
+}
+
+.lesson-preview-title .zoom-icon, .tutor-course-lesson .zoom-icon {
+    width: 20px;
+    margin-left: -2px;
+}
+.tutor-zoom-lesson-countdown > span {
+    padding: 5px 10px;
+    border: 1px solid #DCDBDC;
+    border-radius: 3px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+.tutor-zoom-lesson-countdown > span > span {
+    width: auto;
+    font-weight: 300;
+}
+
+.tutor-zoom-label {
+    background: #ED9700;
+    color: #fff;
+    padding: 0px 5px;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.tutor-zoom-live-label {
+    background: #F44337;
+}
+
+/* Single course page css */
+.tutor-course-topic.tutor-zoom-meeting .tutor-course-title {
+    display: flex;
+    align-items: center;
+    background: #FBFBFB;
+    padding: 20px 30px;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-detail {
+    flex-grow: 1;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-detail h3 {
+    display: flex;
+    align-items: center;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-detail div {
+    display: flex;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-detail div p {
+    margin: 10px 40px 0 0px;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-detail div p span {
+    padding-left: 10px;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-detail div p span {
+    padding-left: 10px;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-detail .tutor-zoom-label {
+    padding: 2px 5px;
+}
+.tutor-course-topic.tutor-zoom-meeting .tutor-zoom-meeting-toggle-icon {
+    margin-top: 8px;
+    font-size: 22px;
+    color: #3E64DE;
+}
+.tutor-course-topic.tutor-zoom-meeting.tutor-active .tutor-icon-angle-right:before {
+    content: "\e920";
+}
+.tutor-course-lessons.tutor-zoom-meeting-session {
+    padding: 30px;
+    background: #fff;
+    border-top: 1px solid #DCE4E6;
+}
+.tutor-course-lessons.tutor-zoom-meeting-session .tutor-zoom-meeting-countdown {
+    margin-bottom: 25px;
+}
+.tutor-course-lessons.tutor-zoom-meeting-session .session-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tutor-course-lessons.tutor-zoom-meeting-session .session-link p {
+    margin: 0;
+}
+.tutor-course-lessons.tutor-zoom-meeting-session .session-link a {
+    padding: 12px 40px;
+}
+
+/* Single meeting page css  */
+.tutor-zoom-meeting-content {
+    height: 100%;
+    padding: 86px 100px;
+    background: #fff;
+    border-left: 1px solid #e8eff1;
+    margin-top: -50px;
+}
+.tutor-zoom-meeting-content h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #000;
+}
+.tutor-zoom-meeting-content p {
+    font-size: 16px;
+}
+.zoom-meeting-countdown-wrap {
+    max-width: 640px;
+}
+.zoom-meeting-content-wrap {
+    max-width: 860px;
+}
+.tutor-zoom-meeting-countdown {
+    display: flex;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.tutor-zoom-meeting-countdown div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(25% - 25px);
+    height: 150px;
+    border: 1px solid #DCDBDC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-left: 25px;
+}
+.tutor-zoom-join-button-wrap {
+    display: flex;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.tutor-zoom-join-button-wrap a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(50% - 25px);
+    margin-left: 25px;
+}
+.tutor-zoom-meeting-countdown div h3 {
+    font-weight: 500;
+    font-size: 80px;
+    color: #000;
+    line-height: 80px;
+}
+.tutor-zoom-meeting-countdown div p {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0;
+}
+.tutor-zoom-meeting-content .meeting-title {
+    margin-bottom: 25px;
+}
+.tutor-zoom-meeting-content .meeting-details div {
+    display: flex;
+}
+.tutor-zoom-meeting-content .meeting-details div span {
+    width: 160px;
+}
+.tutor-zoom-meeting-content .meeting-details div p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 16px;
+}
+.tutor-zoom-meeting-expired-msg-wrap {
+    max-width: 625px;
+    margin: 0 auto;
+}
+.tutor-zoom-meeting-expired-msg-wrap .msg-expired-section, .tutor-zoom-meeting-expired-msg-wrap .meeting-details-section {
+    border: 1px solid #DCDBDC;
+    border-radius: 6px;
+    padding: 25px;
+}
+.tutor-zoom-meeting-expired-msg-wrap .msg-expired-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.tutor-zoom-meeting-session .msg-expired-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.tutor-zoom-meeting-session .msg-expired-section img {
+    max-width: 146px;
+}
+.tutor-zoom-meeting-expired-msg-wrap .msg-expired-section img, .tutor-zoom-meeting-session .msg-expired-section img {
+    padding-right: 25px;
+}
+.tutor-zoom-meeting-expired-msg-wrap .msg-expired-section p, .tutor-zoom-meeting-expired-msg-wrap .meeting-details-section > div p, .tutor-zoom-meeting-session .msg-expired-section p {
+    margin: 0;
+}
+.tutor-zoom-meeting-expired-msg-wrap .meeting-details-section {
+    display: block;
+}
+.tutor-zoom-meeting-expired-msg-wrap .meeting-details-section > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tutor-zoom-meeting-expired-msg-wrap .meeting-details-section > div p {
+    font-weight: 500;
+    color: #000;
+}
+.sidebar-single-zoom-meeting-a .zoom-icon {
+    width: 20px;
+    margin-left: -2px;
+}
+@media only screen and (max-device-width: 812px) { 
+    .tutor-zoom-meeting-content {
+        padding: 15px;
+    }
+    .tutor-zoom-meeting-expired-msg-wrap .msg-expired-section {
+        flex-direction: column;
+    }
+    .tutor-zoom-meeting-expired-msg-wrap .msg-expired-section img, .tutor-zoom-meeting-session .msg-expired-section img {
+        padding-bottom: 25px;
+    }
+    .tutor-zoom-meeting-countdown div {
+        height: 80px;
+    }
+    .tutor-zoom-meeting-countdown div h3 {
+        font-weight: 500;
+        font-size: 36px;
+        color: #000;
+        line-height: 36px;
+    }
+    .tutor-zoom-meeting-countdown div p {
+        font-size: 14px;
+    }
+}
+
+/*----------------------------------
+    Component containers
+----------------------------------*/
+.ui-widget-content {
+	border: 1px solid #aaaaaa;
+	background: #ffffff;
+	color: #222222;
+}
+.ui-widget-content a {
+	color: #222222;
+}
+.ui-widget-header {
+	border: 1px solid #aaaaaa;
+	background: #cccccc;
+	color: #222222;
+	font-weight: bold;
+}
+.ui-widget-header a {
+	color: #222222;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	font-weight: normal;
+    color: #555555;
+    padding: 0;
+}
+.ui_tpicker_hour .ui-slider-handle,
+.ui_tpicker_minute_slider .ui-slider-handle {
+	border: 1px solid #d3d3d3;
+    background: #e6e6e6;
+}
+.ui-datepicker-buttonpane {
+    border: none;
+}
+.ui-datepicker-buttonpane button {
+    color: #fff !important;
+    margin: 5px !important;
+    padding: 5px !important;
+}
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 1px solid #fcefa1 /*{borderColorHighlight}*/;
+	background: #fbf9ee;
+	color: #363636;
+}

@@ -1,0 +1,32 @@
+{
+    "name": "tutor-pro/dependencies",
+    "type": "library",
+    "description": "PHP dependencies for tutor pro plugin.",
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=5.4",
+        "google/auth": "^1.10",
+        "google/apiclient-services": "~0.13",
+        "firebase/php-jwt": "~2.0||~3.0||~4.0||~5.0",
+        "monolog/monolog": "^1.17|^2.0",
+        "phpseclib/phpseclib": "~0.3.10||~2.0",
+        "guzzlehttp/guzzle": "~5.3.1||~6.0||~7.0",
+        "guzzlehttp/psr7": "^1.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Google_": "addons/google-classroom/src/"
+        },
+        "classmap": [
+            "addons/google-classroom/src/Google/Service/"
+        ],
+        "psr-4": {
+            "Zoom\\": "addons/tutor-zoom/zoom-app/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}

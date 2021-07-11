@@ -1,0 +1,251 @@
+/* Set API page css */
+.tutor-zoom-content .tutor-alert-info {
+    border-radius: 6px;
+}
+.tutor-zoom-page-title h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.tutor-zoom-form-container {
+    background-color: #fff;
+    background-image: url('../images/mask-group.png');
+    background-size: 52%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.tutor-zoom-form-container .input-area {
+    width: 100%;
+    max-width: 650px;
+    padding: 25px 50px;
+}
+.tutor-zoom-form-container .input-area h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.tutor-zoom-form-container .input-area p {
+    font-size: 13px;
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+.tutor-form-group {
+    margin: 0 auto 20px auto;
+}
+.tutor-form-group label {
+    font-size: 16px;
+}
+.tutor-form-group input[type=text] {
+    display: block;
+    width: 85%;
+    height: 45px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.tutor-form-group input[type=text]:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.tutor-zoom-button-container {
+    margin: 30px 0;
+}
+.tutor-zoom-button-container button {
+    padding: 5px 20px !important;
+}
+.tutor-zoom-button-container #save-changes {
+    margin-right: 20px;
+}
+.zoom-api-error {
+    margin-top: -20px !important;
+    margin-bottom: 30px !important;
+    border-radius: 6px;
+}
+
+/* Settings page css */
+.tutor-zoom-settings {
+    max-width: 730px;
+    margin: auto;
+}
+.tutor-zoom-settings-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+}
+.tutor-zoom-settings-card .card-icon {
+    margin-right: 25px;
+}
+.tutor-zoom-settings-card .card-content p {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.tutor-zoom-settings-card .card-content span {
+    font-size: 13px;
+    color: #565656;
+    margin: 0;
+}
+.tutor-zoom-settings-card .card-radio {
+    padding: 20px 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.tutor-zoom-settings-card .btn-switch {
+    height: 24px;
+}
+.tutor-zoom-settings-card .btn-slider {
+    background: #A3A3A3;
+}
+.tutor-zoom-settings-card .btn-slider:before {
+    bottom: 3px;
+    height: 18px;
+    left: 3px;
+    width: 18px;
+}
+.tutor-zoom-settings-card .btn-switch input:checked + .btn-slider {
+    background: #24A148;
+}
+.tutor-zoom-settings-card .card-radio>.single-radio {
+    margin-right: 50px;
+}
+.tutor-zoom-settings-card .card-radio>.single-radio:last-child {
+    margin-right: 0px;
+}
+
+/* Accordion css */
+.tutor-zoom-accordion-item {
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+.tutor-zoom-accordion-panel-handler {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.tutor-zoom-accordion-panel-handler {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.tutor-zoom-accordion-panel-handler i {
+    padding: 15px;
+    background: #eaedfc;
+    border-radius: 50%;
+    margin-right: 25px;
+    color: #1973AA;
+}
+.tutor-zoom-accordion-body {
+    display: none;
+    padding: 0 15px 15px;
+}
+.tutor-zoom-accordion-body p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 15px 70px;
+}
+
+/* Meeting list page css */
+.tutor-zoom-meeting-list .no-data-found {
+    padding: 30px !important;
+}
+.tutor-zoom-meeting-list .tutor-list-table th {
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 2.5;
+}
+.tutor-zoom-meeting-list .tutor-list-table th:first-child {
+    width: 14%;
+}
+.tutor-zoom-meeting-list .tutor-list-table tbody td {
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: 500;
+}
+.tutor-zoom-meeting-list .tutor-list-table tbody td p {
+    font-size: 13px;
+    margin: 0;
+}
+.tutor-zoom-meeting-list .tutor-list-table tbody td button {
+    color: #0071a1;
+    border: 1px solid #0071a1;
+    border-radius: 3px;
+    background: #fff;
+    padding: 0px 15px;
+    margin-right: 15px;
+}
+.tutor-zoom-meeting-list .tutor-list-table tbody td .button:hover {
+    background: #f8f8f8;
+}
+.tutor-zoom-meeting-list .tutor-list-table td .details-button a {
+    font-size: 18px;
+    color: #656565;
+    padding: 3px 10px;
+}
+.tutor-zoom-meeting-list .tutor-list-table td .details-button a.tutor-btn {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px !important;
+    font-size: 14px;
+    color: #2D8CFF;
+    border-color: #2D8CFF;
+    margin-right: 15px;
+    min-width: 120px;
+}
+.tutor-zoom-meeting-list .tutor-list-table td .details-button a.tutor-btn:hover {
+    color: #fff;
+    background: #2D8CFF;
+}
+.tutor-zoom-meeting-list .tutor-list-table td .details-button a.tutor-btn img {
+    width: 20px;
+    height: auto;
+    padding-right: 6px;
+}
+.tutor-zoom-meeting-list .tutor-list-table td .details-button a.edit:hover, .tutor-zoom-meeting-list .tutor-list-table td .details-button a.delete:hover {
+    background: #F3F3F3;
+    border-radius: 50%;
+}
+.tutor-zoom-meeting-list .tutor-list-table td .details-button .tutor-updating-message::before {
+    margin: 0;
+}
+.tutor-zoom-data-found {
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+}
+.tutor-zoom-data-found img {
+    width: 100%;
+}
+.tutor-zoom-data-found p {
+    font-size: 24px;
+    font-weight: 400;
+}
+.meeting-modal-form-wrap {
+    padding: 20px 20px 0 20px;
+}
+
+@media screen and (max-width: 1366px) {
+    .tutor-zoom-form-container {
+        background-size: 55%;
+    }
+    .tutor-zoom-form-container .input-area {
+        max-width: 560px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .tutor-zoom-form-container {
+        background-size: 52%;
+    }
+    .tutor-zoom-form-container .input-area {
+        max-width: 500px;
+    }
+}

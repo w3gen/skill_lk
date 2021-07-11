@@ -1,0 +1,31 @@
+.btn-csv-download{
+    padding: 0px 10px 0;
+    margin-right: 10px;
+}
+.btn-csv-download svg{
+    top: 3px;
+    width: 17px;
+    height: 17px;
+    fill: #737578;
+    position: relative;
+    margin-right: 2px;
+}
+.btn-tutor-submit{
+    float: right;
+    background: #ebeef0;
+}
+.btn-tutor-submit svg{
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    fill: var(--tutor-primary-color);
+    position: relative;
+    margin-right: 5px;
+}
+.btn-tutor-submit:hover{
+    color: var(--tutor-primary-color);
+    background-color: #ebeef0;
+}
+.tutor-csv-file{
+    display: none;
+}
