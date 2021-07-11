@@ -1619,7 +1619,7 @@ function wpmu_welcome_notification( $blog_id, $user_id, $password, $title, $meta
 	if ( false == $welcome_email ) {
 		/* translators: Do not translate USERNAME, SITE_NAME, BLOG_URL, PASSWORD: those are placeholders. */
 		$welcome_email = __(
-			'Howdy USERNAME,
+			'Hi USERNAME,
 
 Your new SITE_NAME site has been successfully set up at:
 BLOG_URL
@@ -2427,7 +2427,7 @@ function welcome_user_msg_filter( $text ) {
 
 		/* translators: Do not translate USERNAME, PASSWORD, LOGINLINK, SITE_NAME: those are placeholders. */
 		$text = __(
-			'Howdy USERNAME,
+			'Hi USERNAME,
 
 Your new account is set up.
 
@@ -2823,7 +2823,7 @@ function update_network_option_new_admin_email( $old_value, $value ) {
 
 	/* translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL: those are placeholders. */
 	$email_text = __(
-		'Howdy ###USERNAME###,
+		'Hi ###USERNAME###,
 
 You recently requested to have the network admin email address on
 your network changed.

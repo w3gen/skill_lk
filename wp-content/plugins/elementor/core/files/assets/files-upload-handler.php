@@ -107,8 +107,8 @@ abstract class Files_Upload_Handler {
 	 *
 	 * A workaround for upload validation which relies on a PHP extension (fileinfo)
 	 * with inconsistent reporting behaviour.
-	 * ref: https://core.trac.wordpress.org/ticket/39550
-	 * ref: https://core.trac.wordpress.org/ticket/40175
+	 * ref: https://core.trac.skill.lk/ticket/39550
+	 * ref: https://core.trac.skill.lk/ticket/40175
 	 *
 	 * @param $data
 	 * @param $file

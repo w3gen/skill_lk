@@ -13,7 +13,7 @@
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://skill.lk/support/article/editing-wp-config-php/
  *
  * @package WordPress
  */
@@ -41,7 +41,7 @@ define( 'DB_COLLATE', '' );
  * Authentication Unique Keys and Salts.
  *
  * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+ * You can generate these using the {@link https://api.skill.lk/secret-key/1.1/salt/ WordPress.org secret-key service}
  * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
  *
  * @since 2.6.0
@@ -75,7 +75,7 @@ $table_prefix = 'skill_lk_';
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://wordpress.org/support/article/debugging-in-wordpress/
+ * @link https://skill.lk/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
 

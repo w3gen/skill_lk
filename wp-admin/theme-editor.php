@@ -48,11 +48,11 @@ get_current_screen()->add_help_tab(
 
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __( 'For more information:' ) . '</strong></p>' .
-	'<p>' . __( '<a href="https://developer.wordpress.org/themes/">Documentation on Theme Development</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/article/using-themes/">Documentation on Using Themes</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/article/editing-files/">Documentation on Editing Files</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://developer.wordpress.org/themes/basics/template-tags/">Documentation on Template Tags</a>' ) . '</p>' .
-	'<p>' . __( '<a href="https://wordpress.org/support/">Support</a>' ) . '</p>'
+	'<p>' . __( '<a href="https://developer.skill.lk/themes/">Documentation on Theme Development</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://skill.lk/support/article/using-themes/">Documentation on Using Themes</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://skill.lk/support/article/editing-files/">Documentation on Editing Files</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://developer.skill.lk/themes/basics/template-tags/">Documentation on Template Tags</a>' ) . '</p>' .
+	'<p>' . __( '<a href="https://skill.lk/support/">Support</a>' ) . '</p>'
 );
 
 wp_reset_vars( array( 'action', 'error', 'file', 'theme' ) );
@@ -320,7 +320,7 @@ else :
 					printf(
 						/* translators: %s: Documentation URL. */
 						__( 'You need to make this file writable before you can save your changes. See <a href="%s">Changing File Permissions</a> for more information.' ),
-						__( 'https://wordpress.org/support/article/changing-file-permissions/' )
+						__( 'https://skill.lk/support/article/changing-file-permissions/' )
 					);
 					?>
 				</p>
@@ -365,7 +365,7 @@ if ( ! in_array( 'theme_editor_notice', $dismissed_pointers, true ) ) :
 							printf(
 								/* translators: %s: Link to documentation on child themes. */
 								__( 'If you need to tweak more than your theme&#8217;s CSS, you might want to try <a href="%s">making a child theme</a>.' ),
-								esc_url( __( 'https://developer.wordpress.org/themes/advanced-topics/child-themes/' ) )
+								esc_url( __( 'https://developer.skill.lk/themes/advanced-topics/child-themes/' ) )
 							);
 							echo '</p>';
 						}

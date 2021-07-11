@@ -54,7 +54,7 @@ if ( isset( $_POST['action'] ) && 'deleteblog' === $_POST['action'] && isset( $_
 
 	/* translators: Do not translate USERNAME, URL_DELETE, SITENAME, SITEURL: those are placeholders. */
 	$content = __(
-		"Howdy ###USERNAME###,
+		"Hi ###USERNAME###,
 
 You recently clicked the 'Delete Site' link on your site and filled in a
 form on that page.

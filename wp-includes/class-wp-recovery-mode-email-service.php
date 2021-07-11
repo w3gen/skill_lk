@@ -150,7 +150,7 @@ final class WP_Recovery_Mode_Email_Service {
 
 		/* translators: Do not translate LINK, EXPIRES, CAUSE, DETAILS, SITEURL, PAGEURL, SUPPORT. DEBUG: those are placeholders. */
 		$message = __(
-			'Howdy!
+			'Hi!
 
 Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.
 ###CAUSE###

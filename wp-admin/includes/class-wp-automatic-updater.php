@@ -720,7 +720,7 @@ class WP_Automatic_Updater {
 			case 'success':
 				$body .= sprintf(
 					/* translators: 1: Home URL, 2: WordPress version. */
-					__( 'Howdy! Your site at %1$s has been updated automatically to WordPress %2$s.' ),
+					__( 'Hi! Your site at %1$s has been updated automatically to WordPress %2$s.' ),
 					home_url(),
 					$core_update->current
 				);
@@ -1017,7 +1017,7 @@ class WP_Automatic_Updater {
 					$subject = __( '[%s] Some plugins and themes have automatically updated' );
 					$body[]  = sprintf(
 						/* translators: %s: Home URL. */
-						__( 'Howdy! Some plugins and themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part.' ),
+						__( 'Hi! Some plugins and themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part.' ),
 						home_url()
 					);
 				} elseif ( $successful_plugins ) {
@@ -1025,7 +1025,7 @@ class WP_Automatic_Updater {
 					$subject = __( '[%s] Some plugins were automatically updated' );
 					$body[]  = sprintf(
 						/* translators: %s: Home URL. */
-						__( 'Howdy! Some plugins have automatically updated to their latest versions on your site at %s. No further action is needed on your part.' ),
+						__( 'Hi! Some plugins have automatically updated to their latest versions on your site at %s. No further action is needed on your part.' ),
 						home_url()
 					);
 				} else {
@@ -1033,7 +1033,7 @@ class WP_Automatic_Updater {
 					$subject = __( '[%s] Some themes were automatically updated' );
 					$body[]  = sprintf(
 						/* translators: %s: Home URL. */
-						__( 'Howdy! Some themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part.' ),
+						__( 'Hi! Some themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part.' ),
 						home_url()
 					);
 				}
@@ -1046,7 +1046,7 @@ class WP_Automatic_Updater {
 					$subject = __( '[%s] Some plugins and themes have failed to update' );
 					$body[]  = sprintf(
 						/* translators: %s: Home URL. */
-						__( 'Howdy! Plugins and themes failed to update on your site at %s.' ),
+						__( 'Hi! Plugins and themes failed to update on your site at %s.' ),
 						home_url()
 					);
 				} elseif ( $failed_plugins ) {
@@ -1054,7 +1054,7 @@ class WP_Automatic_Updater {
 					$subject = __( '[%s] Some plugins have failed to update' );
 					$body[]  = sprintf(
 						/* translators: %s: Home URL. */
-						__( 'Howdy! Plugins failed to update on your site at %s.' ),
+						__( 'Hi! Plugins failed to update on your site at %s.' ),
 						home_url()
 					);
 				} else {
@@ -1062,7 +1062,7 @@ class WP_Automatic_Updater {
 					$subject = __( '[%s] Some themes have failed to update' );
 					$body[]  = sprintf(
 						/* translators: %s: Home URL. */
-						__( 'Howdy! Themes failed to update on your site at %s.' ),
+						__( 'Hi! Themes failed to update on your site at %s.' ),
 						home_url()
 					);
 				}

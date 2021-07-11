@@ -55,9 +55,9 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 		<p class="about-description">
 		<?php
 		printf(
-			/* translators: %s: https://wordpress.org/about/license/ */
+			/* translators: %s: https://skill.lk/about/license/ */
 			__( 'WordPress is Free and open source software, built by a distributed community of mostly volunteer developers from around the world. WordPress comes with some awesome, worldview-changing rights courtesy of its <a href="%s">license</a>, the GPL.' ),
-			__( 'https://wordpress.org/about/license/' )
+			__( 'https://skill.lk/about/license/' )
 		);
 		?>
 		</p>
@@ -109,7 +109,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 				__( 'Every plugin and theme in WordPress.org&#8217;s directory is 100%% GPL or a similarly free and compatible license, so you can feel safe finding <a href="%1$s">plugins</a> and <a href="%2$s">themes</a> there. If you get a plugin or theme from another source, make sure to <a href="%3$s">ask them if it&#8217;s GPL</a> first. If they don&#8217;t respect the WordPress license, we don&#8217;t recommend them.' ),
 				$plugins_url,
 				$themes_url,
-				__( 'https://wordpress.org/about/license/' )
+				__( 'https://skill.lk/about/license/' )
 			);
 			?>
 			</p>
