@@ -1,0 +1,4 @@
+- name: PHP Runner
+  # You may pin to the exact commit or the version.
+  # uses: franzliedke/gh-action-php@4a618d15f6bfb8aedd606607e61b7df58eae9a8c
+  uses: franzliedke/gh-action-php@0.2.0
